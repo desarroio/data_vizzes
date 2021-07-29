@@ -108,7 +108,7 @@ def get_fechas(df_ex, str_var):
 
 
 def set_nombres(csv_file):
-    nombres = pd.read_csv(csv_file)
+    nombres = pd.read_csv(csv_file, encoding = 'latin-1')
     nombres['nombre_spl'] = nombres['nombre'].str.split(' ')
     nombres['primer_nombre'] = nombres['nombre_spl'].apply(lambda x: 
         x[0].title())
