@@ -98,8 +98,8 @@ def get_fechas(df_ex, str_var):
     '''
     transforma un texto de fecha en una fecha string
     '''
-    df_ex['f_' + str_var] = df_ex[str_var].apply(lambda x: get_day(x) + "/" + 
-                                         str(mes_a_num(get_mes(x))) + "/" + 
+    df_ex['f_' + str_var] = df_ex[str_var].apply(lambda x:  str(mes_a_num(get_mes(x))) + "/" + 
+                                         get_day(x) + "/" + 
                                          get_yr(x))
     
 
