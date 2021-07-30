@@ -9,9 +9,9 @@ def theme_desarroio():
     textColor = "#808080"
     markColor = "#5297AC" # azul oficial
     backgroundColor = "#F9F7F3" # 100%
-    main_palette = ["#5297AC", # Cluster 1 azul
-                    "#ac6e69", # Cluster 2 coral/marrón
-                    "#4ba479", # Cluster 3 verde
+    main_palette = ["#84B09B", # Cluster 1 azul
+                    "#E3B155", # Cluster 2 coral/marrón
+                    "#4ba479", # Cluster 3 verde E3B155
                     "#e2a920", 
                     "#BAA6A5", 
                     "#A6C6C1", 
@@ -65,6 +65,7 @@ def theme_desarroio():
              "legend": {
                   "labelFont": font,
                   "titleFont": font,
+                 "labelFontSize": 15,
                   "symbolType": 'circle',
                   "padding": 1,
                  "columns": 0,
@@ -103,10 +104,10 @@ def theme_desarroio():
            "text": {
                "font": sourceFont,
                "color": textColor,
-               "fontSize": 11,
+               "fontSize": 15,
                "align": "right",
                "fontWeight": 400,
-               "size": 11,
+               "size": 15,
            }, 
            "bar": {
                 "binSpacing": 1,
