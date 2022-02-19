@@ -1,0 +1,41 @@
+---
+title: "genero_calles"
+author: "desarro.io"
+date: "2/19/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(sf)
+library(sp)
+library(leaflet)
+library(rgdal)
+```
+
+
+```{r import data}
+females <- st_read("genero_calles/data/females.shp")
+```
+
+## Mapa
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+```{r map}
+m <- leaflet(females) %>%
+    addTiles() %>%
+  addPolylines(females, weight = 1, color = "red", fill = FALSE )
+m  
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
