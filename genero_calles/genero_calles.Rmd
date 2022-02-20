@@ -8,14 +8,15 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(sf)
-library(sp)
 library(leaflet)
-library(rgdal)
+library(dplyr)
 ```
 
 
-```{r import data}
-females <- st_read("genero_calles/data/females.shp")
+```{r import data, eval=FALSE}
+females <- st_read("data/gdb_females.geojson") %>% select(3, 4, 21, 22)
+males <- st_read("data/gdb_males.geojson") %>% select(3, 4, 21, 22)
+not <- st_read("data/gdb_not_name.geojson") %>% select(3, 4, 21, 22)
 ```
 
 ## Mapa
@@ -23,11 +24,13 @@ females <- st_read("genero_calles/data/females.shp")
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 ```{r map}
-m <- leaflet(females) %>%
-    addTiles() %>%
-  addPolylines(females, weight = 1, color = "red", fill = FALSE )
+m <- leaflet() %>%
+#  addProviderTiles(providers$Jawg.Light) %>% 
+  addTiles(options = tileOptions(opacity = 0.2) ) %>% 
+  addPolylines(data = females, weight = 1, color = "red", fill = FALSE ) %>% 
+  addPolylines(data = males, weight = 1, color = "blue", fill = FALSE ) #%>% 
+  #addPolylines(data = females, weight = 1, color = "red", fill = FALSE ) %>% 
 m  
-
 ```
 
 ## Including Plots
