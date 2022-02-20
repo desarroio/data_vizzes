@@ -28,13 +28,14 @@ Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pand
 
 
 ```{r map}
-m <- leaflet() %>%
+m <- leaflet(options = leafletOptions(minZoom = 12)) %>%
+  setView(-77.022933, -12.068522, zoom = 11) %>% 
   addProviderTiles(providers$CartoDB.Positron) %>%
-  addPolylines(data = males, weight = 1.5, color = "#72a289", group = "hombre") %>%
-  addPolylines(data = females, weight = 1.5, color = "#dba344",
+  addPolylines(data = males, weight = 1.5, color = "#f1c628", group = "hombre") %>%
+  addPolylines(data = females, weight = 1.5, color = "#5297ac",
                group = "mujer", label = females$name) %>%
-  addPolygons( data = distritos, color = "#634b66", group = "distritos",
-               fill=FALSE, weight = 0.5) %>% 
+  addPolygons( data = distritos, color = "#967aa1", group = "distritos",
+               fill=FALSE, weight = 1) %>% 
   addLayersControl( overlayGroups = c( "mujer", "hombre"),
                     options = layersControlOptions(collapsed = FALSE))
  
