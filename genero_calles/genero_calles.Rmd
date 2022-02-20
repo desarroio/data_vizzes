@@ -13,11 +13,11 @@ library(dplyr)
 ```
 
 
-```{r import data, eval=FALSE, include=FALSE}
-females <- st_read("data/gdb_females.geojson") %>% select(3, 4, 21, 22)
-males <- st_read("data/gdb_males.geojson") %>% select(3, 4, 21, 22)
-not <- st_read("data/gdb_not_name.geojson") %>% select(3, 4, 21, 22)
-distritos <- st_read("data/DISTRITO_27_04_2015.shp") %>% select( 1:6) %>% filter(IDDPTO == "07" | IDPROV == "1501")
+```{r import data, echo=FALSE, message = FALSE}
+females <- st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
+males <- st_read("data/gdb_males.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
+not <- st_read("data/gdb_not_name.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
+distritos <- st_read("data/distritos.geojson", quiet = TRUE) %>% select( 1:6) %>% filter(IDDPTO == "07" | IDPROV == "1501")
 ```
 
 ## Mapa
@@ -27,18 +27,21 @@ La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de
 Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
 
 
-```{r map}
+```{r map, echo = FALSE}
 m <- leaflet(options = leafletOptions(minZoom = 12)) %>%
-  setView(-77.022933, -12.068522, zoom = 11) %>% 
-  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(-77.022933, -12.068522, zoom = 11) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>% 
   addPolylines(data = males, weight = 1.5, color = "#f1c628", group = "hombre") %>%
   addPolylines(data = females, weight = 1.5, color = "#5297ac",
                group = "mujer", label = females$name) %>%
   addPolygons( data = distritos, color = "#967aa1", group = "distritos",
-               fill=FALSE, weight = 1) %>% 
-  addLayersControl( overlayGroups = c( "mujer", "hombre"),
+               fill=FALSE, weight = 1) %>%
+  addLayersControl( overlayGroups = c( "mujer", "hombre", "distritos"),
                     options = layersControlOptions(collapsed = FALSE))
  
+```
 
+```{r}
+m
 ```
 
