@@ -2,7 +2,9 @@
 title: "genero_calles"
 author: "desarro.io"
 date: "2/19/2022"
-output: html_document
+output: 
+  html_document: 
+    css: style.css
 ---
 
 ```{r setup, include=FALSE}
