@@ -1,7 +1,7 @@
 ---
-title: "genero_calles"
-author: "desarro.io"
-date: "2/19/2022"
+title: "¿de qué mujeres nos hablan nuestras calles?"
+#author: "desarro.io"
+#date: "2/19/2022"
 output: 
   html_document: 
     css: style.css
@@ -22,12 +22,9 @@ not <- st_read("data/gdb_not_name.geojson", quiet = TRUE) %>% select(3, 4, 21, 2
 distritos <- st_read("data/distritos.geojson", quiet = TRUE) %>% select( 1:6) %>% filter(IDDPTO == "07" | IDPROV == "1501")
 ```
 
-## Mapa
-
-Las calles de Lima y Callao que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas. 
-La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de mujeres es de 0.2 km. 
-Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
-
+::: {.bajada}
+Menos del 1% de calles de Lima tiene nombre de mujeres.
+:::
 
 ```{r map, echo = FALSE}
 m <- leaflet(options = leafletOptions(minZoom = 12)) %>% 
@@ -40,10 +37,12 @@ m <- leaflet(options = leafletOptions(minZoom = 12)) %>%
                fill=FALSE, weight = 1) %>%
   addLayersControl( overlayGroups = c( "mujer", "hombre", "distritos"),
                     options = layersControlOptions(collapsed = FALSE))
- 
 ```
 
 ```{r, out.width="1000px", echo= FALSE}
 m
 ```
 
+Las calles de Lima y Callao que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas. 
+La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de mujeres es de 0.2 km. 
+Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
