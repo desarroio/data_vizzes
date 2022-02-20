@@ -1,5 +1,17 @@
 /* Whole document: */
 
+nav ul, footer ul {
+    font-family:'Sanchez', 'Comic Sans MS', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    background-color: #5297AC;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+    background-color: #5297AC;
+}
 
 body{
   font-family:"Sanchez", Roboto,Arial;
