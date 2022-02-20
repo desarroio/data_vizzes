@@ -17,18 +17,24 @@ library(dplyr)
 females <- st_read("data/gdb_females.geojson") %>% select(3, 4, 21, 22)
 males <- st_read("data/gdb_males.geojson") %>% select(3, 4, 21, 22)
 not <- st_read("data/gdb_not_name.geojson") %>% select(3, 4, 21, 22)
+distritos <- st_read("data/DISTRITO_27_04_2015.shp") %>% select( 1:6) %>% filter(IDDPTO == "07" | IDPROV == "1501")
 ```
 
 ## Mapa
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Las calles de Lima y Callao que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas. 
+La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de mujeres es de 0.2 km. 
+Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
+
 
 ```{r map}
 m <- leaflet() %>%
-  addProviderTiles(providers$CartoDB.PositronNoLabels) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
   addPolylines(data = males, weight = 1.5, color = "#72a289", group = "hombre") %>%
   addPolylines(data = females, weight = 1.5, color = "#dba344",
                group = "mujer", label = females$name) %>%
+  addPolygons( data = distritos, color = "#634b66", group = "distritos",
+               fill=FALSE, weight = 0.5) %>% 
   addLayersControl( overlayGroups = c( "mujer", "hombre"),
                     options = layersControlOptions(collapsed = FALSE))
  
