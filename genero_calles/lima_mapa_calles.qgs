@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.10.2-A Coruña" projectname="">
+<qgis version="3.10.14-A Coruña" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -20,34 +20,16 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer id="gdb_females_ccb36820_8f97_45a5_b263_737b9058a721" providerKey="delimitedtext" source="./gdb_females.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;wktField=geometry&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Unchecked" expanded="1" name="gdb_females">
+    <layer-tree-layer providerKey="delimitedtext" name="gdb_females" id="gdb_females_ccb36820_8f97_45a5_b263_737b9058a721" expanded="1" legend_exp="" source="./gdb_females.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;wktField=geometry&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="male_simp10_79079318_8abe_42f9_b02a_6bb2e5685efb" providerKey="ogr" source="./data/male_simp10.geojson" checked="Qt::Unchecked" expanded="1" name="male_simp10">
+    <layer-tree-layer providerKey="delimitedtext" name="gdb_males" id="gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85" expanded="1" legend_exp="" source="./gdb_males.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;wktField=geometry&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="male_coll_all_simp10_7b7e82f6_bb1e_47c4_9777_fd237426e7f4" providerKey="ogr" source="./data/male_coll_all_simp10.geojson" checked="Qt::Unchecked" expanded="1" name="male_coll_all_simp10">
+    <layer-tree-layer providerKey="delimitedtext" name="gdb_not" id="gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1" expanded="1" legend_exp="" source="./gdb_not.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;wktField=geometry&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer id="male_coll_all_60281fe9_448b_4a5c_a2ae_3106b84ce8c0" providerKey="ogr" source="./data/male_coll_all.geojson" checked="Qt::Unchecked" expanded="1" name="male_coll_all">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer id="gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85" providerKey="delimitedtext" source="./gdb_males.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;wktField=geometry&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Unchecked" expanded="1" name="gdb_males">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer id="not_sel_coll_all_simp10_c00b7703_6b71_4190_a4be_69d0a8993cb0" providerKey="ogr" source="./data/not_sel_coll_all_simp10.geojson" checked="Qt::Unchecked" expanded="1" name="not_sel_coll_all_simp10">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer id="not_sel_coll_all_b24a4447_03f1_4eb0_97d3_3159b338b478" providerKey="ogr" source="./data/not_sel_coll_all.geojson" checked="Qt::Unchecked" expanded="1" name="not_sel_coll_all">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer id="not_sel_e586a346_794a_4dc8_94c2_2634f1ba9e28" providerKey="ogr" source="./data/not_sel.geojson|layername=not_sel" checked="Qt::Unchecked" expanded="1" name="not_sel">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer id="gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1" providerKey="delimitedtext" source="./gdb_not.csv?type=csv&amp;maxFields=10000&amp;detectTypes=yes&amp;wktField=geometry&amp;crs=EPSG:4326&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" checked="Qt::Unchecked" expanded="1" name="gdb_not">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer id="OSM_Standard_a838e156_15dc_403d_9241_b3ac5a9d75fd" providerKey="wms" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" checked="Qt::Unchecked" expanded="1" name="OSM Standard">
+    <layer-tree-layer providerKey="wms" name="OSM Standard" id="OSM_Standard_a838e156_15dc_403d_9241_b3ac5a9d75fd" expanded="1" legend_exp="" source="type=xyz&amp;zmin=0&amp;zmax=19&amp;url=http://tile.openstreetmap.org/{z}/{x}/{y}.png" checked="Qt::Unchecked">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -55,25 +37,13 @@
       <item>gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85</item>
       <item>gdb_females_ccb36820_8f97_45a5_b263_737b9058a721</item>
       <item>gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1</item>
-      <item>male_simp10_79079318_8abe_42f9_b02a_6bb2e5685efb</item>
-      <item>male_coll_all_60281fe9_448b_4a5c_a2ae_3106b84ce8c0</item>
-      <item>male_coll_all_simp10_7b7e82f6_bb1e_47c4_9777_fd237426e7f4</item>
-      <item>not_sel_e586a346_794a_4dc8_94c2_2634f1ba9e28</item>
-      <item>not_sel_coll_all_b24a4447_03f1_4eb0_97d3_3159b338b478</item>
-      <item>not_sel_coll_all_simp10_c00b7703_6b71_4190_a4be_69d0a8993cb0</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings enabled="0" intersection-snapping="0" type="1" unit="1" mode="2" tolerance="12">
+  <snapping-settings enabled="0" intersection-snapping="0" mode="2" type="1" unit="1" tolerance="12">
     <individual-layer-settings>
-      <layer-setting id="not_sel_coll_all_simp10_c00b7703_6b71_4190_a4be_69d0a8993cb0" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="male_simp10_79079318_8abe_42f9_b02a_6bb2e5685efb" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="not_sel_e586a346_794a_4dc8_94c2_2634f1ba9e28" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="male_coll_all_simp10_7b7e82f6_bb1e_47c4_9777_fd237426e7f4" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="not_sel_coll_all_b24a4447_03f1_4eb0_97d3_3159b338b478" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="male_coll_all_60281fe9_448b_4a5c_a2ae_3106b84ce8c0" enabled="0" type="1" tolerance="12" units="1"/>
-      <layer-setting id="gdb_females_ccb36820_8f97_45a5_b263_737b9058a721" enabled="0" type="1" tolerance="12" units="1"/>
+      <layer-setting enabled="0" id="gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1" type="1" units="1" tolerance="12"/>
+      <layer-setting enabled="0" id="gdb_females_ccb36820_8f97_45a5_b263_737b9058a721" type="1" units="1" tolerance="12"/>
+      <layer-setting enabled="0" id="gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85" type="1" units="1" tolerance="12"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -104,61 +74,106 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="gdb_females" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="gdb_females_ccb36820_8f97_45a5_b263_737b9058a721" visible="0"/>
+    <legendlayer drawingOrder="-1" open="true" name="gdb_females" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="gdb_females_ccb36820_8f97_45a5_b263_737b9058a721" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="male_simp10" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="male_simp10_79079318_8abe_42f9_b02a_6bb2e5685efb" visible="0"/>
+    <legendlayer drawingOrder="-1" open="true" name="gdb_males" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="male_coll_all_simp10" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="male_coll_all_simp10_7b7e82f6_bb1e_47c4_9777_fd237426e7f4" visible="0"/>
+    <legendlayer drawingOrder="-1" open="true" name="gdb_not" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1" visible="0" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="male_coll_all" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="male_coll_all_60281fe9_448b_4a5c_a2ae_3106b84ce8c0" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="gdb_males" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="not_sel_coll_all_simp10" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="not_sel_coll_all_simp10_c00b7703_6b71_4190_a4be_69d0a8993cb0" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="not_sel_coll_all" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="not_sel_coll_all_b24a4447_03f1_4eb0_97d3_3159b338b478" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="not_sel" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="not_sel_e586a346_794a_4dc8_94c2_2634f1ba9e28" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="gdb_not" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" showFeatureCount="0" name="OSM Standard" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OSM_Standard_a838e156_15dc_403d_9241_b3ac5a9d75fd" visible="0"/>
+    <legendlayer drawingOrder="-1" open="true" name="OSM Standard" showFeatureCount="0" checked="Qt::Unchecked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="OSM_Standard_a838e156_15dc_403d_9241_b3ac5a9d75fd" visible="0" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
   <projectlayers>
-    <maplayer refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" type="raster" autoRefreshTime="0" autoRefreshEnabled="0" minScale="1e+08" refreshOnNotifyEnabled="0" maxScale="0">
+    <maplayer autoRefreshTime="0" styleCategories="AllStyleCategories" maxScale="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+08" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -166,7 +181,7 @@
         <ymax>20037508.34278924390673637</ymax>
       </extent>
       <id>OSM_Standard_a838e156_15dc_403d_9241_b3ac5a9d75fd</id>
-      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <datasource>type=xyz&amp;zmin=0&amp;zmax=19&amp;url=http://tile.openstreetmap.org/{z}/{x}/{y}.png</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -205,14 +220,14 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList useSrcNoData="0" bandNo="1"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
@@ -223,10 +238,10 @@
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property value="Undefined" key="identify/format"/>
+        <property key="identify/format" value="Undefined"/>
       </customproperties>
       <pipe>
-        <rasterrenderer alphaBand="-1" opacity="1" type="singlebandcolordata" band="1">
+        <rasterrenderer type="singlebandcolordata" opacity="1" alphaBand="-1" band="1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -238,12 +253,12 @@
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" grayscaleMode="0" colorizeRed="255" colorizeStrength="100" colorizeOn="0" saturation="0" colorizeBlue="128"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" saturation="0" grayscaleMode="0" colorizeBlue="128" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer wkbType="LineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
+    <maplayer refreshOnNotifyEnabled="0" type="vector" simplifyDrawingTol="1" simplifyLocal="1" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingHints="1" autoRefreshTime="0" maxScale="0" wkbType="LineString" geometry="Line" simplifyMaxScale="1" styleCategories="AllStyleCategories" readOnly="0" labelsEnabled="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>-77.15482249999999453</xmin>
         <ymin>-12.25649280000000019</ymin>
@@ -289,12 +304,12 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
       </resourceMetadata>
-      <provider encoding="UTF-8">delimitedtext</provider>
+      <provider encoding="">delimitedtext</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -309,10 +324,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
+          <symbol name="0" alpha="1" clip_to_extent="1" force_rhr="0" type="line">
+            <layer enabled="1" locked="0" class="SimpleLine" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -331,9 +346,9 @@
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option name="name" type="QString" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option name="type" type="QString" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -343,14 +358,16 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property value="&quot;name&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions">
+          <value>"name"</value>
+        </property>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks type="StringList">
-          <Option value="" type="QString"/>
+          <Option type="QString" value=""/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -532,147 +549,147 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="field_1" name=""/>
-        <alias index="1" field="osm_id" name=""/>
-        <alias index="2" field="name" name=""/>
-        <alias index="3" field="highway" name=""/>
-        <alias index="4" field="railway" name=""/>
-        <alias index="5" field="amenity" name=""/>
-        <alias index="6" field="operator" name=""/>
-        <alias index="7" field="parking" name=""/>
-        <alias index="8" field="surface" name=""/>
-        <alias index="9" field="tunnel" name=""/>
-        <alias index="10" field="bridge" name=""/>
-        <alias index="11" field="smoothness" name=""/>
-        <alias index="12" field="width" name=""/>
-        <alias index="13" field="capacity" name=""/>
-        <alias index="14" field="layer" name=""/>
-        <alias index="15" field="public_tra" name=""/>
-        <alias index="16" field="aeroway" name=""/>
-        <alias index="17" field="building" name=""/>
-        <alias index="18" field="barrier" name=""/>
-        <alias index="19" field="oneway" name=""/>
-        <alias index="20" field="names" name=""/>
-        <alias index="21" field="clean_name" name=""/>
-        <alias index="22" field="clean_name2" name=""/>
-        <alias index="23" field="genero" name=""/>
-        <alias index="24" field="_merge" name=""/>
+        <alias name="" index="0" field="field_1"/>
+        <alias name="" index="1" field="osm_id"/>
+        <alias name="" index="2" field="name"/>
+        <alias name="" index="3" field="highway"/>
+        <alias name="" index="4" field="railway"/>
+        <alias name="" index="5" field="amenity"/>
+        <alias name="" index="6" field="operator"/>
+        <alias name="" index="7" field="parking"/>
+        <alias name="" index="8" field="surface"/>
+        <alias name="" index="9" field="tunnel"/>
+        <alias name="" index="10" field="bridge"/>
+        <alias name="" index="11" field="smoothness"/>
+        <alias name="" index="12" field="width"/>
+        <alias name="" index="13" field="capacity"/>
+        <alias name="" index="14" field="layer"/>
+        <alias name="" index="15" field="public_tra"/>
+        <alias name="" index="16" field="aeroway"/>
+        <alias name="" index="17" field="building"/>
+        <alias name="" index="18" field="barrier"/>
+        <alias name="" index="19" field="oneway"/>
+        <alias name="" index="20" field="names"/>
+        <alias name="" index="21" field="clean_name"/>
+        <alias name="" index="22" field="clean_name2"/>
+        <alias name="" index="23" field="genero"/>
+        <alias name="" index="24" field="_merge"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="field_1" applyOnUpdate="0"/>
-        <default expression="" field="osm_id" applyOnUpdate="0"/>
-        <default expression="" field="name" applyOnUpdate="0"/>
-        <default expression="" field="highway" applyOnUpdate="0"/>
-        <default expression="" field="railway" applyOnUpdate="0"/>
-        <default expression="" field="amenity" applyOnUpdate="0"/>
-        <default expression="" field="operator" applyOnUpdate="0"/>
-        <default expression="" field="parking" applyOnUpdate="0"/>
-        <default expression="" field="surface" applyOnUpdate="0"/>
-        <default expression="" field="tunnel" applyOnUpdate="0"/>
-        <default expression="" field="bridge" applyOnUpdate="0"/>
-        <default expression="" field="smoothness" applyOnUpdate="0"/>
-        <default expression="" field="width" applyOnUpdate="0"/>
-        <default expression="" field="capacity" applyOnUpdate="0"/>
-        <default expression="" field="layer" applyOnUpdate="0"/>
-        <default expression="" field="public_tra" applyOnUpdate="0"/>
-        <default expression="" field="aeroway" applyOnUpdate="0"/>
-        <default expression="" field="building" applyOnUpdate="0"/>
-        <default expression="" field="barrier" applyOnUpdate="0"/>
-        <default expression="" field="oneway" applyOnUpdate="0"/>
-        <default expression="" field="names" applyOnUpdate="0"/>
-        <default expression="" field="clean_name" applyOnUpdate="0"/>
-        <default expression="" field="clean_name2" applyOnUpdate="0"/>
-        <default expression="" field="genero" applyOnUpdate="0"/>
-        <default expression="" field="_merge" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="field_1"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="railway"/>
+        <default expression="" applyOnUpdate="0" field="amenity"/>
+        <default expression="" applyOnUpdate="0" field="operator"/>
+        <default expression="" applyOnUpdate="0" field="parking"/>
+        <default expression="" applyOnUpdate="0" field="surface"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="smoothness"/>
+        <default expression="" applyOnUpdate="0" field="width"/>
+        <default expression="" applyOnUpdate="0" field="capacity"/>
+        <default expression="" applyOnUpdate="0" field="layer"/>
+        <default expression="" applyOnUpdate="0" field="public_tra"/>
+        <default expression="" applyOnUpdate="0" field="aeroway"/>
+        <default expression="" applyOnUpdate="0" field="building"/>
+        <default expression="" applyOnUpdate="0" field="barrier"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="names"/>
+        <default expression="" applyOnUpdate="0" field="clean_name"/>
+        <default expression="" applyOnUpdate="0" field="clean_name2"/>
+        <default expression="" applyOnUpdate="0" field="genero"/>
+        <default expression="" applyOnUpdate="0" field="_merge"/>
       </defaults>
       <constraints>
-        <constraint constraints="0" exp_strength="0" field="field_1" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="osm_id" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="highway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="railway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="amenity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="operator" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="parking" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="surface" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="tunnel" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="bridge" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="smoothness" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="width" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="capacity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="layer" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="public_tra" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="aeroway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="building" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="barrier" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="oneway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="names" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name2" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="genero" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="_merge" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="field_1" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="osm_id" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="name" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="highway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="railway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="amenity" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="operator" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="parking" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="surface" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="tunnel" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="bridge" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="smoothness" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="width" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="capacity" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="layer" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="public_tra" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="aeroway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="building" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="barrier" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="oneway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="names" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="clean_name" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="clean_name2" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="genero" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="_merge" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="field_1" desc="" exp=""/>
-        <constraint field="osm_id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="highway" desc="" exp=""/>
-        <constraint field="railway" desc="" exp=""/>
-        <constraint field="amenity" desc="" exp=""/>
-        <constraint field="operator" desc="" exp=""/>
-        <constraint field="parking" desc="" exp=""/>
-        <constraint field="surface" desc="" exp=""/>
-        <constraint field="tunnel" desc="" exp=""/>
-        <constraint field="bridge" desc="" exp=""/>
-        <constraint field="smoothness" desc="" exp=""/>
-        <constraint field="width" desc="" exp=""/>
-        <constraint field="capacity" desc="" exp=""/>
-        <constraint field="layer" desc="" exp=""/>
-        <constraint field="public_tra" desc="" exp=""/>
-        <constraint field="aeroway" desc="" exp=""/>
-        <constraint field="building" desc="" exp=""/>
-        <constraint field="barrier" desc="" exp=""/>
-        <constraint field="oneway" desc="" exp=""/>
-        <constraint field="names" desc="" exp=""/>
-        <constraint field="clean_name" desc="" exp=""/>
-        <constraint field="clean_name2" desc="" exp=""/>
-        <constraint field="genero" desc="" exp=""/>
-        <constraint field="_merge" desc="" exp=""/>
+        <constraint desc="" exp="" field="field_1"/>
+        <constraint desc="" exp="" field="osm_id"/>
+        <constraint desc="" exp="" field="name"/>
+        <constraint desc="" exp="" field="highway"/>
+        <constraint desc="" exp="" field="railway"/>
+        <constraint desc="" exp="" field="amenity"/>
+        <constraint desc="" exp="" field="operator"/>
+        <constraint desc="" exp="" field="parking"/>
+        <constraint desc="" exp="" field="surface"/>
+        <constraint desc="" exp="" field="tunnel"/>
+        <constraint desc="" exp="" field="bridge"/>
+        <constraint desc="" exp="" field="smoothness"/>
+        <constraint desc="" exp="" field="width"/>
+        <constraint desc="" exp="" field="capacity"/>
+        <constraint desc="" exp="" field="layer"/>
+        <constraint desc="" exp="" field="public_tra"/>
+        <constraint desc="" exp="" field="aeroway"/>
+        <constraint desc="" exp="" field="building"/>
+        <constraint desc="" exp="" field="barrier"/>
+        <constraint desc="" exp="" field="oneway"/>
+        <constraint desc="" exp="" field="names"/>
+        <constraint desc="" exp="" field="clean_name"/>
+        <constraint desc="" exp="" field="clean_name2"/>
+        <constraint desc="" exp="" field="genero"/>
+        <constraint desc="" exp="" field="_merge"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="&quot;name&quot;" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="&quot;name&quot;">
         <columns>
-          <column type="field" hidden="0" name="field_1" width="-1"/>
-          <column type="field" hidden="0" name="osm_id" width="-1"/>
-          <column type="field" hidden="0" name="name" width="332"/>
-          <column type="field" hidden="0" name="highway" width="-1"/>
-          <column type="field" hidden="0" name="railway" width="-1"/>
-          <column type="field" hidden="0" name="amenity" width="-1"/>
-          <column type="field" hidden="0" name="operator" width="-1"/>
-          <column type="field" hidden="0" name="parking" width="-1"/>
-          <column type="field" hidden="0" name="surface" width="-1"/>
-          <column type="field" hidden="0" name="tunnel" width="-1"/>
-          <column type="field" hidden="0" name="bridge" width="-1"/>
-          <column type="field" hidden="0" name="smoothness" width="-1"/>
-          <column type="field" hidden="0" name="width" width="-1"/>
-          <column type="field" hidden="0" name="capacity" width="-1"/>
-          <column type="field" hidden="0" name="layer" width="-1"/>
-          <column type="field" hidden="0" name="public_tra" width="-1"/>
-          <column type="field" hidden="0" name="aeroway" width="-1"/>
-          <column type="field" hidden="0" name="building" width="-1"/>
-          <column type="field" hidden="0" name="barrier" width="-1"/>
-          <column type="field" hidden="0" name="oneway" width="-1"/>
-          <column type="field" hidden="0" name="names" width="-1"/>
-          <column type="field" hidden="0" name="clean_name" width="-1"/>
-          <column type="field" hidden="0" name="clean_name2" width="-1"/>
-          <column type="field" hidden="0" name="genero" width="-1"/>
-          <column type="field" hidden="0" name="_merge" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="field_1" width="-1" type="field"/>
+          <column hidden="0" name="osm_id" width="-1" type="field"/>
+          <column hidden="0" name="name" width="332" type="field"/>
+          <column hidden="0" name="highway" width="-1" type="field"/>
+          <column hidden="0" name="railway" width="-1" type="field"/>
+          <column hidden="0" name="amenity" width="-1" type="field"/>
+          <column hidden="0" name="operator" width="-1" type="field"/>
+          <column hidden="0" name="parking" width="-1" type="field"/>
+          <column hidden="0" name="surface" width="-1" type="field"/>
+          <column hidden="0" name="tunnel" width="-1" type="field"/>
+          <column hidden="0" name="bridge" width="-1" type="field"/>
+          <column hidden="0" name="smoothness" width="-1" type="field"/>
+          <column hidden="0" name="width" width="-1" type="field"/>
+          <column hidden="0" name="capacity" width="-1" type="field"/>
+          <column hidden="0" name="layer" width="-1" type="field"/>
+          <column hidden="0" name="public_tra" width="-1" type="field"/>
+          <column hidden="0" name="aeroway" width="-1" type="field"/>
+          <column hidden="0" name="building" width="-1" type="field"/>
+          <column hidden="0" name="barrier" width="-1" type="field"/>
+          <column hidden="0" name="oneway" width="-1" type="field"/>
+          <column hidden="0" name="names" width="-1" type="field"/>
+          <column hidden="0" name="clean_name" width="-1" type="field"/>
+          <column hidden="0" name="clean_name2" width="-1" type="field"/>
+          <column hidden="0" name="genero" width="-1" type="field"/>
+          <column hidden="0" name="_merge" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -693,7 +710,7 @@
       <previewExpression>"name"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer wkbType="LineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
+    <maplayer refreshOnNotifyEnabled="0" type="vector" simplifyDrawingTol="1" simplifyLocal="1" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingHints="1" autoRefreshTime="0" maxScale="0" wkbType="LineString" geometry="Line" simplifyMaxScale="1" styleCategories="AllStyleCategories" readOnly="0" labelsEnabled="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>-77.16658030000000679</xmin>
         <ymin>-12.28406577665569088</ymin>
@@ -739,12 +756,12 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
       </resourceMetadata>
-      <provider encoding="UTF-8">delimitedtext</provider>
+      <provider encoding="">delimitedtext</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -759,10 +776,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
+          <symbol name="0" alpha="1" clip_to_extent="1" force_rhr="0" type="line">
+            <layer enabled="1" locked="0" class="SimpleLine" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -781,9 +798,9 @@
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option name="name" type="QString" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option name="type" type="QString" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -796,9 +813,9 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks type="StringList">
-          <Option value="" type="QString"/>
+          <Option type="QString" value=""/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -980,120 +997,120 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="field_1" name=""/>
-        <alias index="1" field="osm_id" name=""/>
-        <alias index="2" field="name" name=""/>
-        <alias index="3" field="highway" name=""/>
-        <alias index="4" field="railway" name=""/>
-        <alias index="5" field="amenity" name=""/>
-        <alias index="6" field="operator" name=""/>
-        <alias index="7" field="parking" name=""/>
-        <alias index="8" field="surface" name=""/>
-        <alias index="9" field="tunnel" name=""/>
-        <alias index="10" field="bridge" name=""/>
-        <alias index="11" field="smoothness" name=""/>
-        <alias index="12" field="width" name=""/>
-        <alias index="13" field="capacity" name=""/>
-        <alias index="14" field="layer" name=""/>
-        <alias index="15" field="public_tra" name=""/>
-        <alias index="16" field="aeroway" name=""/>
-        <alias index="17" field="building" name=""/>
-        <alias index="18" field="barrier" name=""/>
-        <alias index="19" field="oneway" name=""/>
-        <alias index="20" field="names" name=""/>
-        <alias index="21" field="clean_name" name=""/>
-        <alias index="22" field="clean_name2" name=""/>
-        <alias index="23" field="genero" name=""/>
-        <alias index="24" field="_merge" name=""/>
+        <alias name="" index="0" field="field_1"/>
+        <alias name="" index="1" field="osm_id"/>
+        <alias name="" index="2" field="name"/>
+        <alias name="" index="3" field="highway"/>
+        <alias name="" index="4" field="railway"/>
+        <alias name="" index="5" field="amenity"/>
+        <alias name="" index="6" field="operator"/>
+        <alias name="" index="7" field="parking"/>
+        <alias name="" index="8" field="surface"/>
+        <alias name="" index="9" field="tunnel"/>
+        <alias name="" index="10" field="bridge"/>
+        <alias name="" index="11" field="smoothness"/>
+        <alias name="" index="12" field="width"/>
+        <alias name="" index="13" field="capacity"/>
+        <alias name="" index="14" field="layer"/>
+        <alias name="" index="15" field="public_tra"/>
+        <alias name="" index="16" field="aeroway"/>
+        <alias name="" index="17" field="building"/>
+        <alias name="" index="18" field="barrier"/>
+        <alias name="" index="19" field="oneway"/>
+        <alias name="" index="20" field="names"/>
+        <alias name="" index="21" field="clean_name"/>
+        <alias name="" index="22" field="clean_name2"/>
+        <alias name="" index="23" field="genero"/>
+        <alias name="" index="24" field="_merge"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="field_1" applyOnUpdate="0"/>
-        <default expression="" field="osm_id" applyOnUpdate="0"/>
-        <default expression="" field="name" applyOnUpdate="0"/>
-        <default expression="" field="highway" applyOnUpdate="0"/>
-        <default expression="" field="railway" applyOnUpdate="0"/>
-        <default expression="" field="amenity" applyOnUpdate="0"/>
-        <default expression="" field="operator" applyOnUpdate="0"/>
-        <default expression="" field="parking" applyOnUpdate="0"/>
-        <default expression="" field="surface" applyOnUpdate="0"/>
-        <default expression="" field="tunnel" applyOnUpdate="0"/>
-        <default expression="" field="bridge" applyOnUpdate="0"/>
-        <default expression="" field="smoothness" applyOnUpdate="0"/>
-        <default expression="" field="width" applyOnUpdate="0"/>
-        <default expression="" field="capacity" applyOnUpdate="0"/>
-        <default expression="" field="layer" applyOnUpdate="0"/>
-        <default expression="" field="public_tra" applyOnUpdate="0"/>
-        <default expression="" field="aeroway" applyOnUpdate="0"/>
-        <default expression="" field="building" applyOnUpdate="0"/>
-        <default expression="" field="barrier" applyOnUpdate="0"/>
-        <default expression="" field="oneway" applyOnUpdate="0"/>
-        <default expression="" field="names" applyOnUpdate="0"/>
-        <default expression="" field="clean_name" applyOnUpdate="0"/>
-        <default expression="" field="clean_name2" applyOnUpdate="0"/>
-        <default expression="" field="genero" applyOnUpdate="0"/>
-        <default expression="" field="_merge" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="field_1"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="railway"/>
+        <default expression="" applyOnUpdate="0" field="amenity"/>
+        <default expression="" applyOnUpdate="0" field="operator"/>
+        <default expression="" applyOnUpdate="0" field="parking"/>
+        <default expression="" applyOnUpdate="0" field="surface"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="smoothness"/>
+        <default expression="" applyOnUpdate="0" field="width"/>
+        <default expression="" applyOnUpdate="0" field="capacity"/>
+        <default expression="" applyOnUpdate="0" field="layer"/>
+        <default expression="" applyOnUpdate="0" field="public_tra"/>
+        <default expression="" applyOnUpdate="0" field="aeroway"/>
+        <default expression="" applyOnUpdate="0" field="building"/>
+        <default expression="" applyOnUpdate="0" field="barrier"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="names"/>
+        <default expression="" applyOnUpdate="0" field="clean_name"/>
+        <default expression="" applyOnUpdate="0" field="clean_name2"/>
+        <default expression="" applyOnUpdate="0" field="genero"/>
+        <default expression="" applyOnUpdate="0" field="_merge"/>
       </defaults>
       <constraints>
-        <constraint constraints="0" exp_strength="0" field="field_1" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="osm_id" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="highway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="railway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="amenity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="operator" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="parking" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="surface" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="tunnel" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="bridge" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="smoothness" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="width" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="capacity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="layer" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="public_tra" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="aeroway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="building" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="barrier" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="oneway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="names" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name2" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="genero" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="_merge" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="field_1" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="osm_id" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="name" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="highway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="railway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="amenity" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="operator" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="parking" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="surface" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="tunnel" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="bridge" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="smoothness" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="width" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="capacity" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="layer" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="public_tra" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="aeroway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="building" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="barrier" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="oneway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="names" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="clean_name" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="clean_name2" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="genero" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="_merge" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="field_1" desc="" exp=""/>
-        <constraint field="osm_id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="highway" desc="" exp=""/>
-        <constraint field="railway" desc="" exp=""/>
-        <constraint field="amenity" desc="" exp=""/>
-        <constraint field="operator" desc="" exp=""/>
-        <constraint field="parking" desc="" exp=""/>
-        <constraint field="surface" desc="" exp=""/>
-        <constraint field="tunnel" desc="" exp=""/>
-        <constraint field="bridge" desc="" exp=""/>
-        <constraint field="smoothness" desc="" exp=""/>
-        <constraint field="width" desc="" exp=""/>
-        <constraint field="capacity" desc="" exp=""/>
-        <constraint field="layer" desc="" exp=""/>
-        <constraint field="public_tra" desc="" exp=""/>
-        <constraint field="aeroway" desc="" exp=""/>
-        <constraint field="building" desc="" exp=""/>
-        <constraint field="barrier" desc="" exp=""/>
-        <constraint field="oneway" desc="" exp=""/>
-        <constraint field="names" desc="" exp=""/>
-        <constraint field="clean_name" desc="" exp=""/>
-        <constraint field="clean_name2" desc="" exp=""/>
-        <constraint field="genero" desc="" exp=""/>
-        <constraint field="_merge" desc="" exp=""/>
+        <constraint desc="" exp="" field="field_1"/>
+        <constraint desc="" exp="" field="osm_id"/>
+        <constraint desc="" exp="" field="name"/>
+        <constraint desc="" exp="" field="highway"/>
+        <constraint desc="" exp="" field="railway"/>
+        <constraint desc="" exp="" field="amenity"/>
+        <constraint desc="" exp="" field="operator"/>
+        <constraint desc="" exp="" field="parking"/>
+        <constraint desc="" exp="" field="surface"/>
+        <constraint desc="" exp="" field="tunnel"/>
+        <constraint desc="" exp="" field="bridge"/>
+        <constraint desc="" exp="" field="smoothness"/>
+        <constraint desc="" exp="" field="width"/>
+        <constraint desc="" exp="" field="capacity"/>
+        <constraint desc="" exp="" field="layer"/>
+        <constraint desc="" exp="" field="public_tra"/>
+        <constraint desc="" exp="" field="aeroway"/>
+        <constraint desc="" exp="" field="building"/>
+        <constraint desc="" exp="" field="barrier"/>
+        <constraint desc="" exp="" field="oneway"/>
+        <constraint desc="" exp="" field="names"/>
+        <constraint desc="" exp="" field="clean_name"/>
+        <constraint desc="" exp="" field="clean_name2"/>
+        <constraint desc="" exp="" field="genero"/>
+        <constraint desc="" exp="" field="_merge"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -1114,7 +1131,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer wkbType="MultiLineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
+    <maplayer refreshOnNotifyEnabled="0" type="vector" simplifyDrawingTol="1" simplifyLocal="1" simplifyAlgorithm="0" autoRefreshEnabled="0" simplifyDrawingHints="1" autoRefreshTime="0" maxScale="0" wkbType="MultiLineString" geometry="Line" simplifyMaxScale="1" styleCategories="AllStyleCategories" readOnly="0" labelsEnabled="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0" refreshOnNotifyMessage="">
       <extent>
         <xmin>-77.17020940000000451</xmin>
         <ymin>-12.28406577665569088</ymin>
@@ -1169,11 +1186,11 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial dimensions="2" miny="0" minz="0" crs="" maxx="0" maxy="0" maxz="0" minx="0"/>
+          <spatial dimensions="2" minx="0" crs="" miny="0" maxz="0" minz="0" maxy="0" maxx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1182,7 +1199,7 @@
           </temporal>
         </extent>
       </resourceMetadata>
-      <provider encoding="UTF-8">delimitedtext</provider>
+      <provider encoding="">delimitedtext</provider>
       <vectorjoins/>
       <layerDependencies/>
       <dataDependencies/>
@@ -1197,10 +1214,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
+      <renderer-v2 enableorderby="0" forceraster="0" type="singleSymbol" symbollevels="0">
         <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
+          <symbol name="0" alpha="1" clip_to_extent="1" force_rhr="0" type="line">
+            <layer enabled="1" locked="0" class="SimpleLine" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -1219,9 +1236,9 @@
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
+                  <Option name="name" type="QString" value=""/>
                   <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
+                  <Option name="type" type="QString" value="collection"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1231,7 +1248,7 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property value="0" key="embeddedWidgets/count"/>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1239,21 +1256,20 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-        <DiagramCategory width="15" lineSizeType="MM" scaleBasedVisibility="0" lineSizeScale="3x:0,0,0,0,0,0" height="15" penWidth="0" scaleDependency="Area" backgroundColor="#ffffff" opacity="1" penAlpha="255" sizeType="MM" diagramOrientation="Up" minScaleDenominator="0" barWidth="5" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" backgroundAlpha="255" minimumSize="0" rotationOffset="270" enabled="0" maxScaleDenominator="1e+08">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" penWidth="0" penColor="#000000" rotationOffset="270" penAlpha="255" minimumSize="0" width="15" sizeType="MM" maxScaleDenominator="1e+08" height="15" opacity="1" minScaleDenominator="0" barWidth="5" scaleBasedVisibility="0" backgroundColor="#ffffff" labelPlacementMethod="XHeight" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" diagramOrientation="Up" scaleDependency="Area" enabled="0">
           <fontProperties description=".AppleSystemUIFont,13,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" zIndex="0" linePlacementFlags="18" dist="0" placement="2" priority="0">
+      <DiagramLayerSettings obstacle="0" dist="0" linePlacementFlags="18" placement="2" showAll="1" zIndex="0" priority="0">
         <properties>
           <Option type="Map">
-            <Option value="" type="QString" name="name"/>
+            <Option name="name" type="QString" value=""/>
             <Option name="properties"/>
-            <Option value="collection" type="QString" name="type"/>
+            <Option name="type" type="QString" value="collection"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -1435,147 +1451,147 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" field="field_1" name=""/>
-        <alias index="1" field="osm_id" name=""/>
-        <alias index="2" field="name" name=""/>
-        <alias index="3" field="highway" name=""/>
-        <alias index="4" field="railway" name=""/>
-        <alias index="5" field="amenity" name=""/>
-        <alias index="6" field="operator" name=""/>
-        <alias index="7" field="parking" name=""/>
-        <alias index="8" field="surface" name=""/>
-        <alias index="9" field="tunnel" name=""/>
-        <alias index="10" field="bridge" name=""/>
-        <alias index="11" field="smoothness" name=""/>
-        <alias index="12" field="width" name=""/>
-        <alias index="13" field="capacity" name=""/>
-        <alias index="14" field="layer" name=""/>
-        <alias index="15" field="public_tra" name=""/>
-        <alias index="16" field="aeroway" name=""/>
-        <alias index="17" field="building" name=""/>
-        <alias index="18" field="barrier" name=""/>
-        <alias index="19" field="oneway" name=""/>
-        <alias index="20" field="names" name=""/>
-        <alias index="21" field="clean_name" name=""/>
-        <alias index="22" field="clean_name2" name=""/>
-        <alias index="23" field="genero" name=""/>
-        <alias index="24" field="_merge" name=""/>
+        <alias name="" index="0" field="field_1"/>
+        <alias name="" index="1" field="osm_id"/>
+        <alias name="" index="2" field="name"/>
+        <alias name="" index="3" field="highway"/>
+        <alias name="" index="4" field="railway"/>
+        <alias name="" index="5" field="amenity"/>
+        <alias name="" index="6" field="operator"/>
+        <alias name="" index="7" field="parking"/>
+        <alias name="" index="8" field="surface"/>
+        <alias name="" index="9" field="tunnel"/>
+        <alias name="" index="10" field="bridge"/>
+        <alias name="" index="11" field="smoothness"/>
+        <alias name="" index="12" field="width"/>
+        <alias name="" index="13" field="capacity"/>
+        <alias name="" index="14" field="layer"/>
+        <alias name="" index="15" field="public_tra"/>
+        <alias name="" index="16" field="aeroway"/>
+        <alias name="" index="17" field="building"/>
+        <alias name="" index="18" field="barrier"/>
+        <alias name="" index="19" field="oneway"/>
+        <alias name="" index="20" field="names"/>
+        <alias name="" index="21" field="clean_name"/>
+        <alias name="" index="22" field="clean_name2"/>
+        <alias name="" index="23" field="genero"/>
+        <alias name="" index="24" field="_merge"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" field="field_1" applyOnUpdate="0"/>
-        <default expression="" field="osm_id" applyOnUpdate="0"/>
-        <default expression="" field="name" applyOnUpdate="0"/>
-        <default expression="" field="highway" applyOnUpdate="0"/>
-        <default expression="" field="railway" applyOnUpdate="0"/>
-        <default expression="" field="amenity" applyOnUpdate="0"/>
-        <default expression="" field="operator" applyOnUpdate="0"/>
-        <default expression="" field="parking" applyOnUpdate="0"/>
-        <default expression="" field="surface" applyOnUpdate="0"/>
-        <default expression="" field="tunnel" applyOnUpdate="0"/>
-        <default expression="" field="bridge" applyOnUpdate="0"/>
-        <default expression="" field="smoothness" applyOnUpdate="0"/>
-        <default expression="" field="width" applyOnUpdate="0"/>
-        <default expression="" field="capacity" applyOnUpdate="0"/>
-        <default expression="" field="layer" applyOnUpdate="0"/>
-        <default expression="" field="public_tra" applyOnUpdate="0"/>
-        <default expression="" field="aeroway" applyOnUpdate="0"/>
-        <default expression="" field="building" applyOnUpdate="0"/>
-        <default expression="" field="barrier" applyOnUpdate="0"/>
-        <default expression="" field="oneway" applyOnUpdate="0"/>
-        <default expression="" field="names" applyOnUpdate="0"/>
-        <default expression="" field="clean_name" applyOnUpdate="0"/>
-        <default expression="" field="clean_name2" applyOnUpdate="0"/>
-        <default expression="" field="genero" applyOnUpdate="0"/>
-        <default expression="" field="_merge" applyOnUpdate="0"/>
+        <default expression="" applyOnUpdate="0" field="field_1"/>
+        <default expression="" applyOnUpdate="0" field="osm_id"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="highway"/>
+        <default expression="" applyOnUpdate="0" field="railway"/>
+        <default expression="" applyOnUpdate="0" field="amenity"/>
+        <default expression="" applyOnUpdate="0" field="operator"/>
+        <default expression="" applyOnUpdate="0" field="parking"/>
+        <default expression="" applyOnUpdate="0" field="surface"/>
+        <default expression="" applyOnUpdate="0" field="tunnel"/>
+        <default expression="" applyOnUpdate="0" field="bridge"/>
+        <default expression="" applyOnUpdate="0" field="smoothness"/>
+        <default expression="" applyOnUpdate="0" field="width"/>
+        <default expression="" applyOnUpdate="0" field="capacity"/>
+        <default expression="" applyOnUpdate="0" field="layer"/>
+        <default expression="" applyOnUpdate="0" field="public_tra"/>
+        <default expression="" applyOnUpdate="0" field="aeroway"/>
+        <default expression="" applyOnUpdate="0" field="building"/>
+        <default expression="" applyOnUpdate="0" field="barrier"/>
+        <default expression="" applyOnUpdate="0" field="oneway"/>
+        <default expression="" applyOnUpdate="0" field="names"/>
+        <default expression="" applyOnUpdate="0" field="clean_name"/>
+        <default expression="" applyOnUpdate="0" field="clean_name2"/>
+        <default expression="" applyOnUpdate="0" field="genero"/>
+        <default expression="" applyOnUpdate="0" field="_merge"/>
       </defaults>
       <constraints>
-        <constraint constraints="0" exp_strength="0" field="field_1" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="osm_id" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="highway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="railway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="amenity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="operator" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="parking" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="surface" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="tunnel" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="bridge" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="smoothness" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="width" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="capacity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="layer" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="public_tra" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="aeroway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="building" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="barrier" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="oneway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="names" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name2" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="genero" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="_merge" unique_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="field_1" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="osm_id" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="name" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="highway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="railway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="amenity" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="operator" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="parking" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="surface" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="tunnel" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="bridge" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="smoothness" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="width" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="capacity" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="layer" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="public_tra" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="aeroway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="building" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="barrier" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="oneway" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="names" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="clean_name" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="clean_name2" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="genero" exp_strength="0"/>
+        <constraint unique_strength="0" notnull_strength="0" constraints="0" field="_merge" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="field_1" desc="" exp=""/>
-        <constraint field="osm_id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="highway" desc="" exp=""/>
-        <constraint field="railway" desc="" exp=""/>
-        <constraint field="amenity" desc="" exp=""/>
-        <constraint field="operator" desc="" exp=""/>
-        <constraint field="parking" desc="" exp=""/>
-        <constraint field="surface" desc="" exp=""/>
-        <constraint field="tunnel" desc="" exp=""/>
-        <constraint field="bridge" desc="" exp=""/>
-        <constraint field="smoothness" desc="" exp=""/>
-        <constraint field="width" desc="" exp=""/>
-        <constraint field="capacity" desc="" exp=""/>
-        <constraint field="layer" desc="" exp=""/>
-        <constraint field="public_tra" desc="" exp=""/>
-        <constraint field="aeroway" desc="" exp=""/>
-        <constraint field="building" desc="" exp=""/>
-        <constraint field="barrier" desc="" exp=""/>
-        <constraint field="oneway" desc="" exp=""/>
-        <constraint field="names" desc="" exp=""/>
-        <constraint field="clean_name" desc="" exp=""/>
-        <constraint field="clean_name2" desc="" exp=""/>
-        <constraint field="genero" desc="" exp=""/>
-        <constraint field="_merge" desc="" exp=""/>
+        <constraint desc="" exp="" field="field_1"/>
+        <constraint desc="" exp="" field="osm_id"/>
+        <constraint desc="" exp="" field="name"/>
+        <constraint desc="" exp="" field="highway"/>
+        <constraint desc="" exp="" field="railway"/>
+        <constraint desc="" exp="" field="amenity"/>
+        <constraint desc="" exp="" field="operator"/>
+        <constraint desc="" exp="" field="parking"/>
+        <constraint desc="" exp="" field="surface"/>
+        <constraint desc="" exp="" field="tunnel"/>
+        <constraint desc="" exp="" field="bridge"/>
+        <constraint desc="" exp="" field="smoothness"/>
+        <constraint desc="" exp="" field="width"/>
+        <constraint desc="" exp="" field="capacity"/>
+        <constraint desc="" exp="" field="layer"/>
+        <constraint desc="" exp="" field="public_tra"/>
+        <constraint desc="" exp="" field="aeroway"/>
+        <constraint desc="" exp="" field="building"/>
+        <constraint desc="" exp="" field="barrier"/>
+        <constraint desc="" exp="" field="oneway"/>
+        <constraint desc="" exp="" field="names"/>
+        <constraint desc="" exp="" field="clean_name"/>
+        <constraint desc="" exp="" field="clean_name2"/>
+        <constraint desc="" exp="" field="genero"/>
+        <constraint desc="" exp="" field="_merge"/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column type="field" hidden="0" name="field_1" width="-1"/>
-          <column type="field" hidden="0" name="osm_id" width="-1"/>
-          <column type="field" hidden="0" name="name" width="-1"/>
-          <column type="field" hidden="0" name="highway" width="-1"/>
-          <column type="field" hidden="0" name="railway" width="-1"/>
-          <column type="field" hidden="0" name="amenity" width="-1"/>
-          <column type="field" hidden="0" name="operator" width="-1"/>
-          <column type="field" hidden="0" name="parking" width="-1"/>
-          <column type="field" hidden="0" name="surface" width="-1"/>
-          <column type="field" hidden="0" name="tunnel" width="-1"/>
-          <column type="field" hidden="0" name="bridge" width="-1"/>
-          <column type="field" hidden="0" name="smoothness" width="-1"/>
-          <column type="field" hidden="0" name="width" width="-1"/>
-          <column type="field" hidden="0" name="capacity" width="-1"/>
-          <column type="field" hidden="0" name="layer" width="-1"/>
-          <column type="field" hidden="0" name="public_tra" width="-1"/>
-          <column type="field" hidden="0" name="aeroway" width="-1"/>
-          <column type="field" hidden="0" name="building" width="-1"/>
-          <column type="field" hidden="0" name="barrier" width="-1"/>
-          <column type="field" hidden="0" name="oneway" width="-1"/>
-          <column type="field" hidden="0" name="names" width="-1"/>
-          <column type="field" hidden="0" name="clean_name" width="-1"/>
-          <column type="field" hidden="0" name="clean_name2" width="-1"/>
-          <column type="field" hidden="0" name="genero" width="-1"/>
-          <column type="field" hidden="0" name="_merge" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column hidden="0" name="field_1" width="-1" type="field"/>
+          <column hidden="0" name="osm_id" width="-1" type="field"/>
+          <column hidden="0" name="name" width="-1" type="field"/>
+          <column hidden="0" name="highway" width="-1" type="field"/>
+          <column hidden="0" name="railway" width="-1" type="field"/>
+          <column hidden="0" name="amenity" width="-1" type="field"/>
+          <column hidden="0" name="operator" width="-1" type="field"/>
+          <column hidden="0" name="parking" width="-1" type="field"/>
+          <column hidden="0" name="surface" width="-1" type="field"/>
+          <column hidden="0" name="tunnel" width="-1" type="field"/>
+          <column hidden="0" name="bridge" width="-1" type="field"/>
+          <column hidden="0" name="smoothness" width="-1" type="field"/>
+          <column hidden="0" name="width" width="-1" type="field"/>
+          <column hidden="0" name="capacity" width="-1" type="field"/>
+          <column hidden="0" name="layer" width="-1" type="field"/>
+          <column hidden="0" name="public_tra" width="-1" type="field"/>
+          <column hidden="0" name="aeroway" width="-1" type="field"/>
+          <column hidden="0" name="building" width="-1" type="field"/>
+          <column hidden="0" name="barrier" width="-1" type="field"/>
+          <column hidden="0" name="oneway" width="-1" type="field"/>
+          <column hidden="0" name="names" width="-1" type="field"/>
+          <column hidden="0" name="clean_name" width="-1" type="field"/>
+          <column hidden="0" name="clean_name2" width="-1" type="field"/>
+          <column hidden="0" name="genero" width="-1" type="field"/>
+          <column hidden="0" name="_merge" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1607,1791 +1623,61 @@ def my_form_open(dialog, layer, feature):
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <editable>
-        <field editable="1" name="_merge"/>
-        <field editable="1" name="aeroway"/>
-        <field editable="1" name="amenity"/>
-        <field editable="1" name="barrier"/>
-        <field editable="1" name="bridge"/>
-        <field editable="1" name="building"/>
-        <field editable="1" name="capacity"/>
-        <field editable="1" name="clean_name"/>
-        <field editable="1" name="clean_name2"/>
-        <field editable="1" name="field_1"/>
-        <field editable="1" name="genero"/>
-        <field editable="1" name="highway"/>
-        <field editable="1" name="layer"/>
-        <field editable="1" name="name"/>
-        <field editable="1" name="names"/>
-        <field editable="1" name="oneway"/>
-        <field editable="1" name="operator"/>
-        <field editable="1" name="osm_id"/>
-        <field editable="1" name="parking"/>
-        <field editable="1" name="public_tra"/>
-        <field editable="1" name="railway"/>
-        <field editable="1" name="smoothness"/>
-        <field editable="1" name="surface"/>
-        <field editable="1" name="tunnel"/>
-        <field editable="1" name="width"/>
+        <field name="_merge" editable="1"/>
+        <field name="aeroway" editable="1"/>
+        <field name="amenity" editable="1"/>
+        <field name="barrier" editable="1"/>
+        <field name="bridge" editable="1"/>
+        <field name="building" editable="1"/>
+        <field name="capacity" editable="1"/>
+        <field name="clean_name" editable="1"/>
+        <field name="clean_name2" editable="1"/>
+        <field name="field_1" editable="1"/>
+        <field name="genero" editable="1"/>
+        <field name="highway" editable="1"/>
+        <field name="layer" editable="1"/>
+        <field name="name" editable="1"/>
+        <field name="names" editable="1"/>
+        <field name="oneway" editable="1"/>
+        <field name="operator" editable="1"/>
+        <field name="osm_id" editable="1"/>
+        <field name="parking" editable="1"/>
+        <field name="public_tra" editable="1"/>
+        <field name="railway" editable="1"/>
+        <field name="smoothness" editable="1"/>
+        <field name="surface" editable="1"/>
+        <field name="tunnel" editable="1"/>
+        <field name="width" editable="1"/>
       </editable>
       <labelOnTop>
-        <field labelOnTop="0" name="_merge"/>
-        <field labelOnTop="0" name="aeroway"/>
-        <field labelOnTop="0" name="amenity"/>
-        <field labelOnTop="0" name="barrier"/>
-        <field labelOnTop="0" name="bridge"/>
-        <field labelOnTop="0" name="building"/>
-        <field labelOnTop="0" name="capacity"/>
-        <field labelOnTop="0" name="clean_name"/>
-        <field labelOnTop="0" name="clean_name2"/>
-        <field labelOnTop="0" name="field_1"/>
-        <field labelOnTop="0" name="genero"/>
-        <field labelOnTop="0" name="highway"/>
-        <field labelOnTop="0" name="layer"/>
-        <field labelOnTop="0" name="name"/>
-        <field labelOnTop="0" name="names"/>
-        <field labelOnTop="0" name="oneway"/>
-        <field labelOnTop="0" name="operator"/>
-        <field labelOnTop="0" name="osm_id"/>
-        <field labelOnTop="0" name="parking"/>
-        <field labelOnTop="0" name="public_tra"/>
-        <field labelOnTop="0" name="railway"/>
-        <field labelOnTop="0" name="smoothness"/>
-        <field labelOnTop="0" name="surface"/>
-        <field labelOnTop="0" name="tunnel"/>
-        <field labelOnTop="0" name="width"/>
+        <field name="_merge" labelOnTop="0"/>
+        <field name="aeroway" labelOnTop="0"/>
+        <field name="amenity" labelOnTop="0"/>
+        <field name="barrier" labelOnTop="0"/>
+        <field name="bridge" labelOnTop="0"/>
+        <field name="building" labelOnTop="0"/>
+        <field name="capacity" labelOnTop="0"/>
+        <field name="clean_name" labelOnTop="0"/>
+        <field name="clean_name2" labelOnTop="0"/>
+        <field name="field_1" labelOnTop="0"/>
+        <field name="genero" labelOnTop="0"/>
+        <field name="highway" labelOnTop="0"/>
+        <field name="layer" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="names" labelOnTop="0"/>
+        <field name="oneway" labelOnTop="0"/>
+        <field name="operator" labelOnTop="0"/>
+        <field name="osm_id" labelOnTop="0"/>
+        <field name="parking" labelOnTop="0"/>
+        <field name="public_tra" labelOnTop="0"/>
+        <field name="railway" labelOnTop="0"/>
+        <field name="smoothness" labelOnTop="0"/>
+        <field name="surface" labelOnTop="0"/>
+        <field name="tunnel" labelOnTop="0"/>
+        <field name="width" labelOnTop="0"/>
       </labelOnTop>
       <widgets/>
       <previewExpression>"name"</previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer wkbType="MultiLineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
-      <extent>
-        <xmin>-77.16658030000000679</xmin>
-        <ymin>-12.28406577665569088</ymin>
-        <xmax>-76.87615348076739963</xmax>
-        <ymax>-11.84583522632937935</ymax>
-      </extent>
-      <id>male_coll_all_60281fe9_448b_4a5c_a2ae_3106b84ce8c0</id>
-      <datasource>./data/male_coll_all.geojson</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>male_coll_all</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <legend type="default-vector"/>
-      <expressionfields/>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-      </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
-        <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="243,166,178,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <fieldConfiguration>
-        <field name="field_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="osm_id">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="highway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="railway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="amenity">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="operator">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="parking">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="surface">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="tunnel">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="bridge">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="smoothness">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="width">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="capacity">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="layer">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="public_tra">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="aeroway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="building">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="barrier">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="oneway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="names">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="clean_name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="clean_name2">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="genero">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="_merge">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias index="0" field="field_1" name=""/>
-        <alias index="1" field="osm_id" name=""/>
-        <alias index="2" field="name" name=""/>
-        <alias index="3" field="highway" name=""/>
-        <alias index="4" field="railway" name=""/>
-        <alias index="5" field="amenity" name=""/>
-        <alias index="6" field="operator" name=""/>
-        <alias index="7" field="parking" name=""/>
-        <alias index="8" field="surface" name=""/>
-        <alias index="9" field="tunnel" name=""/>
-        <alias index="10" field="bridge" name=""/>
-        <alias index="11" field="smoothness" name=""/>
-        <alias index="12" field="width" name=""/>
-        <alias index="13" field="capacity" name=""/>
-        <alias index="14" field="layer" name=""/>
-        <alias index="15" field="public_tra" name=""/>
-        <alias index="16" field="aeroway" name=""/>
-        <alias index="17" field="building" name=""/>
-        <alias index="18" field="barrier" name=""/>
-        <alias index="19" field="oneway" name=""/>
-        <alias index="20" field="names" name=""/>
-        <alias index="21" field="clean_name" name=""/>
-        <alias index="22" field="clean_name2" name=""/>
-        <alias index="23" field="genero" name=""/>
-        <alias index="24" field="_merge" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults>
-        <default expression="" field="field_1" applyOnUpdate="0"/>
-        <default expression="" field="osm_id" applyOnUpdate="0"/>
-        <default expression="" field="name" applyOnUpdate="0"/>
-        <default expression="" field="highway" applyOnUpdate="0"/>
-        <default expression="" field="railway" applyOnUpdate="0"/>
-        <default expression="" field="amenity" applyOnUpdate="0"/>
-        <default expression="" field="operator" applyOnUpdate="0"/>
-        <default expression="" field="parking" applyOnUpdate="0"/>
-        <default expression="" field="surface" applyOnUpdate="0"/>
-        <default expression="" field="tunnel" applyOnUpdate="0"/>
-        <default expression="" field="bridge" applyOnUpdate="0"/>
-        <default expression="" field="smoothness" applyOnUpdate="0"/>
-        <default expression="" field="width" applyOnUpdate="0"/>
-        <default expression="" field="capacity" applyOnUpdate="0"/>
-        <default expression="" field="layer" applyOnUpdate="0"/>
-        <default expression="" field="public_tra" applyOnUpdate="0"/>
-        <default expression="" field="aeroway" applyOnUpdate="0"/>
-        <default expression="" field="building" applyOnUpdate="0"/>
-        <default expression="" field="barrier" applyOnUpdate="0"/>
-        <default expression="" field="oneway" applyOnUpdate="0"/>
-        <default expression="" field="names" applyOnUpdate="0"/>
-        <default expression="" field="clean_name" applyOnUpdate="0"/>
-        <default expression="" field="clean_name2" applyOnUpdate="0"/>
-        <default expression="" field="genero" applyOnUpdate="0"/>
-        <default expression="" field="_merge" applyOnUpdate="0"/>
-      </defaults>
-      <constraints>
-        <constraint constraints="0" exp_strength="0" field="field_1" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="osm_id" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="highway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="railway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="amenity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="operator" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="parking" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="surface" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="tunnel" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="bridge" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="smoothness" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="width" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="capacity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="layer" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="public_tra" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="aeroway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="building" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="barrier" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="oneway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="names" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name2" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="genero" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="_merge" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="field_1" desc="" exp=""/>
-        <constraint field="osm_id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="highway" desc="" exp=""/>
-        <constraint field="railway" desc="" exp=""/>
-        <constraint field="amenity" desc="" exp=""/>
-        <constraint field="operator" desc="" exp=""/>
-        <constraint field="parking" desc="" exp=""/>
-        <constraint field="surface" desc="" exp=""/>
-        <constraint field="tunnel" desc="" exp=""/>
-        <constraint field="bridge" desc="" exp=""/>
-        <constraint field="smoothness" desc="" exp=""/>
-        <constraint field="width" desc="" exp=""/>
-        <constraint field="capacity" desc="" exp=""/>
-        <constraint field="layer" desc="" exp=""/>
-        <constraint field="public_tra" desc="" exp=""/>
-        <constraint field="aeroway" desc="" exp=""/>
-        <constraint field="building" desc="" exp=""/>
-        <constraint field="barrier" desc="" exp=""/>
-        <constraint field="oneway" desc="" exp=""/>
-        <constraint field="names" desc="" exp=""/>
-        <constraint field="clean_name" desc="" exp=""/>
-        <constraint field="clean_name2" desc="" exp=""/>
-        <constraint field="genero" desc="" exp=""/>
-        <constraint field="_merge" desc="" exp=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer wkbType="MultiLineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
-      <extent>
-        <xmin>-77.16658030000000679</xmin>
-        <ymin>-12.28406577665569088</ymin>
-        <xmax>-76.87615348076739963</xmax>
-        <ymax>-11.84583522632937935</ymax>
-      </extent>
-      <id>male_coll_all_simp10_7b7e82f6_bb1e_47c4_9777_fd237426e7f4</id>
-      <datasource>./data/male_coll_all_simp10.geojson</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>male_coll_all_simp10</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <legend type="default-vector"/>
-      <expressionfields/>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-      </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
-        <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="141,90,153,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <fieldConfiguration>
-        <field name="field_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="osm_id">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="highway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="railway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="amenity">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="operator">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="parking">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="surface">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="tunnel">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="bridge">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="smoothness">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="width">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="capacity">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="layer">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="public_tra">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="aeroway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="building">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="barrier">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="oneway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="names">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="clean_name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="clean_name2">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="genero">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="_merge">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias index="0" field="field_1" name=""/>
-        <alias index="1" field="osm_id" name=""/>
-        <alias index="2" field="name" name=""/>
-        <alias index="3" field="highway" name=""/>
-        <alias index="4" field="railway" name=""/>
-        <alias index="5" field="amenity" name=""/>
-        <alias index="6" field="operator" name=""/>
-        <alias index="7" field="parking" name=""/>
-        <alias index="8" field="surface" name=""/>
-        <alias index="9" field="tunnel" name=""/>
-        <alias index="10" field="bridge" name=""/>
-        <alias index="11" field="smoothness" name=""/>
-        <alias index="12" field="width" name=""/>
-        <alias index="13" field="capacity" name=""/>
-        <alias index="14" field="layer" name=""/>
-        <alias index="15" field="public_tra" name=""/>
-        <alias index="16" field="aeroway" name=""/>
-        <alias index="17" field="building" name=""/>
-        <alias index="18" field="barrier" name=""/>
-        <alias index="19" field="oneway" name=""/>
-        <alias index="20" field="names" name=""/>
-        <alias index="21" field="clean_name" name=""/>
-        <alias index="22" field="clean_name2" name=""/>
-        <alias index="23" field="genero" name=""/>
-        <alias index="24" field="_merge" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults>
-        <default expression="" field="field_1" applyOnUpdate="0"/>
-        <default expression="" field="osm_id" applyOnUpdate="0"/>
-        <default expression="" field="name" applyOnUpdate="0"/>
-        <default expression="" field="highway" applyOnUpdate="0"/>
-        <default expression="" field="railway" applyOnUpdate="0"/>
-        <default expression="" field="amenity" applyOnUpdate="0"/>
-        <default expression="" field="operator" applyOnUpdate="0"/>
-        <default expression="" field="parking" applyOnUpdate="0"/>
-        <default expression="" field="surface" applyOnUpdate="0"/>
-        <default expression="" field="tunnel" applyOnUpdate="0"/>
-        <default expression="" field="bridge" applyOnUpdate="0"/>
-        <default expression="" field="smoothness" applyOnUpdate="0"/>
-        <default expression="" field="width" applyOnUpdate="0"/>
-        <default expression="" field="capacity" applyOnUpdate="0"/>
-        <default expression="" field="layer" applyOnUpdate="0"/>
-        <default expression="" field="public_tra" applyOnUpdate="0"/>
-        <default expression="" field="aeroway" applyOnUpdate="0"/>
-        <default expression="" field="building" applyOnUpdate="0"/>
-        <default expression="" field="barrier" applyOnUpdate="0"/>
-        <default expression="" field="oneway" applyOnUpdate="0"/>
-        <default expression="" field="names" applyOnUpdate="0"/>
-        <default expression="" field="clean_name" applyOnUpdate="0"/>
-        <default expression="" field="clean_name2" applyOnUpdate="0"/>
-        <default expression="" field="genero" applyOnUpdate="0"/>
-        <default expression="" field="_merge" applyOnUpdate="0"/>
-      </defaults>
-      <constraints>
-        <constraint constraints="0" exp_strength="0" field="field_1" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="osm_id" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="highway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="railway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="amenity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="operator" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="parking" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="surface" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="tunnel" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="bridge" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="smoothness" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="width" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="capacity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="layer" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="public_tra" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="aeroway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="building" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="barrier" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="oneway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="names" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name2" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="genero" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="_merge" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="field_1" desc="" exp=""/>
-        <constraint field="osm_id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="highway" desc="" exp=""/>
-        <constraint field="railway" desc="" exp=""/>
-        <constraint field="amenity" desc="" exp=""/>
-        <constraint field="operator" desc="" exp=""/>
-        <constraint field="parking" desc="" exp=""/>
-        <constraint field="surface" desc="" exp=""/>
-        <constraint field="tunnel" desc="" exp=""/>
-        <constraint field="bridge" desc="" exp=""/>
-        <constraint field="smoothness" desc="" exp=""/>
-        <constraint field="width" desc="" exp=""/>
-        <constraint field="capacity" desc="" exp=""/>
-        <constraint field="layer" desc="" exp=""/>
-        <constraint field="public_tra" desc="" exp=""/>
-        <constraint field="aeroway" desc="" exp=""/>
-        <constraint field="building" desc="" exp=""/>
-        <constraint field="barrier" desc="" exp=""/>
-        <constraint field="oneway" desc="" exp=""/>
-        <constraint field="names" desc="" exp=""/>
-        <constraint field="clean_name" desc="" exp=""/>
-        <constraint field="clean_name2" desc="" exp=""/>
-        <constraint field="genero" desc="" exp=""/>
-        <constraint field="_merge" desc="" exp=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer wkbType="LineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
-      <extent>
-        <xmin>-77.16658030000000679</xmin>
-        <ymin>-12.28406577665569088</ymin>
-        <xmax>-76.87615348076739963</xmax>
-        <ymax>-11.84583522632937935</ymax>
-      </extent>
-      <id>male_simp10_79079318_8abe_42f9_b02a_6bb2e5685efb</id>
-      <datasource>./data/male_simp10.geojson</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>male_simp10</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <legend type="default-vector"/>
-      <expressionfields/>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-      </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
-        <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="114,155,111,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <fieldConfiguration>
-        <field name="field_1">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="osm_id">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="highway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="railway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="amenity">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="operator">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="parking">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="surface">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="tunnel">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="bridge">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="smoothness">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="width">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="capacity">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="layer">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="public_tra">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="aeroway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="building">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="barrier">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="oneway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="names">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="clean_name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="clean_name2">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="genero">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="_merge">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias index="0" field="field_1" name=""/>
-        <alias index="1" field="osm_id" name=""/>
-        <alias index="2" field="name" name=""/>
-        <alias index="3" field="highway" name=""/>
-        <alias index="4" field="railway" name=""/>
-        <alias index="5" field="amenity" name=""/>
-        <alias index="6" field="operator" name=""/>
-        <alias index="7" field="parking" name=""/>
-        <alias index="8" field="surface" name=""/>
-        <alias index="9" field="tunnel" name=""/>
-        <alias index="10" field="bridge" name=""/>
-        <alias index="11" field="smoothness" name=""/>
-        <alias index="12" field="width" name=""/>
-        <alias index="13" field="capacity" name=""/>
-        <alias index="14" field="layer" name=""/>
-        <alias index="15" field="public_tra" name=""/>
-        <alias index="16" field="aeroway" name=""/>
-        <alias index="17" field="building" name=""/>
-        <alias index="18" field="barrier" name=""/>
-        <alias index="19" field="oneway" name=""/>
-        <alias index="20" field="names" name=""/>
-        <alias index="21" field="clean_name" name=""/>
-        <alias index="22" field="clean_name2" name=""/>
-        <alias index="23" field="genero" name=""/>
-        <alias index="24" field="_merge" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults>
-        <default expression="" field="field_1" applyOnUpdate="0"/>
-        <default expression="" field="osm_id" applyOnUpdate="0"/>
-        <default expression="" field="name" applyOnUpdate="0"/>
-        <default expression="" field="highway" applyOnUpdate="0"/>
-        <default expression="" field="railway" applyOnUpdate="0"/>
-        <default expression="" field="amenity" applyOnUpdate="0"/>
-        <default expression="" field="operator" applyOnUpdate="0"/>
-        <default expression="" field="parking" applyOnUpdate="0"/>
-        <default expression="" field="surface" applyOnUpdate="0"/>
-        <default expression="" field="tunnel" applyOnUpdate="0"/>
-        <default expression="" field="bridge" applyOnUpdate="0"/>
-        <default expression="" field="smoothness" applyOnUpdate="0"/>
-        <default expression="" field="width" applyOnUpdate="0"/>
-        <default expression="" field="capacity" applyOnUpdate="0"/>
-        <default expression="" field="layer" applyOnUpdate="0"/>
-        <default expression="" field="public_tra" applyOnUpdate="0"/>
-        <default expression="" field="aeroway" applyOnUpdate="0"/>
-        <default expression="" field="building" applyOnUpdate="0"/>
-        <default expression="" field="barrier" applyOnUpdate="0"/>
-        <default expression="" field="oneway" applyOnUpdate="0"/>
-        <default expression="" field="names" applyOnUpdate="0"/>
-        <default expression="" field="clean_name" applyOnUpdate="0"/>
-        <default expression="" field="clean_name2" applyOnUpdate="0"/>
-        <default expression="" field="genero" applyOnUpdate="0"/>
-        <default expression="" field="_merge" applyOnUpdate="0"/>
-      </defaults>
-      <constraints>
-        <constraint constraints="0" exp_strength="0" field="field_1" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="osm_id" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="highway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="railway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="amenity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="operator" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="parking" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="surface" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="tunnel" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="bridge" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="smoothness" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="width" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="capacity" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="layer" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="public_tra" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="aeroway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="building" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="barrier" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="oneway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="names" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="clean_name2" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="genero" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="_merge" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="field_1" desc="" exp=""/>
-        <constraint field="osm_id" desc="" exp=""/>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="highway" desc="" exp=""/>
-        <constraint field="railway" desc="" exp=""/>
-        <constraint field="amenity" desc="" exp=""/>
-        <constraint field="operator" desc="" exp=""/>
-        <constraint field="parking" desc="" exp=""/>
-        <constraint field="surface" desc="" exp=""/>
-        <constraint field="tunnel" desc="" exp=""/>
-        <constraint field="bridge" desc="" exp=""/>
-        <constraint field="smoothness" desc="" exp=""/>
-        <constraint field="width" desc="" exp=""/>
-        <constraint field="capacity" desc="" exp=""/>
-        <constraint field="layer" desc="" exp=""/>
-        <constraint field="public_tra" desc="" exp=""/>
-        <constraint field="aeroway" desc="" exp=""/>
-        <constraint field="building" desc="" exp=""/>
-        <constraint field="barrier" desc="" exp=""/>
-        <constraint field="oneway" desc="" exp=""/>
-        <constraint field="names" desc="" exp=""/>
-        <constraint field="clean_name" desc="" exp=""/>
-        <constraint field="clean_name2" desc="" exp=""/>
-        <constraint field="genero" desc="" exp=""/>
-        <constraint field="_merge" desc="" exp=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer wkbType="MultiLineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
-      <extent>
-        <xmin>-77.17020940000000451</xmin>
-        <ymin>-12.28406577665569088</ymin>
-        <xmax>-76.87615348076739963</xmax>
-        <ymax>-11.84583522632937935</ymax>
-      </extent>
-      <id>not_sel_coll_all_b24a4447_03f1_4eb0_97d3_3159b338b478</id>
-      <datasource>./data/not_sel_coll_all.geojson</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>not_sel_coll_all</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <legend type="default-vector"/>
-      <expressionfields/>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-      </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
-        <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="255,158,23,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <fieldConfiguration/>
-      <aliases/>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults/>
-      <constraints/>
-      <constraintExpressions/>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <widgets/>
-      <previewExpression></previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer wkbType="MultiLineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
-      <extent>
-        <xmin>-77.1702056999999968</xmin>
-        <ymin>-12.28406577665569088</ymin>
-        <xmax>-76.87615348076739963</xmax>
-        <ymax>-11.84583522632937935</ymax>
-      </extent>
-      <id>not_sel_coll_all_simp10_c00b7703_6b71_4190_a4be_69d0a8993cb0</id>
-      <datasource>./data/not_sel_coll_all_simp10.geojson</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>not_sel_coll_all_simp10</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <legend type="default-vector"/>
-      <expressionfields/>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-      </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
-        <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="183,72,75,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>'[Please define preview text]'</value>
-        </property>
-      </customproperties>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <fieldConfiguration/>
-      <aliases/>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults/>
-      <constraints/>
-      <constraintExpressions/>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns>
-          <column type="actions" hidden="1" width="-1"/>
-        </columns>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <widgets/>
-      <previewExpression>'[Please define preview text]'</previewExpression>
-      <mapTip></mapTip>
-    </maplayer>
-    <maplayer wkbType="MultiLineString" simplifyDrawingTol="1" hasScaleBasedVisibilityFlag="0" type="vector" labelsEnabled="0" readOnly="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" simplifyDrawingHints="1" geometry="Line" refreshOnNotifyEnabled="0" autoRefreshEnabled="0" simplifyLocal="1" simplifyMaxScale="1">
-      <extent>
-        <xmin>-77.17020940000000451</xmin>
-        <ymin>-12.28406577665569088</ymin>
-        <xmax>-76.87615348076739963</xmax>
-        <ymax>-11.84583522632937935</ymax>
-      </extent>
-      <id>not_sel_e586a346_794a_4dc8_94c2_2634f1ba9e28</id>
-      <datasource>./data/not_sel.geojson|layername=not_sel</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>not_sel</layername>
-      <srs>
-        <spatialrefsys>
-          <wkt>GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]]</wkt>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type>dataset</type>
-        <title></title>
-        <abstract></abstract>
-        <links/>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <wkt></wkt>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-      </resourceMetadata>
-      <provider encoding="UTF-8">ogr</provider>
-      <vectorjoins/>
-      <layerDependencies/>
-      <dataDependencies/>
-      <legend type="default-vector"/>
-      <expressionfields/>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <auxiliaryLayer/>
-      <flags>
-        <Identifiable>1</Identifiable>
-        <Removable>1</Removable>
-        <Searchable>1</Searchable>
-      </flags>
-      <renderer-v2 enableorderby="0" symbollevels="0" type="singleSymbol" forceraster="0">
-        <symbols>
-          <symbol alpha="1" type="line" force_rhr="0" clip_to_extent="1" name="0">
-            <layer class="SimpleLine" enabled="1" pass="0" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="232,113,141,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="ring_filter" v="0"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option value="" type="QString" name="name"/>
-                  <Option name="properties"/>
-                  <Option value="collection" type="QString" name="type"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
-        <activeChecks type="StringList">
-          <Option value="" type="QString"/>
-        </activeChecks>
-        <checkConfiguration/>
-      </geometryOptions>
-      <fieldConfiguration>
-        <field name="name">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="highway">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="genero">
-          <editWidget type="">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-      </fieldConfiguration>
-      <aliases>
-        <alias index="0" field="name" name=""/>
-        <alias index="1" field="highway" name=""/>
-        <alias index="2" field="genero" name=""/>
-      </aliases>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <defaults>
-        <default expression="" field="name" applyOnUpdate="0"/>
-        <default expression="" field="highway" applyOnUpdate="0"/>
-        <default expression="" field="genero" applyOnUpdate="0"/>
-      </defaults>
-      <constraints>
-        <constraint constraints="0" exp_strength="0" field="name" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="highway" unique_strength="0" notnull_strength="0"/>
-        <constraint constraints="0" exp_strength="0" field="genero" unique_strength="0" notnull_strength="0"/>
-      </constraints>
-      <constraintExpressions>
-        <constraint field="name" desc="" exp=""/>
-        <constraint field="highway" desc="" exp=""/>
-        <constraint field="genero" desc="" exp=""/>
-      </constraintExpressions>
-      <expressionfields/>
-      <attributeactions>
-        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
-      </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
-        <columns/>
-      </attributetableconfig>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
-      <storedexpressions/>
-      <editform tolerant="1"></editform>
-      <editforminit/>
-      <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
-      <editforminitcode><![CDATA[]]></editforminitcode>
-      <featformsuppress>0</featformsuppress>
-      <editorlayout>generatedlayout</editorlayout>
-      <editable/>
-      <labelOnTop/>
-      <widgets/>
-      <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
   </projectlayers>
@@ -3400,12 +1686,6 @@ def my_form_open(dialog, layer, feature):
     <layer id="gdb_males_47ce8dbc_0ea8_45be_acce_28ef93453c85"/>
     <layer id="gdb_females_ccb36820_8f97_45a5_b263_737b9058a721"/>
     <layer id="gdb_not_7b88f774_e5bb_4362_a966_2da505767bb1"/>
-    <layer id="male_simp10_79079318_8abe_42f9_b02a_6bb2e5685efb"/>
-    <layer id="male_coll_all_60281fe9_448b_4a5c_a2ae_3106b84ce8c0"/>
-    <layer id="male_coll_all_simp10_7b7e82f6_bb1e_47c4_9777_fd237426e7f4"/>
-    <layer id="not_sel_e586a346_794a_4dc8_94c2_2634f1ba9e28"/>
-    <layer id="not_sel_coll_all_b24a4447_03f1_4eb0_97d3_3159b338b478"/>
-    <layer id="not_sel_coll_all_simp10_c00b7703_6b71_4190_a4be_69d0a8993cb0"/>
   </layerorder>
   <properties>
     <Gui>
