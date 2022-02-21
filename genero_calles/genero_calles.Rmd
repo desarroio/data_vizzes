@@ -1,5 +1,5 @@
 ---
-title: "¿de qué mujeres nos hablan nuestras calles?"
+title: "¿de qué mujeres hablan nuestras calles?"
 #author: "desarro.io"
 #date: "2/19/2022"
 output: 
@@ -17,25 +17,26 @@ library(dplyr)
 
 ```{r import data, echo=FALSE, message = FALSE}
 females <- st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
-males <- st_read("data/gdb_males.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
-not <- st_read("data/gdb_not_name.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
+males <- st_read("data/male_coll_all_simp10.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
+not <- st_read("data/not_sel_coll_all_simp10.geojson", quiet = TRUE) 
 distritos <- st_read("data/distritos.geojson", quiet = TRUE) %>% select( 1:6) %>% filter(IDDPTO == "07" | IDPROV == "1501")
 ```
 
 ::: {.bajada}
-Menos del 1% de calles de Lima tiene nombre de mujeres.
+menos del 1% de calles de lima tiene nombres de mujeres.
 :::
 
 ```{r map, echo = FALSE}
 m <- leaflet(options = leafletOptions(minZoom = 12)) %>% 
   setView(-77.022933, -12.068522, zoom = 11) %>%
   addProviderTiles(providers$CartoDB.Positron) %>% 
-  addPolylines(data = males, weight = 1.5, color = "#f1c628", group = "hombre") %>%
+  addPolylines(data = males, weight = 1.5, color = "#f1c628", group = "hombres") %>%
   addPolylines(data = females, weight = 1.5, color = "#5297ac",
-               group = "mujer", label = females$name) %>%
+               group = "mujeres", label = females$name) %>%
+  addPolylines(data = not, weight = 1.5, color = "gray", opacity = 0.3) %>% 
   addPolygons( data = distritos, color = "#967aa1", group = "distritos",
                fill=FALSE, weight = 1) %>%
-  addLayersControl( overlayGroups = c( "mujer", "hombre", "distritos"),
+  addLayersControl( overlayGroups = c( "mujeres", "hombres", "distritos"),
                     options = layersControlOptions(collapsed = FALSE))
 ```
 
@@ -46,3 +47,7 @@ m
 Las calles de Lima y Callao que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas. 
 La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de mujeres es de 0.2 km. 
 Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
+Existen distritos que no tienen calles con nombres de mujeres.
+
+## fuentes y metodología
+La calles fueron descargadas de OSM. Para averiguar si los nombres de las calles corresponden a personas se hizo....
