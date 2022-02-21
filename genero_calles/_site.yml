@@ -1,0 +1,25 @@
+name: Gonzalo Talavera Forlin
+output_dir: '.'
+navbar:
+  title: 
+  type: inverse
+  left:
+  - text: "desarro.io"
+    href: https://desarro.io/
+
+  right:
+  - icon: fa-twitter fa
+    href: https://twitter.com/desarro_io
+  - icon: fa-github fa
+    href: https://github.com/desarroio
+  - icon: fa-linkedin fa
+    href: https://www.linkedin.com/company/desarro-io
+  - icon: fa-envelope-o fa
+    href: mailto:hola@desarro.io
+
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    lib_dir: site_libs
+    self_contained: no
