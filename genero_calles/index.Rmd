@@ -1,0 +1,71 @@
+---
+title: "¿de qué mujeres hablan nuestras calles?"
+#author: "desarro.io"
+#date: "2/19/2022"
+output: 
+  html_document: 
+    css: style.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(sf)
+library(leaflet)
+library(dplyr)
+```
+
+
+```{r import data, echo=FALSE, message = FALSE}
+females <- st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
+males <- st_read("data/male_coll_all_simp10.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
+not <- st_read("data/not_sel_coll_all_simp10.geojson", quiet = TRUE) 
+distritos <- st_read("data/distritos.geojson", quiet = TRUE) %>% select( 1:6) %>% filter(IDDPTO == "07" | IDPROV == "1501")
+```
+
+::: {.bajada}
+menos del 1% de calles de lima tiene nombres de mujeres
+:::
+
+```{r map, echo = FALSE}
+lw <- 2 # set line weight
+m <- leaflet(options = leafletOptions(minZoom = 12)) %>% 
+  setView(-77.022933, -12.068522, zoom = 11) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addPolylines(data = not, weight = lw, color = "#D0D0D0", group = "otras calles") %>%
+  addPolylines(data = males, weight = lw, color = "#f1c628", group = "hombres") %>%
+  addPolylines(data = females, weight = lw, color = "#5297ac", group = "mujeres", 
+               label = females$name) %>%
+  addPolygons( data = distritos, weight = 1, color = "#967aa1", group = "distritos", fill=FALSE) %>%
+  addLegend( position = "bottomright", opacity = 0.8, 
+             labels = c("calles con nombre de mujer", "calles con nombre de hombre", "otras calles", "límite distrital"),
+             colors = c("#5297ac", "#f1c628", "#D0D0D0", "#967aa1")) %>% 
+  addLayersControl( overlayGroups = c( "mujeres", "hombres", "distritos"),
+                    options = layersControlOptions( collapsed = FALSE))
+```
+
+```{r, out.width="1000px", echo= FALSE}
+m
+```
+
+Un vistazo general de la ciudad nos muestra que las calles de Lima y Callao que tienen nombres de mujeres son muy escasas. Las calles que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas, y menos del 1% del total de calles de la ciudad. 
+
+Se pueden ver algunas aglomeraciones de nombres femeninos en la ciudad. La más grande se encuentra en los barrios de Pando y Santa Emma, frente a la Universidad Católica. En poco más de medio kilómetro cuadrado se encuentran un par de decenas de calles con nombres de mujeres, sin embargo todas ellas tienen nombres de santas. El parque más grande del barrio, entre las calles Santa Teodosia y Santa Mariana, se llama Carlos. Otras aglomeraciones con nombres de santas se encuentran en Palao y San Diego (San Martín de Porres), Los Sauces (Ate) e Infantas (Los Olivos).
+
+ ![Santa Emma](images/santa_emma.png) 
+
+Otra aglomeración ocurre en la urbanización Los Rosales, en Surco. En este caso se trata de un grupo de nombres genéricos de mujeres que no representan a ningún personaje (Doña Rosa, Doña Ana, Doña Luisa). La etimología de "doña" refiere a "domina" (dueña de casa), y la palabra solía hacer referencia a una mujer casada. 
+
+ ![Los Rosales](images/los_rosales.png) 
+
+Las dos aglomeraciones más grandes de calles con nombres de mujeres rescatan principalmente dos aspectos: el religioso/la santidad y la dimensión doméstica/el rol de esposa.
+
+En el cono sur aparecen algunos nombres más cercanos al Perú y su historia. Las dos largas avenidas de Villa El Salvador son Micaela Bastidas y María Elena Moyano. En Villa María del Triunfo se encuentran, además de Micaela, María Parado de Bellido, Flora Tristan, Mama Ocllo, Juana Alarco de Dammert, Rosa Merino, Marian Quimper (?). San Juan de Miraflores tiene también una calle dedicada a Violeta Parra. 
+
+![Villa María del Triunfo y Villa el Salvador](images/sur.png) 
+
+La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de mujeres es de 0.2 km. 
+Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
+Existen distritos que no tienen calles con nombres de mujeres.
+
+## fuentes y metodología
+La calles fueron descargadas de OSM. Para averiguar si los nombres de las calles corresponden a personas se hizo....
