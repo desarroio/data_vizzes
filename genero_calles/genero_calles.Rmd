@@ -27,18 +27,18 @@ menos del 1% de calles de lima tiene nombres de mujeres.
 :::
 
 ```{r map, echo = FALSE}
+lw <- 2 # set line weight
 m <- leaflet(options = leafletOptions(minZoom = 12)) %>% 
   setView(-77.022933, -12.068522, zoom = 11) %>%
   addProviderTiles(providers$CartoDB.Positron) %>% 
-  addPolylines(data = not, weight = 1.5, color = "#808080", opacity = 0.3, group = "otras calles") %>%
-  addPolylines(data = males, weight = 1.5, color = "#f1c628", group = "hombres") %>%
-  addPolylines(data = females, weight = 1.5, color = "#5297ac", group = "mujeres", 
+  addPolylines(data = not, weight = lw, color = "#D0D0D0", group = "otras calles") %>%
+  addPolylines(data = males, weight = lw, color = "#f1c628", group = "hombres") %>%
+  addPolylines(data = females, weight = lw, color = "#5297ac", group = "mujeres", 
                label = females$name) %>%
-  addPolygons( data = distritos, color = "#967aa1", group = "distritos",
-               fill=FALSE, weight = 1) %>%
-  addLegend( position = "bottomright", opacity = 0.8,
-             labels = c("calle con nombre de mujer", "calle con nombre de hombre", "otras calles", "límite distrital") ,
-             colors = c("#5297ac", "#f1c628", "#808080", "#967aa1")) %>% 
+  addPolygons( data = distritos, weight = 1, color = "#967aa1", group = "distritos", fill=FALSE) %>%
+  addLegend( position = "bottomright", opacity = 0.8, 
+             labels = c("calles con nombre de mujer", "calles con nombre de hombre", "otras calles", "límite distrital"),
+             colors = c("#5297ac", "#f1c628", "#D0D0D0", "#967aa1")) %>% 
   addLayersControl( overlayGroups = c( "mujeres", "hombres", "distritos"),
                     options = layersControlOptions( collapsed = FALSE))
 ```
