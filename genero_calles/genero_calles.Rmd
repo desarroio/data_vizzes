@@ -23,7 +23,7 @@ distritos <- st_read("data/distritos.geojson", quiet = TRUE) %>% select( 1:6) %>
 ```
 
 ::: {.bajada}
-menos del 1% de calles de lima tiene nombres de mujeres.
+menos del 1% de calles de lima tiene nombres de mujeres
 :::
 
 ```{r map, echo = FALSE}
@@ -47,7 +47,22 @@ m <- leaflet(options = leafletOptions(minZoom = 12)) %>%
 m
 ```
 
-Las calles de Lima y Callao que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas. 
+Un vistazo general de la ciudad nos muestra que las calles de Lima y Callao que tienen nombres de mujeres son muy escasas. Las calles que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas, y menos del 1% del total de calles de la ciudad. 
+
+Se pueden ver algunas aglomeraciones de nombres femeninos en la ciudad. La más grande se encuentra en los barrios de Pando y Santa Emma, frente a la Universidad Católica. En poco más de medio kilómetro cuadrado se encuentran un par de decenas de calles con nombres de mujeres, sin embargo todas ellas tienen nombres de santas. El parque más grande del barrio, entre las calles Santa Teodosia y Santa Mariana, se llama Carlos. Otras aglomeraciones con nombres de santas se encuentran en Palao y San Diego (San Martín de Porres), Los Sauces (Ate) e Infantas (Los Olivos).
+
+ ![Santa Emma](images/santa_emma.png) 
+
+Otra aglomeración ocurre en la urbanización Los Rosales, en Surco. En este caso se trata de un grupo de nombres genéricos de mujeres que no representan a ningún personaje (Doña Rosa, Doña Ana, Doña Luisa). La etimología de "doña" refiere a "domina" (dueña de casa), y la palabra solía hacer referencia a una mujer casada. 
+
+ ![Los Rosales](images/los_rosales.png) 
+
+Las dos aglomeraciones más grandes de calles con nombres de mujeres rescatan principalmente dos aspectos: el religioso/la santidad y la dimensión doméstica/el rol de esposa.
+
+En el cono sur aparecen algunos nombres más cercanos al Perú y su historia. Las dos largas avenidas de Villa El Salvador son Micaela Bastidas y María Elena Moyano. En Villa María del Triunfo se encuentran, además de Micaela, María Parado de Bellido, Flora Tristan, Mama Ocllo, Juana Alarco de Dammert, Rosa Merino, Marian Quimper (?). San Juan de Miraflores tiene también una calle dedicada a Violeta Parra. 
+
+![Villa María del Triunfo y Villa el Salvador](images/sur.png) 
+
 La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de mujeres es de 0.2 km. 
 Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
 Existen distritos que no tienen calles con nombres de mujeres.
