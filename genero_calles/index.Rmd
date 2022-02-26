@@ -37,7 +37,6 @@ db_males <- read_csv("gdb_males.csv", col_types = cols(X1 = col_skip(), osm_id =
 db_not <- read_csv("gdb_not.csv",  col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
 ```
 
-
 ```{r clean-data, include=FALSE}
 females <- females %>%
   filter(!stringr::str_detect(name, "Florencia|Marbella|Bajada de Agua Dulce|Tingo|La Marina|Libertad|la Marina|Esperanza|Irlanda|Agua Marina|Río Santa|Esmeralda|
@@ -53,6 +52,8 @@ db_not <- db_not %>% select(name, highway, genero) %>%
   mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "",
                                                                         'Jirón ' = "", 'Av ' = "")))
 db_all <- bind_rows(db_females, db_males, db_not)
+db_all$genero <- as.factor(db_all$genero)
+levels(db_all$genero) <- c("mujeres", "hombres", "ninguno")
 ```
 
 ::: {.bajada}
@@ -82,7 +83,23 @@ m <- leaflet(width = "100%", options = leafletOptions(minZoom = 12)) %>%
 m
 ```
 
+```{r segment-count, out.height=1}
+ggplot(db_all, aes(y=factor(1), fill=factor(genero, levels = c("ninguno", "hombres", "mujeres"))))+
+  geom_bar(width = 1)+
+  scale_fill_manual(values=c("ninguno"= "#808080", "hombres"="#f1c628", "mujeres"= "#5297ac"))+
+  theme( text = element_text(family = "Sanchez"),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_rect(fill = "#f9f7f3"),
+         legend.title = element_blank())
 
+# print("proporción de segmentos de mujeres respecto a hombres")
+# nrow(db_females)/nrow(db_male)
+# print("proporción de segmentos de mujeres respecto al total")
+# nrow(db_females)/nrow(db_all)
+# print("proporción de segmentos de hombres respecto al total")
+# nrow(db_males)/nrow(db_all)
+```
 
 Un vistazo general de la ciudad nos muestra que las calles de Lima y Callao que tienen nombres de mujeres son muy escasas. Las calles que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas, y menos del 1% del total de calles de la ciudad. 
 
