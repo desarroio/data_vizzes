@@ -12,14 +12,47 @@ knitr::opts_chunk$set(echo = TRUE)
 library(sf)
 library(leaflet)
 library(dplyr)
+library(stringr)
+library(ggplot2)
+library(readr)
+```
+
+```{r import-geodata, echo=FALSE, message = FALSE}
+females <-
+  st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(3, 4, 22)
+males <-
+  st_read("data/male_coll_all_simp10.geojson", quiet = TRUE) %>% select(3, 4, 22)
+not <-
+  st_read("data/not_sel_coll_all_simp10.geojson", quiet = TRUE)
+distritos <-
+  st_read("data/distritos.geojson", quiet = TRUE) %>% select(1:6) %>% filter(IDDPTO == "07" |
+                                                                               IDPROV == "1501")
+```
+
+```{r import-data, echo=FALSE}
+# db_females <- read_csv("gdb_females.csv", col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
+
+db_males <- read_csv("gdb_males.csv", col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
+
+db_not <- read_csv("gdb_not.csv",  col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
 ```
 
 
-```{r import data, echo=FALSE, message = FALSE}
-females <- st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
-males <- st_read("data/male_coll_all_simp10.geojson", quiet = TRUE) %>% select(3, 4, 21, 22)
-not <- st_read("data/not_sel_coll_all_simp10.geojson", quiet = TRUE) 
-distritos <- st_read("data/distritos.geojson", quiet = TRUE) %>% select( 1:6) %>% filter(IDDPTO == "07" | IDPROV == "1501")
+```{r clean-data, include=FALSE}
+females <- females %>%
+  filter(!stringr::str_detect(name, "Tingo|La Marina|Libertad|la Marina|
+                                             La Victoria|La Merced|Arnaldo Márquez")) %>% 
+  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 
+                                                  'Jirón ' = "", 'Av ' = "")))
+
+db_females <- females %>% st_drop_geometry() 
+db_males <- db_males %>% select(name, highway, genero) %>% 
+  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "",
+                                                                        'Jirón ' = "", 'Av ' = ""))) 
+db_not <- db_not %>% select(name, highway, genero) %>% 
+  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "",
+                                                                        'Jirón ' = "", 'Av ' = "")))
+db_all <- bind_rows(db_females, db_males, db_not)
 ```
 
 ::: {.bajada}
@@ -27,14 +60,15 @@ menos del 1% de calles de lima tiene nombres de mujeres
 :::
 
 ```{r map, echo = FALSE}
-lw <- 2 # set line weight
+lw <- 3 # set line weight in pixels
+lo <- 0.4 # set line opacity
 m <- leaflet(width = "100%", options = leafletOptions(minZoom = 12)) %>% 
   setView(-77.022933, -12.068522, zoom = 11) %>%
   setMaxBounds(lng1 = -77.301865, lat1 = -12.525597, lng2 = -76.6, lat2 = -11.56)%>%
   addProviderTiles(providers$CartoDB.Positron) %>% 
-  addPolylines(data = not, weight = lw, color = "#D0D0D0", group = "otras calles") %>%
-  addPolylines(data = males, weight = lw, color = "#f1c628", group = "hombres") %>%
-  addPolylines(data = females, weight = lw, color = "#5297ac", group = "mujeres", 
+  addPolylines(data = not, weight = lw, color = "#D0D0D0", opacity =lo, group = "otras calles") %>%
+  addPolylines(data = males, weight = lw, color = "#f1c628", opacity =lo, group = "hombres") %>%
+  addPolylines(data = females, weight = lw, color = "#5297ac", opacity =lo, group = "mujeres", 
                label = females$name) %>%
   addPolygons( data = distritos, weight = 1, color = "#967aa1", group = "distritos", fill=FALSE) %>%
   addLegend( position = "bottomright", opacity = 0.8, 
@@ -44,11 +78,27 @@ m <- leaflet(width = "100%", options = leafletOptions(minZoom = 12)) %>%
                     options = layersControlOptions( collapsed = FALSE))
 ```
 
-```{r, out.width="1000px", echo= FALSE}
+```{r plot-leaflet, out.width="1000px", echo= FALSE}
 m
 ```
 
+
+
 Un vistazo general de la ciudad nos muestra que las calles de Lima y Callao que tienen nombres de mujeres son muy escasas. Las calles que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas, y menos del 1% del total de calles de la ciudad. 
+
+```{r clean-names}
+  DescTools::Desc(clean_f)
+```
+
+```{r plot-freq}
+f <- db_females %>% group_by(name) %>% summarise(freq=n()) %>% arrange(desc(freq)) %>% slice(1:20)
+d <- ggplot(f, aes(x=freq, y=name))+
+  geom_col()
+d
+
+e <- ggplot(db_females, aes)
+```
+
 
 Se pueden ver algunas aglomeraciones de nombres femeninos en la ciudad. La más grande se encuentra en los barrios de Pando y Santa Emma, frente a la Universidad Católica. En poco más de medio kilómetro cuadrado se encuentran un par de decenas de calles con nombres de mujeres, sin embargo todas ellas tienen nombres de santas. El parque más grande del barrio, entre las calles Santa Teodosia y Santa Mariana, se llama Carlos. Otras aglomeraciones con nombres de santas se encuentran en Palao y San Diego (San Martín de Porres), Los Sauces (Ate) e Infantas (Los Olivos).
 
