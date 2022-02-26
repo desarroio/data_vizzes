@@ -17,7 +17,7 @@ library(ggplot2)
 library(readr)
 ```
 
-```{r import-geodata, echo=FALSE, message = FALSE}
+```{r import-geodata, include=FALSE}
 females <-
   st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(3, 4, 22)
 males <-
@@ -29,7 +29,7 @@ distritos <-
                                                                                IDPROV == "1501")
 ```
 
-```{r import-data, echo=FALSE}
+```{r import-data, include=FALSE}
 # db_females <- read_csv("gdb_females.csv", col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
 
 db_males <- read_csv("gdb_males.csv", col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
@@ -40,8 +40,8 @@ db_not <- read_csv("gdb_not.csv",  col_types = cols(X1 = col_skip(), osm_id = co
 
 ```{r clean-data, include=FALSE}
 females <- females %>%
-  filter(!stringr::str_detect(name, "Tingo|La Marina|Libertad|la Marina|
-                                             La Victoria|La Merced|Arnaldo Márquez")) %>% 
+  filter(!stringr::str_detect(name, "Florencia|Marbella|Bajada de Agua Dulce|Tingo|La Marina|Libertad|la Marina|Esperanza|Irlanda|Agua Marina|Río Santa|Esmeralda|
+                                             La Victoria|La Merced|Belén|Arnaldo Márquez")) %>% 
   mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 
                                                   'Jirón ' = "", 'Av ' = "")))
 
@@ -71,14 +71,14 @@ m <- leaflet(width = "100%", options = leafletOptions(minZoom = 12)) %>%
   addPolylines(data = females, weight = lw, color = "#5297ac", opacity =lo, group = "mujeres", 
                label = females$name) %>%
   addPolygons( data = distritos, weight = 1, color = "#967aa1", group = "distritos", fill=FALSE) %>%
-  addLegend( position = "bottomright", opacity = 0.8, 
+  addLegend( position = "bottomright", opacity = lo, 
              labels = c("calles con nombre de mujer", "calles con nombre de hombre", "otras calles", "límite distrital"),
              colors = c("#5297ac", "#f1c628", "#D0D0D0", "#967aa1")) %>% 
   addLayersControl( overlayGroups = c( "mujeres", "hombres", "distritos"),
                     options = layersControlOptions( collapsed = FALSE))
 ```
 
-```{r plot-leaflet, out.width="1000px", echo= FALSE}
+```{r plot-leaflet, out.width="1000px", echo=FALSE}
 m
 ```
 
@@ -86,17 +86,15 @@ m
 
 Un vistazo general de la ciudad nos muestra que las calles de Lima y Callao que tienen nombres de mujeres son muy escasas. Las calles que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas, y menos del 1% del total de calles de la ciudad. 
 
-```{r clean-names}
-  DescTools::Desc(clean_f)
-```
-
-```{r plot-freq}
+```{r plot-freq, echo=FALSE}
 f <- db_females %>% group_by(name) %>% summarise(freq=n()) %>% arrange(desc(freq)) %>% slice(1:20)
-d <- ggplot(f, aes(x=freq, y=name))+
-  geom_col()
-d
-
-e <- ggplot(db_females, aes)
+ggplot(data = f, aes(x = freq, y = reorder(name, freq)))+
+    geom_col(fill= "#5297ac")+
+    theme(text = element_text(family = "Sanchez"),
+          panel.grid.major = element_blank(),
+          panel.grid.minor = element_blank(),
+          panel.background = element_rect(fill = "#f9f7f3"),
+          axis.text = element_text(size= 10))
 ```
 
 
@@ -118,5 +116,8 @@ La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de
 Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
 Existen distritos que no tienen calles con nombres de mujeres.
 
-## fuentes y metodología
+## créditos, fuentes y metodología
+Esta es una idea original de Carla Solis
+
+Los datos de OSM organizan las calles en segmentos
 La calles fueron descargadas de OSM. Para averiguar si los nombres de las calles corresponden a personas se hizo....
