@@ -57,7 +57,7 @@ levels(db_all$genero) <- c("mujeres", "hombres", "ninguno")
 ```
 
 ::: {.bajada}
-menos del 1% de calles de lima tiene nombres de mujeres
+menos del 2% de calles de lima tiene nombres de mujeres
 :::
 
 ```{r map, echo = FALSE}
@@ -72,7 +72,7 @@ m <- leaflet(width = "100%", options = leafletOptions(minZoom = 12)) %>%
   addPolylines(data = females, weight = lw, color = "#5297ac", opacity =lo, group = "mujeres", 
                label = females$name) %>%
   addPolygons( data = distritos, weight = 1, color = "#967aa1", group = "distritos", fill=FALSE) %>%
-  addLegend( position = "bottomright", opacity = lo, 
+  addLegend( position = "bottomright", opacity = 0.75, 
              labels = c("calles con nombre de mujer", "calles con nombre de hombre", "otras calles", "límite distrital"),
              colors = c("#5297ac", "#f1c628", "#D0D0D0", "#967aa1")) %>% 
   addLayersControl( overlayGroups = c( "mujeres", "hombres", "distritos"),
@@ -83,7 +83,9 @@ m <- leaflet(width = "100%", options = leafletOptions(minZoom = 12)) %>%
 m
 ```
 
-```{r segment-count, out.height=1}
+Un vistazo general de la ciudad nos muestra que la cantidad de calles de Lima y Callao que tiene nombres de mujeres es muy baja. Por cada calle que tiene nombre de mujer existen casi 10 calles que tienen nombres de hombres en la ciudad. 
+
+```{r segment-count, out.height=1, echo=FALSE}
 ggplot(db_all, aes(y=factor(1), fill=factor(genero, levels = c("ninguno", "hombres", "mujeres"))))+
   geom_bar(width = 1)+
   scale_fill_manual(values=c("ninguno"= "#808080", "hombres"="#f1c628", "mujeres"= "#5297ac"))+
@@ -101,7 +103,7 @@ ggplot(db_all, aes(y=factor(1), fill=factor(genero, levels = c("ninguno", "hombr
 # nrow(db_males)/nrow(db_all)
 ```
 
-Un vistazo general de la ciudad nos muestra que las calles de Lima y Callao que tienen nombres de mujeres son muy escasas. Las calles que tienen nombres de mujeres son menos del 5% del total de calles que tienen nombres de personas, y menos del 1% del total de calles de la ciudad. 
+
 
 ```{r plot-freq, echo=FALSE}
 f <- db_females %>% group_by(name) %>% summarise(freq=n()) %>% arrange(desc(freq)) %>% slice(1:20)
