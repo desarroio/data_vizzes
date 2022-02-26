@@ -1,7 +1,7 @@
 # Tweet
 
-Menos del 1% de las calles de Lima y Callao tienen nombre de mujeres (en azul) ¿dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompañanos en este recorrido por la ciudad y las mujeres que nombran sus calles.
-[zoom in con el nombre más tela de todos]
+Alrededor del 1% de las calles de Lima y Callao tienen nombre de mujeres (en azul) ¿dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompañanos en este recorrido por la ciudad y las mujeres que nombran sus calles.
+![](santa_rosa.png)   
 
 Las calles que tienen nombres de mujeres son menos del 1% del total de calles y por cada calle nombrada como mujer hay más de 100 nombradas como hombres. Azul -> calles con nombres de mujere, amarillo -> calle con nombre de hombres. Las calles grises no representan personas.
 [mapa completo]
