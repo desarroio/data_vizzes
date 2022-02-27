@@ -1,5 +1,5 @@
 ---
-title: "¿de qué mujeres hablan nuestras calles?"
+title: "¿De qué mujeres hablan nuestras calles?"
 #author: "desarro.io"
 #date: "2/19/2022"
 output: 
@@ -39,8 +39,7 @@ db_not <- read_csv("gdb_not.csv",  col_types = cols(X1 = col_skip(), osm_id = co
 
 ```{r clean-data, include=FALSE}
 females <- females %>%
-  filter(!stringr::str_detect(name, "Florencia|Marbella|Bajada de Agua Dulce|Tingo|La Marina|Libertad|la Marina|Esperanza|Irlanda|Agua Marina|Río Santa|Esmeralda|
-                                             La Victoria|La Merced|Belén|Arnaldo Márquez")) %>% 
+  filter(!stringr::str_detect(name, "Florencia|Cordillera Blanca|Nevado Sara Sara|América|La Luz|Rio Santa|Marbella|Bajada de Agua Dulce|Tingo|La Marina|Libertad|la Marina|Esperanza|Irlanda|Agua Marina|Río Santa|Esmeralda|Villa Maria|Villa María|Las Mercedes|La Victoria|La Merced|Belén|Arnaldo Márquez|Belen|Alheli|de las Mercedes|Vila Mercedes|Franciso de Paula Ugarriza")) %>% 
   mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 
                                                   'Jirón ' = "", 'Av ' = "")))
 
@@ -57,7 +56,7 @@ levels(db_all$genero) <- c("mujeres", "hombres", "ninguno")
 ```
 
 ::: {.bajada}
-menos del 2% de calles de lima tiene nombres de mujeres
+Menos del 2% de calles de Lima y Callao tienen nombres de mujeres
 :::
 
 ```{r map, echo = FALSE}
@@ -85,7 +84,7 @@ m
 
 Un vistazo general de la ciudad nos muestra que la cantidad de calles de Lima y Callao que tiene nombres de mujeres es muy baja. Por cada calle que tiene nombre de mujer existen casi 10 calles que tienen nombres de hombres en la ciudad. 
 
-```{r segment-count, out.height=1, echo=FALSE}
+```{r segment-count-plot, out.height=1, echo=FALSE}
 ggplot(db_all, aes(y=factor(1), fill=factor(genero, levels = c("ninguno", "hombres", "mujeres"))))+
   geom_bar(width = 1)+
   scale_fill_manual(values=c("ninguno"= "#808080", "hombres"="#f1c628", "mujeres"= "#5297ac"))+
@@ -134,6 +133,10 @@ En el cono sur aparecen algunos nombres más cercanos al Perú y su historia. La
 La longitud promedio de las calles con nombres es de 2.5 km  mientras que las de mujeres es de 0.2 km. 
 Los dos clusters más notorios de nombres femeninos en la ciudad, son el de Pando y Santa Emma, en el Cercado de Lima, y el de la urbanización Los Rosales, en Santiago de Surco. Sin embargo, el primero solo tiene nombres de santas, y el segundo nombres de mujeres genéricas (Doña Rosa, Doña Amalia, etc.).
 Existen distritos que no tienen calles con nombres de mujeres.
+
+```{r}
+```
+
 
 ## créditos, fuentes y metodología
 Esta es una idea original de Carla Solis
