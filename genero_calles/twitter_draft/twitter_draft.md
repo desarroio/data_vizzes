@@ -1,7 +1,7 @@
 # Tweet
 
 1  
-Menos del 2% de las calles de Lima y Callao tienen nombre de mujeres ¿dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompañanos en este recorrido por la ciudad y las mujeres que nombran sus calles.  
+Menos del 2% de las calles de Lima y Callao tienen nombre de mujeres ¿dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.  
 
 ![](../images/santa_rosa.png)   
   
@@ -22,7 +22,7 @@ A pesar de que son pocas, se notan algunas aglomeraciones de calles de mujeres �
 ![](../images/ag_losrosales.png)   
 
 4  
-La algomeración más grande es la de Pando 3era etapa en Cercado de @munilima. Medio km2 de calles con nombres de Santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) El parque más grande del barrio tiene nombre de hombre: Carlos. 😑  
+La aglomeración más grande es la de Pando 3era etapa en Cercado de @munilima. Medio km2 de calles con nombres de Santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) El parque más grande del barrio tiene nombre de hombre: Carlos. 😑  
 
 ![](../images/pando3.png)  
 
@@ -43,7 +43,7 @@ La presencia de figuras religiosas es muy fuerte entre las calles de @MuniLima y
 ![](../images/female_notrel.png)
 
 9 
-De hecho, este intresante reportaje de @rpp_pe y @M_Barrenechea muestra que el 57% de calles de mujeres en Lima corresponde a figuras del ámbito religioso. https://rpp.pe/p/1027018 y nos cuenta un poco sobre ls ocupaciones de las mujeres representadas en nuestras calles.
+De hecho, este interesante reportaje de @rpp_pe y @M_Barrenechea muestra que el 57% de calles de mujeres en Lima corresponde a figuras del ámbito religioso. https://rpp.pe/p/1027018 y nos cuenta un poco sobre ls ocupaciones de las mujeres representadas en nuestras calles.
 
 10 [Creo que este no va, a menos que se resuelva bien lo de los segmentos. Además habría que eliminar angelica gamarra que es en realidad una sola calle]  
 Entre las 20 mujeres más usadas para nombrar calles (conteo de segmentos) 11 son santas (Santa Rosa de Lima es la principal). Las demás son mujeres vinculadas a la independencia, con excepción de Flora Tristán.  
@@ -69,7 +69,7 @@ Otro caso interesante es el de @VesMuni, que aunque no tiene muchas calles con n
 ![](../images/ves.png)
 
 15  
-También llama la atención que en la supuesta "Lima Moderna" hay muy pocas calles con nombre de mujer: solmente 1 en @munijesusmaria; 3 en @Munimiraflores, @muni_lince, @MuniDeMagdalena y @munibarranco; 8 en @munisanisidro (que se reducen a casi la mitad sin contar santas)
+También llama la atención que en la supuesta "Lima Moderna" hay muy pocas calles con nombre de mujer: solamente 1 en @munijesusmaria; 3 en @Munimiraflores, @muni_lince, @MuniDeMagdalena y @munibarranco; 8 en @munisanisidro (que se reducen a casi la mitad sin contar santas)
 
 16  
 Nombrar una calle suele significar un reconocimiento a lugares, personas o hechos que queremos mantener en nuestra memoria colectiva y preservar en el tiempo. ¿A cuántas mujeres hemos reconocido en 490 años de fundación española? ¡Menos de una por año!
@@ -78,7 +78,7 @@ Nombrar una calle suele significar un reconocimiento a lugares, personas o hecho
 Tenemos muchísimas mujeres con trayectorias destacadas en todos los distritos de nuestra ciudad. Nos toca exigir a nuestras autoridades que sean reconocidas y que tengamos más espacios para recordarlas y resaltar su importancia en nuestra sociedad.
 
 18  
-¿Quieres ver si hay calles con nombre de mujer por tu barrio? Fijate en nuestro mapa interactivo aquí 👉 [LINK]
+¿Quieres ver si hay calles con nombre de mujer por tu barrio? Fíjate en nuestro mapa interactivo aquí 👉 [LINK]
 Seguramente conoces muchas mujeres que merecen una calle. ¡Cuéntanos quiénes serían!
 
 19  
