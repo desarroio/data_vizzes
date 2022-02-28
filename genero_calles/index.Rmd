@@ -40,19 +40,16 @@ db_not <- read_csv("gdb_not.csv",  col_types = cols(X1 = col_skip(), osm_id = co
 ```{r clean-data, include=FALSE}
 females <- females %>%
   filter(!str_detect(name, "Florencia|Cordillera Blanca|Nevado Sara Sara|América|La Luz|Rio Santa|Marbella|Bajada de Agua Dulce|Tingo|La Marina|Libertad|la Marina|Esperanza|Irlanda|Agua Marina|Río Santa|Esmeralda|Villa Maria|Villa María|Las Mercedes|La Victoria|La Merced|Belén|Mayor Arce de la Oliva|Arnaldo Márquez|Belen|Alheli|de las Mercedes|Vila Mercedes|Franciso de Paula Ugarriza|Agua Dulce|Galvez Barrenechea|Pissarro|Stowe|Río Elba|Talavera de la Reina|El Palo Rosa|Laurel Rosa|La Calera de la Merced|Keller|Coral|Arnaldo Panizo|Villa Mercedes|La Estrella|Antinio Bastidas|Aguada Blanca|La Caridad|A La Rosa|Mara Caibo|Mar Coral|San Teresita|Torre Blanca|Bella Luz|Luz de Luna|Rio Elba|Estrella|Torres de la Merced|Merino Reyna Oeste|Estrella Polar|Sara Sara|Señor de la Soledad|Puente America|America Unamarca|Palmira|Merced|Cristal|Meier|Merced|Cerro Paloma|J.C. María Tegui|El Dulce|Cielo Punko|Caridad|Azucena|La Veronica|María Tegui|Iris|Arnaldo Marquez|Arco Iris|Margarita|La Perla|Fatima|Isis|Barrenechea|Reyna Talavera|America|Soledad|La Soledad|Las Nieves|Alma")) %>% 
-  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 
-                                                  'Jirón ' = "", 'Av ' = "")))
+  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 'Jirón ' = "", 'Av ' = "", 'Malecón ' = "", 'Malecon ' = "", 'Salida a ' = "", 'Puente ' = "", 'Alameda ' = "", 'Ovalo ' = "" )))
 
 females_notrel <- females %>% filter(!str_detect(name, "Sor|Santa|Beata|Virgen|sor|santa |beata|virgen|María Auxiliadora"))
 females_rel <- females %>% filter(str_detect(name, "Sor|Santa|Beata|Virgen|sor|santa |beata|virgen|María Auxiliadora"))
 
 db_females <- females %>% st_drop_geometry() 
 db_males <- db_males %>% select(name, highway, genero) %>% 
-  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "",
-                                                                        'Jirón ' = "", 'Av ' = ""))) 
+  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 'Jirón ' = "", 'Av ' = "", 'Malecón ' = "", 'Malecon ' = "", 'Salida a ' = "", 'Puente ' = "", 'Alameda ' = "", 'Ovalo ' = "" ))) 
 db_not <- db_not %>% select(name, highway, genero) %>% 
-  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "",
-                                                                        'Jirón ' = "", 'Av ' = "")))
+  mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 'Jirón ' = "", 'Av ' = "", 'Malecón ' = "", 'Malecon ' = "", 'Salida a ' = "", 'Puente ' = "", 'Alameda ' = "", 'Ovalo ' = "" )))
 db_all <- bind_rows(db_females, db_males, db_not)
 db_all$genero <- as.factor(db_all$genero)
 levels(db_all$genero) <- c("mujeres", "hombres", "ninguno")
@@ -107,7 +104,7 @@ ggplot(db_all, aes(y=factor(1), fill=factor(genero, levels = c("ninguno", "hombr
 # nrow(db_males)/nrow(db_all)
 ```
 
-A pesar de que son pocas, se notan algunas aglomeraciones de calles de mujeres 🔎. Pando 3era etapa (frente a la @pucp), Los Rosales (@munisurco1), Palao y San Diego (@Munismp), Los Sauces (@MuniAteOficial), Infantas (Los Olivos) y otras.  
+A pesar de que son pocas, se notan algunas aglomeraciones de calles de mujeres. Pando 3era etapa (frente a la PUCP), Los Rosales (Surco), Palao y San Diego (San Martín de Porres), Los Sauces (Ate), Infantas (Los Olivos) y otras.  
 
 ![](images/ag_pando.png)  
 
@@ -123,16 +120,14 @@ La algomeración más grande es la de Pando 3era etapa en Cercado de Lima. Medio
 
 La segunda aglomeración más grande es la urb. Los Rosales (Surco). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” refiere a “domina” (señora, dueña de casa), y probablemente cuando la escuchamos pensamos en una mujer casada.  
 
-![](images/los_rosales.png)
+![](images/los_rosales.png)  
 
-Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres rescatan principalmente dos dimensiones: la religiosa/la santidad y la doméstica/el rol de esposa. 
-
-La presencia de figuras religiosas es muy fuerte entre las calles de Lima y Callao que tienen nombre de mujer. Fíjate cómo cambia nuestro mapa interactivo cuando desactivas los nombres de personajes religiosas. De hecho, [este  reportaje de RPP y Melissa Barrenechea](https://rpp.pe/p/1027018) muestra que el 57% de calles de mujeres en Lima corresponde a figuras del ámbito religioso.  y nos cuenta un poco sobre ls ocupaciones de las mujeres representadas en nuestras calles.  
+Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres rescatan principalmente dos dimensiones: la religiosa/la santidad y la doméstica/el rol de esposa. La presencia de figuras religiosas es muy fuerte entre las calles de Lima y Callao que tienen nombre de mujer. Fíjate cómo cambia nuestro mapa interactivo cuando desactivas los nombres de personajes religiosas. De hecho, [este  reportaje de RPP y Melissa Barrenechea](https://rpp.pe/p/1027018) muestra que el 57% de calles de mujeres en Lima corresponde a figuras del ámbito religioso.  y nos cuenta un poco sobre ls ocupaciones de las mujeres representadas en nuestras calles.  
 
 ![](images/female_rel.png)
-![](images/female_notrel.png)
+![](images/female_notrel.png)  
 
-Nosotros encontramos, usando el conteo de segmentos (una calle puede estar conformada por más de un segmento, dependiendo de su longitud, número de carriles, acceso, entre otros), que entre las 20 mujeres más usadas para nombrar calles 11 son santas (Santa Rosa de Lima es, por mucho, la principal). Las demás son mujeres vinculadas a la independencia, con excepción de Flora Tristán.  También encontramos, además, que las calles de Lima y Callao mencionan a 138 figuras religiosas mujeres y 261 mujeres de otros ámbitos.
+Nosotros encontramos, usando el conteo de segmentos (una calle puede estar conformada por más de un segmento, dependiendo de su longitud, número de carriles, acceso, entre otros), que entre las 20 mujeres más usadas para nombrar calles 11 son santas (Santa Rosa de Lima es, por mucho, la principal). Las demás son mujeres vinculadas a la independencia, con excepción de Flora Tristán. También encontramos, además, que las calles de Lima y Callao mencionan a 138 figuras religiosas mujeres y 261 mujeres de otros ámbitos.  
 
 ```{r plot-freq, echo=FALSE}
 f <- db_females %>% group_by(name) %>% summarise(freq=n()) %>% arrange(desc(freq)) %>% slice(1:20)
@@ -144,15 +139,17 @@ ggplot(data = f, aes(x = freq, y = reorder(name, freq)))+
           panel.background = element_rect(fill = "#f9f7f3"),
           axis.text = element_text(size= 10))
 ```
+  
+¿Pero además de religiosas, a qué otras mujeres reconocemos en nuestros barrios? Uno de los vecindarios más interesantes es Pando 7ma Etapa (San Miguel, alrededor de av. Universitaria, entre La Marina y la Costanera). Aquí encontramos un grupo de notables mujeres que te invitamos a conocer: Margarita Praxedes (pionera del feminismo peruano), Martha Egúsquiza, Beatriz Cisneros, María Escobar, Luisa Dammert (promotora del voto femenino en XXX)...  
 
-¿Pero además de religiosas, a qué otras mujeres reconocemos en nuestros barrios? Uno de los vecindarios más interesantes es Pando 7ma Etapa (San Miguel, alrededor de av. Universitaria, entre La Marina y la Costanera). Aquí encontramos un grupo de notables mujeres que te invitamos a conocer: Margarita Praxedes (pionera del feminismo peruano), Martha Egúsquiza, Beatriz Cisneros, María Escobar, Luisa Dammert (promotora del voto femenino en XXX)...
+![](images/pando7.png)  
 
-![](images/pando7.png)
+Cerca del Óvalo Naranjal, en Los Olivos, hay otro pequeño grupo notable de calles, en este caso de mujeres vinculadas a la educación, donde se encuentran Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado, entre otras.  
 
-Cerca del Óvalo Naranjal hay otro pequeño grupo notable de calles, en este caso de mujeres vinculadas a la educación, donde se encuentran Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado, entre otras.
-![](images/naranjal.png)
+![](images/naranjal.png)  
 
-Otro caso interesante es el de Villa el Salvador, que aunque no tiene muchas calles con nombre de mujer, tiene 3 largas avenidas en reconocimiento de Micaela Bastidas, María Reiche y María Elena Moyano, esta última estrechamente vinculada a la historia del distrito.
+Otro caso interesante es el de Villa el Salvador, que aunque no tiene muchas calles con nombre de mujer, tiene 3 largas avenidas en reconocimiento de Micaela Bastidas, María Reiche y María Elena Moyano, esta última estrechamente vinculada a la historia del distrito.  
+
 ![](images/ves.png)
 
 También llama la atención que en la supuesta "Lima Moderna" hay muy pocas calles con nombre de mujer: solmente 1 en Jesús María; 3 en Miraflores, Lince, Magdalena y Barranco; y 8 en  San Isidro (que se reducen a casi la mitad si no contamos santas). Además, casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito.
@@ -163,4 +160,4 @@ Tenemos muchísimas mujeres con trayectorias destacadas en todos los distritos d
 
 
 ## créditos, fuentes y metodología  
-Este mapa fue una idea de [Carla Solís]() y ejecutada por ella y el equipo de [desarro.io](desaro.io). Los nombres de calles son de @openstreetmap 🔎, el mapa se hizo con @leafletJS 🍃 y tiles 🗺️ de @carto.
+Este mapa fue una idea de [Carla Solís]() ejecutada por ella y el equipo de [desarro.io](desaro.io). Los nombres de calles son de @openstreetmap 🔎, el mapa se hizo con @leafletJS 🍃 y tiles 🗺️ de @carto.
