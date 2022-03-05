@@ -1,12 +1,12 @@
 # Tweet
 
 1  
-Menos del 2% de las calles de Lima y Callao tienen nombre de mujeres. ¿Dónde están esas calles? ¿quiénes son esas mujeres en nuestra historia? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.  
+¿Dónde están las calles con nombres de mujeres en Lima y Callao? ¿quiénes son esas mujeres en nuestra historia? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.  
 
 ![](../images/santa_rosa.png)   
   
 2  
-Por cada calle con nombre de mujer hay casi 10 nombradas como hombres 🙄. Fíjate que son muy pocas las calles en azul (mujeres) en comparación con las amarillas (hombres). Las calles grises no representan nombres de personas.  
+Hicimos un mapa interactivo para explorar las calles de la ciudad con nombres de mujeres. Fíjate que son muy pocas las calles en azul (con nombres de mujeres) en comparación con las amarillas (hombres). Las calles grises no representan nombres de personas.  
 
 ![](../images/lima.png)   
 
@@ -38,7 +38,7 @@ La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1).
 Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres en la ciudad rescatan principalmente dos dimensiones: la religiosa/la santidad ⛪ y la doméstica/el rol de esposa 🏠. 
 
 8  
-La presencia de figuras femeninas religiosas es muy fuerte entre las calles de @MuniLima y @RegionCallaoPe que tienen nombre de mujer. Fíjate cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de personajes religiosas
+La presencia de figuras femeninas religiosas es muy fuerte entre las calles de @MuniLima y @RegionCallaoPe que tienen nombre de mujer. Fíjate cómo cambia el mapa cuando desactivamos los nombres de personajes religiosas
 ![](../images/female_rel.png)
 ![](../images/female_notrel.png)
 
