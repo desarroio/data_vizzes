@@ -1,7 +1,7 @@
 # Tweet
 
 1  
-Menos del 2% de las calles de Lima y Callao tienen nombre de mujeres. ¿Dónde están esas calles? ¿quiénes son esas mujeres en nuestra historia? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.  
+Menos del 2% de las calles de Lima y Callao tienen nombre de mujeres. ¿Dónde están esas calles? ¿quiénes son esas mujeres en nuestra historia? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.
 
 ![](../images/santa_rosa.png)   
   
