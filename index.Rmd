@@ -160,4 +160,4 @@ Tenemos muchísimas mujeres con trayectorias destacadas en todos los distritos d
 
 
 ## créditos, fuentes y metodología  
-Este mapa fue una idea de [Carla Solís]() ejecutada por ella y el equipo de [desarro.io](desaro.io). Los nombres de calles son de @openstreetmap 🔎, el mapa se hizo con @leafletJS 🍃 y tiles 🗺️ de @carto.
+Este mapa fue es un trabajo del equipo de [desarro.io](desaro.io). La idea y propototipo en python es de [Carla Solis](https://github.com/ccsuehara). El desarrollo web es de [Gonzalo Talavera](https://github.com/gtalavera). La historia, redacción de los textos y factchecking son de Daniela Velit, Ioanna Gallo y Gonzalo Talavera. Los nombres de calles son de @openstreetmap 🔎, el mapa se hizo con @leafletJS 🍃 y tiles 🗺️ de @carto.
