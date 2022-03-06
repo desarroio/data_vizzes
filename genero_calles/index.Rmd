@@ -19,9 +19,9 @@ library(readr)
 
 ```{r import-geodata, include=FALSE}
 females <-
-  st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(3, 4, 22)
+  st_read("data/gdb_females.geojson", quiet = TRUE) %>% select(7, 22)
 males <-
-  st_read("data/male_coll_all_simp10.geojson", quiet = TRUE) %>% select(3, 4, 22)
+  st_read("data/male_coll_all_simp10.geojson", quiet = TRUE) %>% select(7)
 not <-
   st_read("data/not_sel_coll_all_simp10.geojson", quiet = TRUE)
 distritos <-
@@ -30,8 +30,6 @@ distritos <-
 ```
 
 ```{r import-data, include=FALSE}
-# db_females <- read_csv("gdb_females.csv", col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
-
 db_males <- read_csv("gdb_males.csv", col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
 
 db_not <- read_csv("gdb_not.csv",  col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
