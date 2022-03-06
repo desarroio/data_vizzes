@@ -1,7 +1,7 @@
 /* Whole document: */
 
 nav ul, footer ul {
-    font-family:'Sanchez', 'Comic Sans MS', 'Sans-Serif';
+    font-family:'Arvo', Roboto, Arial;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 
 body{
-  font-family:"Arvo", Sanchez,Arial;
+  font-family:"Arvo", Roboto,Arial;
   font-size: 11.5pt;
   margin-bottom: 30px;
   background-color: #F9F7F3;
