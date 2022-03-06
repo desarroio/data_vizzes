@@ -1,6 +1,0 @@
-"0","females <-"
-"0","  st_read(""data/gdb_females.geojson"", quiet = TRUE) %>% select(7, 21, 22)"
-"0","males <-"
-"0","  st_read(""data/male_coll_all_simp10.geojson"", quiet = TRUE) %>% select(7)"
-"0","not <-"
-"0","  st_read(""data/not_sel_coll_all_simp10.geojson"", quiet = TRUE)"

@@ -1,8 +1,0 @@
-"0","f <- db_females %>% group_by(name) %>% summarise(freq=n()) %>% arrange(desc(freq)) %>% slice(1:20)"
-"0","ggplot(data = f, aes(x = freq, y = reorder(name, freq)))+"
-"0","    geom_col(fill= ""#5297ac"")+"
-"0","    theme(text = element_text(family = ""Sanchez""),"
-"0","          panel.grid.major = element_blank(),"
-"0","          panel.grid.minor = element_blank(),"
-"0","          panel.background = element_rect(fill = ""#f9f7f3""),"
-"0","          axis.text = element_text(size= 10))"

@@ -1,7 +1,0 @@
-"0",""
-"0","# print(""proporción de segmentos de mujeres respecto a hombres"")"
-"0","# nrow(db_females)/nrow(db_male)"
-"0","# print(""proporción de segmentos de mujeres respecto al total"")"
-"0","# nrow(db_females)/nrow(db_all)"
-"0","# print(""proporción de segmentos de hombres respecto al total"")"
-"0","# nrow(db_males)/nrow(db_all)"

@@ -1,3 +1,0 @@
-"0","db_not <- read_csv(""gdb_not.csv"",  col_types = cols(X1 = col_skip(), osm_id = col_skip(), railway = col_skip(), amenity = col_skip(), operator = col_skip(), parking = col_skip(), surface = col_skip(), tunnel = col_skip(), oneway = col_skip(), geometry = col_skip(), bridge = col_skip(), smoothness = col_skip(), width = col_skip(), capacity = col_skip(), layer = col_skip(),  public_tra = col_skip(), aeroway = col_skip(), building = col_skip(),  barrier = col_skip(), names = col_skip(), genero = col_character(),  `_merge` = col_skip()))
-"
-"2","Missing column names filled in: 'X1' [1]"
