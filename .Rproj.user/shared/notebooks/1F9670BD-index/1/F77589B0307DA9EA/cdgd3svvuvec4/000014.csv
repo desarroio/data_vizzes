@@ -1,0 +1,18 @@
+"0","m <- leaflet(width = ""100%"", options = leafletOptions(minZoom = 10)) %>% 
+  setView(-77.022933, -12.068522, zoom = 11) %>%
+  setMaxBounds(lng1 = -77.301865, lat1 = -12.525597, lng2 = -76.6, lat2 = -11.56)%>%
+  addProviderTiles(providers$CartoDB.Positron) %>% 
+  addPolylines(data = not, weight = lw, color = ""#D0D0D0"", opacity =lo, group = ""otras calles"") %>%
+  addPolylines(data = males, weight = lw, color = ""#f1c628"", opacity =lo, group = ""hombres"") %>%
+  addPolylines(data = females_rel, weight = lw, color = ""#5297ac"", opacity =lo, group = ""figuras religiosas mujeres"", 
+               label = females_rel$name) %>%
+  addPolylines(data = females_notrel, weight = lw, color = ""#5297ac"", opacity =lo, group = ""mujeres no religiosas"", 
+               label = females_notrel$name) %>%
+  addPolygons( data = distritos, weight = 1, color = ""#967aa1"", group = ""distritos"", fill=FALSE) %>%
+  addLegend( position = ""bottomright"", opacity = 0.75, 
+             labels = c(""calles con nombre de mujer"", ""calles con nombre de hombre"", ""otras calles"", ""límite distrital""),
+             colors = c(""#5297ac"", ""#f1c628"", ""#D0D0D0"", ""#967aa1"")) #%>% 
+"
+"2","Error in polygonData.default(data) : 
+  Don't know how to get path data from object of class character
+"

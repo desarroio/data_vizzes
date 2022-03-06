@@ -1,0 +1,8 @@
+"0","ggplot(db_all, aes(y=factor(1), fill=factor(genero, levels = c(""ninguno"", ""hombres"", ""mujeres""))))+"
+"0","  geom_bar(width = 1)+"
+"0","  scale_fill_manual(values=c(""ninguno""= ""#808080"", ""hombres""=""#f1c628"", ""mujeres""= ""#5297ac""))+"
+"0","  theme( text = element_text(family = ""Sanchez""),"
+"0","         panel.grid.major = element_blank(),"
+"0","         panel.grid.minor = element_blank(),"
+"0","         panel.background = element_rect(fill = ""#f9f7f3""),"
+"0","         legend.title = element_blank())"
