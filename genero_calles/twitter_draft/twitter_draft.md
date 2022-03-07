@@ -90,7 +90,7 @@ Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la c
 En el Perú y el mundo existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad.
 
 18  
-Explora las calles asignadas con nombre de mujer en tu barrio. Fíjate cuáles son en nuestro mapa interactivo aquí 👉 [LINK]
+Explora las calles asignadas con nombre de mujer en tu barrio. Fíjate cuáles son en nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/
 ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
 19  
