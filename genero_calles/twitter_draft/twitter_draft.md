@@ -24,7 +24,7 @@ Encontramos algunas aglomeraciones de calles que recibieron nombres de mujeres �
 
 ![](../../images/ag_sandiego.png)  
 
-![](../../images/ag_losrosales.png)   
+![](../../images/ag_infantas.png)   
 
 4  
 Una de las más grandes es la aglomeración en Pando 3era etapa, en Cercado de @munilima. 1/2 km2 de calles de nombres de santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) Sin embargo, al parque más grande del barrio se le asignó a un nombre masculino y laico: Carlos. 😑  
