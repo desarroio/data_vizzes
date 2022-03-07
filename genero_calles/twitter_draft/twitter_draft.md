@@ -8,7 +8,7 @@ Son pocas las calles de Lima y Callao a las que se les asignaron nombres de muje
 2  
 Existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. En nuestro recuento encontramos que las calles de Lima rinden homenaje a 3448 hombres y solo a 406 mujeres. Más de 8 hombres por cada mujer. Aquí algunos nombres frecuentes👇  
 
-[Falta figura con principales nombres de hombres y de mujeres]
+![](../../images/nombres.png)   
 
 3  
 ¿Quiénes eligieron estos nombres y por qué? 🙄 Fíjate que son muy pocas las calles en azul (mujeres) en comparación con las amarillas (hombres). Las calles grises no representan nombres de personas.
@@ -18,7 +18,7 @@ Existe un patrón en la asignación de calles de Lima y Callao: las mujeres no s
 4  
 Encontramos algunas aglomeraciones de calles que recibieron nombres de mujeres 🔎: Pando 3era etapa (frente a la @pucp), Los Rosales (@munisurco1), Palao y San Diego (@Munismp), Los Sauces (@MuniAteOficial), Infantas (Los Olivos) y otras.  
 
-![](../../images/ag_pando.png)  
+![](../../images/ag_pando3.png)  
 
 ![](../../images/ag_losrosales.png)  
 
@@ -33,6 +33,9 @@ Una de las más grandes es la aglomeración en Pando 3era etapa, en Cercado de @
 
 5  
 Otras pequeñas aglomeraciones de calles con nombres femeninos aparecen en San Martín de Porres, Ate y Los Olivos pero corresponden otra vez a nombres de santas.
+
+![](../../images/palao.png)  
+![](../../images/lossauces.png)  
 
 6  
 La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” viene del latin “domina” (dueña de casa, mujer casada), y ninguna de ellas tiene apellido.  
@@ -80,8 +83,8 @@ Al nombrar una calle creamos una narrativa de cómo es un lugar: le damos carác
 18
 Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas, principalmente hombres, pero la ciudad más nueva parece optar por nombres más neutrales (fechas, lugares, números, plantas, profesiones...)  
 
-![](../images/metzger_et_al.png)
-![](../images/female_rel.png)
+![](../../images/metzger_et_al.png)
+![](../../images/female_rel.png)
 
 17  
 En el Perú y el mundo existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad.
