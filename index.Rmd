@@ -54,9 +54,10 @@ levels(db_all$genero) <- c("mujeres", "hombres", "ninguno")
 ```
 
 ::: {.bajada}
-Solo 406 mujeres tienen calles con su nombre en Lima y Callao. ¿Dónde están esas calles? ¿quiénes son esas mujeres en nuestra historia? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.
+Solo 406 mujeres tienen calles designadas con sus nombres en Lima y Callao. ¿Dónde están esas calles? ¿quiénes son esas mujeres en nuestra historia? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.
 :::
-
+  
+  
 ```{r map, echo = FALSE}
 lw <- 3 # set line weight in pixels
 lo <- 0.4 # set line opacity
@@ -84,80 +85,68 @@ m <- leaflet(width = "100%", options = leafletOptions(minZoom = 10)) %>%
 m
 ```
 
-Un vistazo general de la ciudad nos muestra que la cantidad de calles de Lima y Callao que tiene nombres de mujeres es muy baja. Por cada calle que tiene nombre de mujer existen casi 10 calles que tienen nombres de hombres en la ciudad. 
+Un vistazo general de la ciudad nos muestra que existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. Mientras las calles de la ciudad rinden homenaje a 3448 hombres, solamente 406 mujeres fueron reconocidas para ello. Más de 8 hombres por cada mujer.  
 
-```{r segment-count-plot, fig.height=2, echo=FALSE}
-ggplot(db_all, aes(y=factor(1), fill=factor(genero, levels = c("ninguno", "hombres", "mujeres"))))+
-  geom_bar(width = 1)+
-  scale_fill_manual(values=c("ninguno"= "#808080", "hombres"="#f1c628", "mujeres"= "#5297ac"))+
-  theme( text = element_text(family = "Sanchez"),
-         panel.grid.major = element_blank(),
-         panel.grid.minor = element_blank(),
-         panel.background = element_rect(fill = "#f9f7f3"),
-         legend.title = element_blank())
+![](images/nombres.png){height=400px}  
 
-# print("proporción de segmentos de mujeres respecto a hombres")
-# nrow(db_females)/nrow(db_male)
-# print("proporción de segmentos de mujeres respecto al total")
-# nrow(db_females)/nrow(db_all)
-# print("proporción de segmentos de hombres respecto al total")
-# nrow(db_males)/nrow(db_all)
-```
+A pesar de eso, se pueden encontrar algunas aglomeraciones de calles que recibieron nombre de mujeres como: Pando 3era etapa (frente a la PUCP), Los Rosales (Surco), Palao y San Diego (San Martín de Porres), Los Sauces (Ate), Infantas (Los Olivos) y otras.
 
-A pesar de que son pocas, se notan algunas aglomeraciones de calles de mujeres. Pando 3era etapa (frente a la PUCP), Los Rosales (Surco), Palao y San Diego (San Martín de Porres), Los Sauces (Ate), Infantas (Los Olivos) y otras.  
 
-![](images/ag_pando.png)  
+![](images/ag_pando3.png){height=300px}
+![](images/ag_losrosales.png){height=300px}  
 
-![](images/ag_losrosales.png)  
-
-![](images/ag_sandiego.png)  
-
-![](images/ag_losrosales.png)   
+![](images/ag_sandiego.png){height=300px}
+![](images/ag_losrosales.png){height=300px}   
   
-La algomeración más grande es la de Pando 3era etapa en Cercado de Lima. Medio km2 de calles con nombres de Santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) El parque más grande del barrio tiene nombre de hombre: Carlos. Otras aglomeraciones de cierto tamaño en SMP, Ate y los Olivos también corresponden únicamente a nombres de santas.  
+Una de las aglomeraciones más grandes de calles con nombres femeninos es la de Pando 3era etapa en Cercado de Lima. Se trata de medio km2 de calles con nombres de Santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.). En medio de todas esas calles, al parque más grande del barrio se le asignó un nombre masculino y laico: Carlos. Otras pequeñas aglomeraciones de calles con nombres femeninos aparecen en San Martín de Porres, Ate y Los Olivos pero corresponden otra vez a nombres de santas.  
 
-![](images/pando3.png)  
+![](images/pando3.png){height=300px}  
 
-La segunda aglomeración más grande es la urb. Los Rosales (Surco). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” refiere a “domina” (señora, dueña de casa), y probablemente cuando la escuchamos pensamos en una mujer casada.  
+La segunda aglomeración más grande está en la urb. Los Rosales, en Santiago de Surco. Se trata de un grupo de calles con nombres de mujeres pero sin apellidos, y que vienen precedidos por la palabra “doña” (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” viene del latín “domina” (dueña de casa, mujer casada). Al tratarse de mujeres anónimas, ninguna cuenta con una biografía.
 
-![](images/los_rosales.png)  
+![](images/los_rosales.png){height=300px}  
 
-Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres rescatan principalmente dos dimensiones: la religiosa/la santidad y la doméstica/el rol de esposa. La presencia de figuras religiosas es muy fuerte entre las calles de Lima y Callao que tienen nombre de mujer. Fíjate cómo cambia nuestro mapa interactivo cuando desactivas los nombres de personajes religiosas. De hecho, [este  reportaje de RPP y Melissa Barrenechea](https://rpp.pe/p/1027018) muestra que el 57% de calles de mujeres en Lima corresponde a figuras del ámbito religioso.  y nos cuenta un poco sobre ls ocupaciones de las mujeres representadas en nuestras calles.  
+Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres en la ciudad rescatan principalmente dos dimensiones: la religiosa/la santidad y la doméstica/el rol de esposa. Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de Lima y Callao. Fíjate cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas. De hecho,  el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
 
-![](images/female_rel.png)
-![](images/female_notrel.png)  
+![](images/female_rel.png){height=300px}
+![](images/female_notrel.png){height=300px}  
 
-Nosotros encontramos, usando el conteo de segmentos (una calle puede estar conformada por más de un segmento, dependiendo de su longitud, número de carriles, acceso, entre otros), que entre las 20 mujeres más usadas para nombrar calles 11 son santas (Santa Rosa de Lima es, por mucho, la principal). Las demás son mujeres vinculadas a la independencia, con excepción de Flora Tristán. También encontramos, además, que las calles de Lima y Callao mencionan a 138 figuras religiosas mujeres y 261 mujeres de otros ámbitos.  
+Además de religiosas, ¿qué otros aportes de las mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (San Miguel, cerca de av. Universitaria, y La Marina). En este barrio encontramos calles con nombres de mujeres notables que te invitamos a conocer: [Margarita Práxedes](https://es.wikipedia.org/wiki/Margarita_Pr%C3%A1xedes_Mu%C3%B1oz) (pionera del feminismo peruano) y [Luisa Dammert](https://www.mimp.gob.pe/webs/mimp/sispod/pdf/89.pdf) (promotora del voto femenino en el siglo XX). Además de Martha Egúsquiza, Beatriz Cisneros y María Escobar. Ninguna de ellas está reseñada en Wikipedia.
 
-```{r plot-freq, echo=FALSE}
-f <- db_females %>% group_by(name) %>% summarise(freq=n()) %>% arrange(desc(freq)) %>% slice(1:20)
-ggplot(data = f, aes(x = freq, y = reorder(name, freq)))+
-    geom_col(fill= "#5297ac")+
-    theme(text = element_text(family = "Sanchez"),
-          panel.grid.major = element_blank(),
-          panel.grid.minor = element_blank(),
-          panel.background = element_rect(fill = "#f9f7f3"),
-          axis.text = element_text(size= 10))
-```
-  
-¿Pero además de religiosas, a qué otras mujeres reconocemos en nuestros barrios? Uno de los vecindarios más interesantes es Pando 7ma Etapa (San Miguel, alrededor de av. Universitaria, entre La Marina y la Costanera). Aquí encontramos un grupo de notables mujeres que te invitamos a conocer: Margarita Praxedes (pionera del feminismo peruano), Martha Egúsquiza, Beatriz Cisneros, María Escobar, Luisa Dammert (promotora del voto femenino en XXX)...  
+![](images/pando7.png){height=300px}  
 
-![](images/pando7.png)  
+Cerca del Óvalo Naranjal, en Los Olivos, hay un pequeño grupo de calles con nombres de mujeres activistas por la educación de la mujer peruana, como [Elvira García](https://es.wikipedia.org/wiki/Elvira_Garc%C3%ADa_y_Garc%C3%ADa), [Mercedes Indacochea](https://es.wikipedia.org/wiki/Mercedes_Indacochea), [Teresa Gonzáles de Fanning](https://es.wikipedia.org/wiki/Teresa_Gonz%C3%A1lez_de_Fanning) y [Esther Salgado](https://sites.google.com/site/jlcapristano/biografia#:~:text=Se%20adjudica%20el%20nombre%20de,1974%2C%20falleciendo%20ese%20mismo%20a%C3%B1o.).
 
-Cerca del Óvalo Naranjal, en Los Olivos, hay otro pequeño grupo notable de calles, en este caso de mujeres vinculadas a la educación, donde se encuentran Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado, entre otras.  
+![](images/naranjal.png){height=300px}  
 
-![](images/naranjal.png)  
+Otro caso destacable es el de Villa el Salvador, que tiene 3 largas avenidas en memoria a [Micaela Bastidas](https://es.wikipedia.org/wiki/Micaela_Bastidas), [María Reiche](https://es.wikipedia.org/wiki/Maria_Reiche) y [María Elena Moyano](https://es.wikipedia.org/wiki/Mar%C3%ADa_Elena_Moyano), esta última estrechamente vinculada a la historia del distrito. Sin embargo, en el mismo distrito existen pocas calles a las que se les otorgó nombre de mujer.
 
-Otro caso interesante es el de Villa el Salvador, que aunque no tiene muchas calles con nombre de mujer, tiene 3 largas avenidas en reconocimiento de Micaela Bastidas, María Reiche y María Elena Moyano, esta última estrechamente vinculada a la historia del distrito.  
+![](images/ves.png){height=300px}
 
-![](images/ves.png)
+También llama la atención que en la “Lima Moderna” existan pocas calles designadas con nombres de mujeres: solamente 1 en Jesús María; 3 en Miraflores ([Maria Parado de Bellido](https://es.wikipedia.org/wiki/Mar%C3%ADa_Parado_de_Bellido), Sor Mate, Sor Tita, Santa Carmen, Santa María), Lince, Magdalena y Barranco; y 8 en San Isidro (que se reducen a casi la mitad si no contamos santas). Sin embargo, llama la atención que casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito. 
 
-También llama la atención que en la supuesta "Lima Moderna" hay muy pocas calles con nombre de mujer: solmente 1 en Jesús María; 3 en Miraflores, Lince, Magdalena y Barranco; y 8 en  San Isidro (que se reducen a casi la mitad si no contamos santas). Además, casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito.
+Al nombrar una calle creamos una narrativa de cómo es un lugar: le damos carácter y recordamos la historia. En sus 490 años de fundación española, ¿a cuántas mujeres nos invita a recordar Lima? ¿A cuántas reconoce el país en sus 200 años de Independencia? ¡Menos de dos por año!
 
-Nombrar una calle suele significar un reconocimiento a lugares, personas o hechos que queremos mantener en nuestra memoria colectiva y preservar en el tiempo. ¿A cuántas mujeres hemos reconocido en 490 años de fundación española? ¡Menos de una por año!
-
-Tenemos muchísimas mujeres con trayectorias destacadas en todos los distritos de nuestra ciudad. Nos toca exigir a nuestras autoridades que sean reconocidas y que tengamos más espacios para recordarlas y resaltar su importancia en nuestra sociedad. Seguramente conoces muchas mujeres que merecen una calle. ¡Cuéntanos quiénes serían!
+En el Perú existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad. ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
 
-## créditos, fuentes y metodología  
-Este mapa fue es un trabajo del equipo de [desarro.io](desaro.io). La idea y propototipo en python es de [Carla Solis](https://github.com/ccsuehara). El desarrollo web es de [Gonzalo Talavera](https://github.com/gtalavera). La historia, redacción de los textos y factchecking son de Daniela Velit, Ioanna Gallo y Gonzalo Talavera. Los nombres de calles son de @openstreetmap 🔎, el mapa se hizo con @leafletJS 🍃 y tiles 🗺️ de @carto.
+## Créditos  
+Este es un trabajo del equipo de [desarro.io](desaro.io). La idea y propototipo en python es de [Carla Solis](https://github.com/ccsuehara), el desarrollo web es de [Gonzalo Talavera Forlin](https://gtalavera.github.io/). La historia, textos y factchecking son de Ioanna Gallo y Gonzalo Talavera Forlin y Carlos Julio San Martín. El análisis de datos es de Carla Solís y Luis Eduardo San Martín.
+
+## Fuentes  
+Los nombres de calles son de [OpenStreetMap](https://www.openstreetmap.org/) 🔎, el mapa se hizo con [Leaflet](https://leafletjs.com/) 🍃 y tiles 🗺️ de [Carto](https://carto.com/).
+
+## Bibliografía y otros recursos  
+El proyecto [Las calles de las mujeres](https://geochicasosm.github.io/lascallesdelasmujeres/), de Geochicas, identifica las calles con nombres de mujeres en distintas ciudades latinoamericanas y enlaza a las biografías disponibles en Wikipedia.
+
+[Este reportaje de RPP y Melissa Barrenechea](https://rpp.pe/lima/actualidad/reportaje-cuantas-calles-de-lima-tienen-nombre-de-mujer-noticia-1027018?ref=rpp) muestra que el 57% de calles asignadas a nombres de mujeres en Lima corresponde a figuras del ámbito religioso, y da cuenta de las ocupaciones de estas mujeres conmemoradas con una calle.  
+
+En el libro [Mujeres con Calle](https://issuu.com/elingeniosocorreo/docs/mujeres_con_calle), alumnes del colegio José Antonio Encinas recopilan biografías sobre Mariana Echevarría, Justa García Robledo, Ernestina Zamorano y Bartola Sánchez Dávila. 
+
+'Los nombres de las calles despliegan una “política de la memoria” orientada a que la ciudadanía guarde recuerdo y agradezca a sus compatriotas más ilustres...', dice [Gonzalo Portocarrero](https://elcomercio.pe/opinion/columnistas/nombres-calles-gonzalo-portocarrero-noticia-lima-calles-avenidas-479334-noticia/), y señala que los nombres de calles pueden mostrar también la falta de reconocimiento de algunos sectores de la sociedad en detrimento de otros. Gonzalo muestra una "relativa ausencia de personajes andinos" y señala también la persistencia de una calle como Los Conquistadores, en @munisanisidro, que "supone una identificación con una tropa de invasores y saqueadores que pretendieron convertirse en los dueños del Tahuantinsuyo".
+
+Deirdre Mask, en su libro [The Adress Book](https://www.deirdremask.com/) muestra casos alrededor del mundo sobre como los nombres de calles premiten observar también sesgos de clase o raza, estigmatización, identidad y poder. 
+
+Pierre-Nicholas Schwab, en [The feminisation of street names: useful debate or a political artifice?](https://www.intotheminds.com/blog/en/feminisation-street-names/), muestra algunos proyectos de mapeo de calles de mujeres y explora la relevancia de la feminización de los nombres de las calles.
+
+[Esta nota de la BBC](https://www.bbc.com/future/article/20210712-streetonomics-what-our-addresses-say-about-us) reseña [el trabajo de Bancilhon, M., Constantinides, M., Bogucka, E. P., Aiello, L. M., & Quercia, D.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252869&fbclid=IwAR3ooMZQ2iS0Dih1KSMyHBrDkMWt2_syipwp73_6_afE6lpInpNI-yWX5Hk) en el que exploran los sesgos de género, identifican las profesiones consideradas de élite y la influencia del extranjero en Paris, Viena, Londres y Nueva York, a partir del análisis de los nombres de las calles.
