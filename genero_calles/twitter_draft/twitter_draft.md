@@ -6,7 +6,7 @@ Son pocas las calles de Lima y Callao a las que se les asignaron nombres de muje
 ![](../../images/twitter1.gif)   
   
 2  
-Existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. En nuestro recuento encontramos que las calles de Lima rinden homenaje a 3448 hombres y solo a 406 mujeres. Más de 8 hombres por cada mujer. Aquí algunos nombres frecuentes👇  
+Existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. En nuestro recuento encontramos que las calles de la ciudad rinden homenaje a 3448 hombres y solo a 406 mujeres. Más de 8 hombres por cada mujer. Aquí algunos nombres frecuentes👇  
 
 ![](../../images/nombres.png)   
 
@@ -51,7 +51,7 @@ Existe una fuerte presencia de calles con nombres femeninos de religiosas entre 
 ![](../../images/female_notrel.png)
 
 9  
-Dehecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
+De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
 
 10  
 @M_Barrenechea de @rpp_pe mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras del ámbito religioso, seguidas de lejos por: patriotas del movimiento independentista, escritoras, educadoras, artistas, figuras del imperio incaico, entre otras https://rpp.pe/p/1027018
@@ -104,13 +104,7 @@ Si te interesó el tema date una vuelta por "Las calles de las mujeres" de @geoc
 y revisa también el libro "Mujeres con Calle", en el que alumnes del colegio José Antonio Encinas recopilan biografías sobre Mariana Echevarría, Justa García Robledo, Ernestina Zamorano y Bartola Sánchez Dávila. https://issuu.com/elingeniosocorreo/docs/mujeres_con_calle
 
 22
-Refe:
-Metzger, P., Gluski, P., Robert, J., & Sierra, A. (2015). Atlas problemático de una metrópoli vulnerable. Desigualdades urbanas en Lima y Callao. Lima: @IFEAPeru. https://www.ifea.org.pe/libreria/travaux/331/pdf/atlas-problematico-es.pdf
-
-Streetonomics
-
-
-
+El mapa de la expansión de Lima es de Metzger, P., Gluski, P., Robert, J., & Sierra, A. (2015). Atlas problemático de una metrópoli vulnerable. Desigualdades urbanas en Lima y Callao. Lima: @IFEAPeru. https://www.ifea.org.pe/libreria/travaux/331/pdf/atlas-problematico-es.pdf
 
 
 
@@ -129,15 +123,3 @@ la persistencia de una calle como Los Conquistadores, en @munisanisidro, que "su
 
 20 y @Deirdre_Mask en su libro "The Adress Book" muestra casos alrededor del mundo sobre como los nombres de calles premiten observar también sesgos de clase o raza, estigmatización, identidad y poder https://www.deirdremask.com/. 
 
-
-
-
-
-10  
-
-Algunos de los nombres más usados para calles muestran también diferencias entre los roles valorados en hombres y en mujeres. XXXXXXX
-
-![](../../images/top_female.png)  
-
-11 [Creo que este no va, a menos que se filtre mejor ya que el número de mujeres únicas está sobreestimado en este calculo]  
-También encontramos, además, que las calles de Lima y Callao mencionan a 138 figuras religiosas mujeres y 261 mujeres de otros ámbitos.
