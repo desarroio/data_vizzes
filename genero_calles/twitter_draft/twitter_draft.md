@@ -6,7 +6,7 @@ Son pocas las calles de Lima y Callao a las que se les asignaron nombres de muje
 ![](../../images/twitter1.gif)   
   
 2  
-Existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. En nuestro recuento encontramos que las calles de la ciudad rinden homenaje a 3448 hombres y solo a 406 mujeres. Más de 8 hombres por cada mujer. Aquí algunos nombres frecuentes👇  
+Existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. Las calles de la ciudad rinden homenaje a 3448 hombres y solo a 406 mujeres. Más de 8 hombres por cada mujer. Aquí algunos nombres frecuentes👇  
 
 ![](../../images/nombres.png)   
 
@@ -27,7 +27,7 @@ Encontramos algunas aglomeraciones de calles que recibieron nombres de mujeres �
 ![](../../images/ag_infantas.png)   
 
 4  
-Una de las más grandes es la aglomeración en Pando 3era etapa, en Cercado de @munilima. 1/2 km2 de calles de nombres de santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) Sin embargo, al parque más grande del barrio se le asignó a un nombre masculino y laico: Carlos. 😑  
+Una de las más grandes está en Pando 3era etapa, en Cercado de @munilima. 1/2 km2 de calles de nombres de santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) Sin embargo, al parque más grande del barrio se le asignó a un nombre masculino y laico: Carlos. 😑  
 
 ![](../../images/pando3.png)  
 
@@ -38,7 +38,7 @@ Otras pequeñas aglomeraciones de calles con nombres femeninos aparecen en San M
 ![](../../images/lossauces.png)  
 
 6  
-La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” viene del latin “domina” (dueña de casa, mujer casada), y ninguna de ellas tiene apellido.  
+La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” viene del latín “domina” (dueña de casa, mujer casada), y ninguna de ellas tiene apellido.  
 
 ![](../../images/los_rosales.png)
 
@@ -46,7 +46,8 @@ La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1).
 Es revelador que dos de las aglomeraciones más grandes de calles nombradas como mujeres en la ciudad rescatan principalmente dos dimensiones: la religiosa/la santidad ⛪ y la doméstica/el rol de esposa 🏠. 
 
 8  
-Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de @MuniLima y @RegionCallaoPe. Fíjate cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas.
+Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de @MuniLima y @RegionCallaoPe. Fíjate cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas.  
+
 ![](../../images/female_rel.png)
 ![](../../images/female_notrel.png)
 
@@ -54,10 +55,11 @@ Existe una fuerte presencia de calles con nombres femeninos de religiosas entre 
 De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
 
 10  
-@M_Barrenechea de @rpp_pe mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras del ámbito religioso, seguidas de lejos por: patriotas del movimiento independentista, escritoras, educadoras, artistas, figuras del imperio incaico, entre otras https://rpp.pe/p/1027018
+@M_Barrenechea de @rpp_pe mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras religiosas, seguidas de lejos por: patriotas, escritoras, educadoras, artistas, figuras del imperio incaico... https://rpp.pe/p/1027018
 
 10  
 Además de religiosas, ¿qué otros aportes de las mujeres son reconocidas en las calles? Fijémonos en Pando 7ma Etapa (@Muni_San_Miguel cerca de av. Universitaria, y La Marina).  
+
 ![](../../images/pando7.png)
 
 11  
@@ -68,17 +70,19 @@ Además de ellas se encuentran también: Martha Egúsquiza, Beatriz Cisneros, Ma
 
 12  
 Cerca del Óvalo Naranjal hay un pequeño grupo de calles con nombres de mujeres activistas por la educación de la mujer peruana, como Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado.
+
 ![](../../images/naranjal.png)
 
 13  
-Otro caso destacable es el de @VesMuni, que tiene 3 largas avenidas en memoria a Micaela Bastidas, María Reiche y María Elena Moyano, esta última estrechamente vinculada a la historia del distrito. Sin embargo, en el mismo distrito hay pocas calles a las que se les otorgó nombre de mujer.
+Otro caso destacable es @VesMuni, que tiene 3 largas avenidas en memoria a Micaela Bastidas, María Reiche y Ma. Elena Moyano, esta última estrechamente vinculada a la historia del distrito. Sin embargo, en VES hay pocas otras calles a las que se les otorgó nombre de mujer.
+
 ![](../../images/ves.png)
 
 14  
-También llama la atención que en la supuesta "Lima Moderna" existan pocas calles designadas con nombres de mujeres: solamente 1 en @munijesusmaria; 3 en @Munimiraflores, @muni_lince, @MuniDeMagdalena y @munibarranco; 8 en @munisanisidro. Sin contar santas, el número sería casi la mitad.
+También llama la atención que en la supuesta "Lima Moderna" haya pocas calles nombradas como mujeres: solamente 1 en @munijesusmaria; 3 en @Munimiraflores, @muni_lince, @MuniDeMagdalena y @munibarranco; 8 en @munisanisidro. Sin contar santas, el número sería casi la mitad.
 
 16
-Al nombrar una calle creamos una narrativa de cómo es un lugar: le damos carácter y recordamos la historia. ¿A cuántas mujeres nos invita a recordar Lima? En 200 años de independencia asignamos menos de dos nombres femeninos por año. ¡Menos de una por año desde su fundación en 1532!
+Al nombrar una calle le damos carácter al lugar y recordamos la historia. ¿A cuántas mujeres nos invita a recordar Lima? En 200 años de independencia hemos asignado menos de dos nombres femeninos por año. ¡Menos de una mujer por cada año desde su fundación en 1532!
 
 18
 Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas, principalmente hombres, pero la ciudad más nueva parece optar por nombres más neutrales (fechas, lugares, números, plantas, profesiones...)  
@@ -90,8 +94,7 @@ Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la c
 En el Perú y el mundo existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad.
 
 18  
-Explora las calles asignadas con nombre de mujer en tu barrio. Fíjate cuáles son en nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/
-¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
+Explora las calles asignadas con nombre de mujer en tu barrio. Fíjate cuáles son en nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/ ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
 19  
 Este mapa fue una idea de @odaltomate 👏 y ejecutada junto al equipo de @desarro_io 🤝. Los nombres de calles son de @openstreetmap 🔎, el mapa se hizo con @leafletJS 🍃 y tiles 🗺️ de @carto. 
