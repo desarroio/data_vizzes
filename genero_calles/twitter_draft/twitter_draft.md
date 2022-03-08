@@ -1,19 +1,19 @@
 # Tweet
 
-1  [no se recorren las mujeres]
+1
 Son pocas las calles de Lima y Callao a las que se les asignaron nombres de mujeres. ¿Dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las calles que llevan sus nombres.
 
 ![](../../images/twitter1.gif)   
   
-2  [aburrido]
-Existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. Las calles de la ciudad rinden homenaje a 3448 hombres y solo a 406 mujeres. Más de 8 hombres por cada mujer. Aquí algunos nombres frecuentes👇  
+2  
+Existe un patrón en la asignación de nombres a calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. Las calles de la ciudad rinden homenaje a 3448 hombres y a 406 mujeres. Más de 8 hombres por cada mujer.  
+
+![](../../images/lima.png) 
+
+3  
+Fíjate que son muy pocas las calles en azul (mujeres) en comparación con las amarillas (hombres). Las calles grises no representan nombres de personas. ¿Quiénes eligieron estos nombres y por qué? Aquí algunos nombres frecuentes👇 
 
 ![](../../images/nombres.png)   
-
-3  [la pregunta está de más]
-¿Quiénes eligieron estos nombres y por qué? Fíjate que son muy pocas las calles en azul (mujeres) en comparación con las amarillas (hombres). Las calles grises no representan nombres de personas.
-
-![](../../images/lima.png)   
 
 4  
 Encontramos algunas aglomeraciones de calles que recibieron nombres de mujeres 🔎: Pando 3era etapa (frente a la @pucp), Los Rosales (@munisurco1), Palao y San Diego (@Munismp), Los Sauces (@MuniAteOficial), Infantas (Los Olivos) y otras.  
@@ -26,16 +26,10 @@ Encontramos algunas aglomeraciones de calles que recibieron nombres de mujeres �
 
 ![](../../images/ag_infantas.png)   
 
-4  [laico]
-Una de las más grandes está en Pando 3era etapa, en Cercado de @munilima. 1/2 km2 de calles de nombres de santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) Sin embargo, al parque más grande del barrio se le asignó un nombre masculino y laico: Carlos. 😑  
+4  
+Una de las más grandes está en Pando 3era etapa, en Cercado de @munilima. 1/2 km2 de calles de nombres de santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) Sin embargo, al parque más grande del barrio se le asignó un nombre masculino: Carlos. 😑  
 
 ![](../../images/pando3.png)  
-
-5  
-Otras pequeñas aglomeraciones de calles con nombres femeninos aparecen en San Martín de Porres, Ate y Los Olivos pero corresponden otra vez a nombres de santas.
-
-![](../../images/palao.png)  
-![](../../images/lossauces.png)  
 
 6  
 La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” viene del latín “domina” (dueña de casa, mujer casada).  
@@ -52,13 +46,13 @@ Existe una fuerte presencia de calles con nombres femeninos de religiosas entre 
 ![](../../images/female_notrel.png)
 
 9  
-De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
+De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos.
 
 10  
 @M_Barrenechea de @RPPNoticias mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras religiosas, seguidas de lejos por: patriotas, escritoras, educadoras, artistas, figuras del imperio incaico... https://rpp.pe/p/1027018
 
 10  
-Además de religiosas, ¿qué otros aportes de las mujeres son reconocidas en las calles? Fijémonos en Pando 7ma Etapa (@Muni_San_Miguel cerca de av. Universitaria, y La Marina).  
+¿Qué otros aportes de mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (@Muni_San_Miguel cerca de av. Universitaria, y La Marina).  
 
 ![](../../images/pando7.png)
 
