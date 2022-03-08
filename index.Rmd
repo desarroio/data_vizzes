@@ -37,7 +37,7 @@ db_not <- read_csv("gdb_not.csv",  col_types = cols(X1 = col_skip(), osm_id = co
 
 ```{r clean-data, include=FALSE}
 females <- females %>%
-  filter(!str_detect(name, "Florencia|Cordillera Blanca|Nevado Sara Sara|América|La Luz|Rio Santa|Marbella|Bajada de Agua Dulce|Tingo|La Marina|Libertad|la Marina|Esperanza|Irlanda|Agua Marina|Río Santa|Esmeralda|Villa Maria|Villa María|Las Mercedes|La Victoria|La Merced|Belén|Mayor Arce de la Oliva|Arnaldo Márquez|Belen|Alheli|de las Mercedes|Vila Mercedes|Franciso de Paula Ugarriza|Agua Dulce|Galvez Barrenechea|Pissarro|Stowe|Río Elba|Talavera de la Reina|El Palo Rosa|Laurel Rosa|La Calera de la Merced|Keller|Coral|Arnaldo Panizo|Villa Mercedes|La Estrella|Antinio Bastidas|Aguada Blanca|La Caridad|A La Rosa|Mara Caibo|Mar Coral|San Teresita|Torre Blanca|Bella Luz|Luz de Luna|Rio Elba|Estrella|Torres de la Merced|Merino Reyna Oeste|Estrella Polar|Sara Sara|Señor de la Soledad|Puente America|America Unamarca|Palmira|Merced|Cristal|Meier|Merced|Cerro Paloma|J.C. María Tegui|El Dulce|Cielo Punko|Caridad|Azucena|La Veronica|María Tegui|Iris|Arnaldo Marquez|Arco Iris|Margarita|La Perla|Fatima|Isis|Barrenechea|Reyna Talavera|America|Soledad|La Soledad|Las Nieves|Alma")) %>% 
+  filter(!str_detect(name, "Florencia|Cordillera Blanca|Nevado Sara Sara|América|La Luz|Rio Santa|Marbella|Bajada de Agua Dulce|Tingo|La Marina|Libertad|la Marina|Esperanza|Irlanda|Agua Marina|Río Santa|Esmeralda|Villa Maria|Villa María|Las Mercedes|La Victoria|La Merced|Belén|Mayor Arce de la Oliva|Arnaldo Márquez|Belen|Alheli|de las Mercedes|Vila Mercedes|Franciso de Paula Ugarriza|Agua Dulce|Galvez Barrenechea|Pissarro|Stowe|Río Elba|Talavera de la Reina|El Palo Rosa|Laurel Rosa|La Calera de la Merced|Keller|Coral|Arnaldo Panizo|Villa Mercedes|La Estrella|Antinio Bastidas|Aguada Blanca|La Caridad|A La Rosa|Mara Caibo|Mar Coral|San Teresita|Torre Blanca|Bella Luz|Luz de Luna|Rio Elba|Estrella|Torres de la Merced|Merino Reyna Oeste|Estrella Polar|Sara Sara|Señor de la Soledad|Puente America|America Unamarca|Palmira|Merced|Cristal|Meier|Merced|Cerro Paloma|J.C. María Tegui|El Dulce|Cielo Punko|Caridad|Azucena|La Veronica|María Tegui|Iris|Arnaldo Marquez|Arco Iris|La Perla|Fatima|Isis|Barrenechea|Reyna Talavera|America|Soledad|La Soledad|Las Nieves|Alma")) %>% 
   mutate(name = str_replace_all(name, pattern = c('Calle ' = "", 'Pasaje ' = "", 'Avenida ' = "", 'Jirón ' = "", 'Av ' = "", 'Malecón ' = "", 'Malecon ' = "", 'Salida a ' = "", 'Puente ' = "", 'Alameda ' = "", 'Ovalo ' = "" )))
 
 females_notrel <- females %>% filter(!str_detect(name, "Sor|Santa|Beata|Virgen|sor|santa |beata|virgen|María Auxiliadora"))
@@ -118,7 +118,7 @@ Una de las aglomeraciones más grandes de calles con nombres femeninos es la de 
 
 <center>
 
-![](images/pando3.png){height=300px}  
+![](images/pando3.png)  
 
 </center>
 
@@ -126,7 +126,7 @@ La segunda aglomeración más grande está en la urb. Los Rosales, en Santiago d
 
 <center>
 
-![](images/los_rosales.png){height=300px}  
+![](images/los_rosales.png)  
 
 </center>
 
@@ -139,11 +139,11 @@ Es revelador que las dos aglomeraciones más grandes de calles con nombres de mu
 
 </center>
 
-Además de religiosas, ¿qué otros aportes de las mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (San Miguel, cerca de av. Universitaria, y La Marina). En este barrio encontramos calles con nombres de mujeres notables que te invitamos a conocer: [Margarita Práxedes](https://es.wikipedia.org/wiki/Margarita_Pr%C3%A1xedes_Mu%C3%B1oz) (pionera del feminismo peruano) y [Luisa Dammert](https://www.mimp.gob.pe/webs/mimp/sispod/pdf/89.pdf) (promotora del voto femenino en el siglo XX). Además de Martha Egúsquiza, Beatriz Cisneros y María Escobar. Ninguna de ellas está reseñada en Wikipedia.
+Además de religiosas, ¿qué otros aportes de las mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (San Miguel, cerca de av. Universitaria, y La Marina). En este barrio encontramos calles con nombres de mujeres notables que te invitamos a conocer: [Margarita Práxedes](https://es.wikipedia.org/wiki/Margarita_Pr%C3%A1xedes_Mu%C3%B1oz) (pionera del feminismo peruano) y [Luisa Dammert](https://www.mimp.gob.pe/webs/mimp/sispod/pdf/89.pdf) (promotora del voto femenino en el siglo XX). Además de María Egúsquiza, Beatriz Cisneros y María Escobar. Ninguna de ellas está reseñada en Wikipedia.
 
 <center>
 
-![](images/pando7.png){height=300px}  
+![](images/pando7.png) 
 
 </center>
 
@@ -152,7 +152,7 @@ Cerca del Óvalo Naranjal, en Los Olivos, hay un pequeño grupo de calles con no
 
 <center>
 
-![](images/naranjal.png){height=300px}  
+![](images/naranjal.png)  
 
 </center>
 
@@ -160,7 +160,7 @@ Otro caso destacable es el de Villa el Salvador, que tiene 3 largas avenidas en 
 
 <center>
 
-![](images/ves.png){height=300px}
+![](images/ves.png)
 </center>
 
 También llama la atención que en la “Lima Moderna” existan pocas calles designadas con nombres de mujeres: solamente 1 en Jesús María; 3 en Miraflores, Lince, Magdalena y Barranco; y 8 en San Isidro (que se reducen a casi la mitad si no contamos santas). Sin embargo, llama la atención que casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito. 
