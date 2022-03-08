@@ -129,24 +129,29 @@ Al nombrar una calle creamos una narrativa de cómo es un lugar: le damos carác
 
 En el Perú existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad. ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
+### Fuentes  
+::: {.cierre}
+Los nombres de calles son de [OpenStreetMap](https://www.openstreetmap.org/) 🔎, el mapa se hizo con [Leaflet](https://leafletjs.com/) 🍃 y tiles 🗺️ de [Carto](https://carto.com/).  
+:::  
 
-## Créditos  
-Este es un trabajo del equipo de [desarro.io](desaro.io). La idea y propototipo en python es de [Carla Solis](https://github.com/ccsuehara), el desarrollo web es de [Gonzalo Talavera Forlin](https://gtalavera.github.io/). La historia, textos y factchecking son de Ioanna Gallo y Gonzalo Talavera Forlin y Carlos Julio San Martín. El análisis de datos es de Carla Solís y Luis Eduardo San Martín.
-
-## Fuentes  
-Los nombres de calles son de [OpenStreetMap](https://www.openstreetmap.org/) 🔎, el mapa se hizo con [Leaflet](https://leafletjs.com/) 🍃 y tiles 🗺️ de [Carto](https://carto.com/).
-
-## Bibliografía y otros recursos  
+### Bibliografía y otros recursos  
+::: {.cierre}  
 El proyecto [Las calles de las mujeres](https://geochicasosm.github.io/lascallesdelasmujeres/), de Geochicas, identifica las calles con nombres de mujeres en distintas ciudades latinoamericanas y enlaza a las biografías disponibles en Wikipedia.
 
 [Este reportaje de RPP y Melissa Barrenechea](https://rpp.pe/lima/actualidad/reportaje-cuantas-calles-de-lima-tienen-nombre-de-mujer-noticia-1027018?ref=rpp) muestra que el 57% de calles asignadas a nombres de mujeres en Lima corresponde a figuras del ámbito religioso, y da cuenta de las ocupaciones de estas mujeres conmemoradas con una calle.  
 
 En el libro [Mujeres con Calle](https://issuu.com/elingeniosocorreo/docs/mujeres_con_calle), alumnes del colegio José Antonio Encinas recopilan biografías sobre Mariana Echevarría, Justa García Robledo, Ernestina Zamorano y Bartola Sánchez Dávila. 
 
-'Los nombres de las calles despliegan una “política de la memoria” orientada a que la ciudadanía guarde recuerdo y agradezca a sus compatriotas más ilustres...', dice [Gonzalo Portocarrero](https://elcomercio.pe/opinion/columnistas/nombres-calles-gonzalo-portocarrero-noticia-lima-calles-avenidas-479334-noticia/), y señala que los nombres de calles pueden mostrar también la falta de reconocimiento de algunos sectores de la sociedad en detrimento de otros. Gonzalo muestra una "relativa ausencia de personajes andinos" y señala también la persistencia de una calle como Los Conquistadores, en @munisanisidro, que "supone una identificación con una tropa de invasores y saqueadores que pretendieron convertirse en los dueños del Tahuantinsuyo".
+'Los nombres de las calles despliegan una “política de la memoria” orientada a que la ciudadanía guarde recuerdo y agradezca a sus compatriotas más ilustres...', dice [Gonzalo Portocarrero](https://elcomercio.pe/opinion/columnistas/nombres-calles-gonzalo-portocarrero-noticia-lima-calles-avenidas-479334-noticia/), y señala que los nombres de calles pueden mostrar también la falta de reconocimiento de algunos sectores de la sociedad en detrimento de otros. Gonzalo muestra una "relativa ausencia de personajes andinos" y señala también la persistencia de una calle como Los Conquistadores, en San Isidro, que "supone una identificación con una tropa de invasores y saqueadores que pretendieron convertirse en los dueños del Tahuantinsuyo".
 
 Deirdre Mask, en su libro [The Adress Book](https://www.deirdremask.com/) muestra casos alrededor del mundo sobre como los nombres de calles premiten observar también sesgos de clase o raza, estigmatización, identidad y poder. 
 
 Pierre-Nicholas Schwab, en [The feminisation of street names: useful debate or a political artifice?](https://www.intotheminds.com/blog/en/feminisation-street-names/), muestra algunos proyectos de mapeo de calles de mujeres y explora la relevancia de la feminización de los nombres de las calles.
 
 [Esta nota de la BBC](https://www.bbc.com/future/article/20210712-streetonomics-what-our-addresses-say-about-us) reseña [el trabajo de Bancilhon, M., Constantinides, M., Bogucka, E. P., Aiello, L. M., & Quercia, D.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0252869&fbclid=IwAR3ooMZQ2iS0Dih1KSMyHBrDkMWt2_syipwp73_6_afE6lpInpNI-yWX5Hk) en el que exploran los sesgos de género, identifican las profesiones consideradas de élite y la influencia del extranjero en Paris, Viena, Londres y Nueva York, a partir del análisis de los nombres de las calles.
+:::  
+
+### Créditos  
+::: {.cierre}  
+Este es un trabajo del equipo de [desarro.io](desaro.io). La idea y propototipo en python es de [Carla Solis](https://github.com/ccsuehara), el desarrollo web es de [Gonzalo Talavera Forlin](https://gtalavera.github.io/). La historia, textos y factchecking son de Ioanna Gallo y Gonzalo Talavera Forlin y Carlos Julio San Martín. El análisis de datos es de Carla Solís y Luis Eduardo San Martín.  
+:::  
