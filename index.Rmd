@@ -54,8 +54,12 @@ levels(db_all$genero) <- c("mujeres", "hombres", "ninguno")
 ```
 
 ::: {.bajada}
-Solo 406 mujeres tienen calles designadas con sus nombres en Lima y Callao. ¿Dónde están esas calles? ¿quiénes son esas mujeres en nuestra historia? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las mujeres que nombran sus calles.
-:::
+Solo 406 mujeres tienen calles con sus nombres en Lima y Callao. ¿Quiénes son esas mujeres en nuestra historia? ¿qué roles representan? ¿dónde están esas calles? Acompáñanos en este recorrido por la ciudad y las calles que llevan sus nombres.
+:::  
+  
+::: {.bajada}
+8 de marzo, 2022
+:::   
   
   
 ```{r map, echo = FALSE}
@@ -87,41 +91,77 @@ m
 
 Un vistazo general de la ciudad nos muestra que existe un patrón en la asignación de calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. Mientras las calles de la ciudad rinden homenaje a 3448 hombres, solamente 406 mujeres fueron reconocidas para ello. Más de 8 hombres por cada mujer.  
 
+<center>
+
 ![](images/nombres.png){height=400px}  
+
+</center>
 
 A pesar de eso, se pueden encontrar algunas aglomeraciones de calles que recibieron nombre de mujeres como: Pando 3era etapa (frente a la PUCP), Los Rosales (Surco), Palao y San Diego (San Martín de Porres), Los Sauces (Ate), Infantas (Los Olivos) y otras.
 
+<center>
 
-![](images/ag_pando3.png){height=300px}
-![](images/ag_losrosales.png){height=300px}  
+![](images/ag_pando3.png){width=400px}
+![](images/ag_losrosales.png){width=400px}  
 
-![](images/ag_sandiego.png){height=300px}
-![](images/ag_losrosales.png){height=300px}   
-  
+</center>
+
+<center>
+
+![](images/ag_sandiego.png){width=400px}
+![](images/ag_losrosales.png){width=400px}   
+
+</center>
+
 Una de las aglomeraciones más grandes de calles con nombres femeninos es la de Pando 3era etapa en Cercado de Lima. Se trata de medio km2 de calles con nombres de Santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.). En medio de todas esas calles, al parque más grande del barrio se le asignó un nombre masculino y laico: Carlos. Otras pequeñas aglomeraciones de calles con nombres femeninos aparecen en San Martín de Porres, Ate y Los Olivos pero corresponden otra vez a nombres de santas.  
+
+<center>
 
 ![](images/pando3.png){height=300px}  
 
+</center>
+
 La segunda aglomeración más grande está en la urb. Los Rosales, en Santiago de Surco. Se trata de un grupo de calles con nombres de mujeres pero sin apellidos, y que vienen precedidos por la palabra “doña” (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” viene del latín “domina” (dueña de casa, mujer casada). Al tratarse de mujeres anónimas, ninguna cuenta con una biografía.
+
+<center>
 
 ![](images/los_rosales.png){height=300px}  
 
+</center>
+
 Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres en la ciudad rescatan principalmente dos dimensiones: la religiosa/la santidad y la doméstica/el rol de esposa. Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de Lima y Callao. Fíjate cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas. De hecho,  el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
 
-![](images/female_rel.png){height=300px}
-![](images/female_notrel.png){height=300px}  
+<center>
+
+![](images/female_rel.png){width=300px}
+
+![](images/female_notrel.png){width=300px}
+
+</center>
 
 Además de religiosas, ¿qué otros aportes de las mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (San Miguel, cerca de av. Universitaria, y La Marina). En este barrio encontramos calles con nombres de mujeres notables que te invitamos a conocer: [Margarita Práxedes](https://es.wikipedia.org/wiki/Margarita_Pr%C3%A1xedes_Mu%C3%B1oz) (pionera del feminismo peruano) y [Luisa Dammert](https://www.mimp.gob.pe/webs/mimp/sispod/pdf/89.pdf) (promotora del voto femenino en el siglo XX). Además de Martha Egúsquiza, Beatriz Cisneros y María Escobar. Ninguna de ellas está reseñada en Wikipedia.
 
+<center>
+
 ![](images/pando7.png){height=300px}  
+
+</center>
+
 
 Cerca del Óvalo Naranjal, en Los Olivos, hay un pequeño grupo de calles con nombres de mujeres activistas por la educación de la mujer peruana, como [Elvira García](https://es.wikipedia.org/wiki/Elvira_Garc%C3%ADa_y_Garc%C3%ADa), [Mercedes Indacochea](https://es.wikipedia.org/wiki/Mercedes_Indacochea), [Teresa Gonzáles de Fanning](https://es.wikipedia.org/wiki/Teresa_Gonz%C3%A1lez_de_Fanning) y [Esther Salgado](https://sites.google.com/site/jlcapristano/biografia#:~:text=Se%20adjudica%20el%20nombre%20de,1974%2C%20falleciendo%20ese%20mismo%20a%C3%B1o.).
 
+<center>
+
 ![](images/naranjal.png){height=300px}  
+
+</center>
 
 Otro caso destacable es el de Villa el Salvador, que tiene 3 largas avenidas en memoria a [Micaela Bastidas](https://es.wikipedia.org/wiki/Micaela_Bastidas), [María Reiche](https://es.wikipedia.org/wiki/Maria_Reiche) y [María Elena Moyano](https://es.wikipedia.org/wiki/Mar%C3%ADa_Elena_Moyano), esta última estrechamente vinculada a la historia del distrito. Sin embargo, en el mismo distrito existen pocas calles a las que se les otorgó nombre de mujer.
 
+<center>
+
 ![](images/ves.png){height=300px}
+</center>
 
 También llama la atención que en la “Lima Moderna” existan pocas calles designadas con nombres de mujeres: solamente 1 en Jesús María; 3 en Miraflores, Lince, Magdalena y Barranco; y 8 en San Isidro (que se reducen a casi la mitad si no contamos santas). Sin embargo, llama la atención que casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito. 
 
