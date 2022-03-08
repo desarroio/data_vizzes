@@ -134,9 +134,8 @@ Es revelador que las dos aglomeraciones más grandes de calles con nombres de mu
 
 <center>
 
-![](images/female_rel.png){width=300px}
+![](images/female_rel.gif)
 
-![](images/female_notrel.png){width=300px}
 
 </center>
 
