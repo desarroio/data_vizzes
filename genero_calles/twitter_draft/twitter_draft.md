@@ -52,10 +52,7 @@ Encontramos también que el 39% de mujeres mencionadas en calles de Lima corresp
 ![](../../images/pando7.png)
 
 11  
-En este barrio se concentran varias calles con nombres de mujeres notables que te invitamos a conocer: Margarita Práxedes (pionera del feminismo peruano) y Luisa Dammert (promotora del voto femenino a inicios del s. XX). 
-
-12
-Además de ellas se encuentran también: María Egúsquiza, Beatriz Cisneros, María Escobar, entre otras. Ninguna está reseñada en Wikipedia. 🙄
+En este barrio se concentran varias calles con nombres de mujeres notables que te invitamos a conocer: Margarita Práxedes (pionera del feminismo peruano) y Luisa Dammert (promotora del voto femenino a inicios del s. XX), María Escobar, María Egúsquiza, Beatriz Cisneros, entre otras. 
 
 12  
 Cerca del Óvalo Naranjal hay un pequeño grupo de calles con nombres de activistas por la educación de la mujer peruana 📚, como Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado.
