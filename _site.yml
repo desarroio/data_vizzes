@@ -1,11 +1,11 @@
 name: Gonzalo Talavera Forlin
 output_dir: '.'
 navbar:
-  title: 
+  title: "<img id=\"logo\" style=\"width: 120px;\" src=\"images/logo_prueba.png\" />"
   type: inverse
   left:
-  - text: "desarro.io"
-    href: https://desarro.io/
+  - icon: fa-home fa
+    href: http://desarro.io/es/ 
 
   right:
   - icon: fa-twitter fa
