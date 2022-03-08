@@ -1,22 +1,24 @@
 # Tweet
 
 1  
-Solo 406 mujeres tienen calles designadas con sus nombres en Lima y Callao. ¿Dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las calles que llevan sus nombres. #8M
+Solo 406 mujeres tienen calles con sus nombres en Lima y Callao. ¿Dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Analizamos la presencia de mujeres en los nombres de las calles de la ciudad y esto fue lo que encontramos 🧵 #8M
 
 ![](../../images/twitter1.gif)   
   
 2  
-Existe un patrón en la asignación de nombres a calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. Las calles de la ciudad rinden homenaje a 3448 hombres y a 406 mujeres. Más de 8 hombres por cada mujer.  
+Vemos un patrón en la asignación de nombres a calles de Lima y Callao: las mujeres no son tan celebradas como los hombres. Las calles de la ciudad rinden homenaje a 3448 hombres y a 406 mujeres. Más de 8 hombres por cada mujer.  
 
 ![](../../images/lima.png) 
 
 3  
-Fíjate que son muy pocas las calles en azul (mujeres) en comparación con las amarillas (hombres). Las calles grises no representan nombres de personas. ¿Quiénes eligieron estos nombres y por qué? Aquí algunos nombres frecuentes👇 
+Fíjate que son muy pocas las calles en azul (mujeres) en comparación con las amarillas (hombres). Las calles grises no representan nombres de personas. ¿Quiénes eligieron estos nombres y por qué?
+
+4. ¿Cuáles son las personas más mencionadas en las calles de la ciudad? Te mostramos algunos nombres frecuentes aquí 👇
 
 ![](../../images/nombres.png)   
 
 4  
-Encontramos algunas aglomeraciones de calles que recibieron nombres de mujeres 🔎: Pando 3era etapa (frente a la @pucp), Los Rosales (@munisurco1), Palao y San Diego (@Munismp), Los Sauces (@MuniAteOficial), Infantas (Los Olivos) y otras.  
+A pesar de que son pocas, sí encontramos algunos barrios donde se concentran algunas calles que recibieron nombres de mujeres 💪: Pando 3era etapa (frente a la @pucp), Los Rosales (@munisurco1), Palao y San Diego (@Munismp), Los Sauces (@MuniAteOficial), Infantas (Los Olivos) y otras.  
 
 ![](../../images/ag_pando3.png)  
 
@@ -27,25 +29,25 @@ Encontramos algunas aglomeraciones de calles que recibieron nombres de mujeres �
 ![](../../images/ag_infantas.png)   
 
 4  
-Una de las más grandes está en Pando 3era etapa, en Cercado de @munilima. 1/2 km2 de calles de nombres de santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) Sin embargo, al parque más grande del barrio se le asignó un nombre masculino: Carlos. 😑  
+La aglomeración más extensa está en Pando 3era etapa, en Cercado de @munilima. 1/2 km2 de calles de nombres de santas (Santa Teodosia, Santa Gertrudis, Santa Bernardita, etc.) Sin embargo, al parque más grande del barrio se le asignó un nombre masculino: Carlos. 😑  
 
 ![](../../images/pando3.png)  
 
 6  
-La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). La etimología de “doña” viene del latín “domina” (dueña de casa, mujer casada).  
+La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1). Este es el barrio de las "doñas" (Doña Rosa, Doña Amalia, Doña Juana...). ¡Ojo 👀! la etimología de “doña” viene del latín “domina” (dueña de casa, mujer casada).  
 
 ![](../../images/los_rosales.png)
 
 7  
-Es revelador que dos de las aglomeraciones más grandes de calles nombradas como mujeres en la ciudad rescaten principalmente dos dimensiones: la religiosa/la santidad ⛪ y la doméstica/el rol de esposa. 🏠 
+Es revelador que dos de las aglomeraciones más grandes de calles nombradas como mujeres en la ciudad rescaten principalmente dos dimensiones: la religiosa/la santidad ⛪ y la doméstica/el rol de esposa 🏠. 
 
 8  
-Hay una fuerte presencia de santas entre las calles con nombres femeninos. El 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que solo el 5% de los hombres son santos. Mira cómo cambia el mapa al desactivar los nombres de mujeres religiosas. 👀  
+Encontramos también que el 39% de mujeres mencionadas en calles de Lima corresponde a santas (y solo el 5% de los hombres son santos). Mira cómo cambia el mapa al desactivar los nombres de mujeres religiosas. 👀  
 
 ![](../../images/female_rel.gif)
 
 10  
-¿Qué otros aportes de mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (@Muni_San_Miguel cerca de av. Universitaria, y La Marina).  
+¿Qué otros aportes de mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (@Muni_San_Miguel cerca de av. Universitaria, y La Marina) .  
 
 ![](../../images/pando7.png)
 
@@ -56,7 +58,7 @@ En este barrio se concentran varias calles con nombres de mujeres notables que t
 Además de ellas se encuentran también: María Egúsquiza, Beatriz Cisneros, María Escobar, entre otras. Ninguna está reseñada en Wikipedia. 🙄
 
 12  
-Cerca del Óvalo Naranjal hay un pequeño grupo de calles con nombres de activistas por la educación de la mujer peruana, como Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado.
+Cerca del Óvalo Naranjal hay un pequeño grupo de calles con nombres de activistas por la educación de la mujer peruana 📚, como Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado.
 
 ![](../../images/naranjal.png)
 
@@ -77,7 +79,7 @@ Comparando con la expansión de la ciudad (Metzger et al. 2015) vemos que la ciu
 ![](../../images/metzger_et_al.png)
 
 17  
-En el Perú y el mundo existe una larga lista de mujeres excepcionales, con trayectorias destacadas que urge recordar y visibilizar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y así resaltar sus aportes a la sociedad.
+En el Perú 🇵🇪 y el mundo existe una larga lista de mujeres excepcionales, con trayectorias destacadas que urge recordar y visibilizar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y así resaltar sus aportes a la sociedad.
 
 18  
 Explora las calles de tu barrio con nombre de mujer en nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/ ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
