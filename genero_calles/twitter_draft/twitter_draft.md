@@ -60,7 +60,7 @@ De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, 
 En este barrio se concentran varias calles con nombres de mujeres notables que te invitamos a conocer: Margarita Práxedes (pionera del feminismo peruano) y Luisa Dammert (promotora del voto femenino a inicios del s. XX). 
 
 12
-Además de ellas se encuentran también: Martha Egúsquiza, Beatriz Cisneros, María Escobar, entre otras. Ninguna está reseñada en Wikipedia. 😑
+Además de ellas se encuentran también: Martha Egúsquiza, Beatriz Cisneros, María Escobar, entre otras. Ninguna está reseñada en Wikipedia. 🙄
 
 12  
 Cerca del Óvalo Naranjal hay un pequeño grupo de calles con nombres de activistas por la educación de la mujer peruana, como Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado.
@@ -68,7 +68,7 @@ Cerca del Óvalo Naranjal hay un pequeño grupo de calles con nombres de activis
 ![](../../images/naranjal.png)
 
 13  
-Otro caso destacable es @VesMuni, que tiene 3 largas avenidas en memoria a Micaela Bastidas, María Reiche y María Elena Moyano, esta última estrechamente vinculada a la historia del distrito. Sin embargo, en VES hay pocas otras calles a las que se les otorgó nombre de mujer.
+Otro caso destacable es @VesMuni, que tiene 3 largas avenidas en memoria a Micaela Bastidas, María Reiche y María Elena Moyano, esta última estrechamente vinculada a la historia del distrito ✊. Sin embargo, en VES hay pocas otras calles a las que se les otorgó nombre de mujer.
 
 ![](../../images/ves.png)
 
@@ -76,22 +76,22 @@ Otro caso destacable es @VesMuni, que tiene 3 largas avenidas en memoria a Micae
 También llama la atención que en la supuesta "Lima Moderna" haya pocas calles nombradas como mujeres: solamente 1 en @munijesusmaria; 3 en @Munimiraflores, @muni_lince, @MuniDeMagdalena y @munibarranco; 8 en @munisanisidro. Sin contar santas, el número sería casi la mitad.
 
 16
-Al nombrar una calle le damos carácter al lugar y recordamos la historia. ¿Cuántas mujeres nos invita a recordar Lima? En 200 años de independencia hemos asignado menos de dos nombres femeninos por año. ¡Menos de una mujer por cada año desde su fundación en 1532!
+¿Cuántas mujeres nos invita a recordar Lima? En 200 años de independencia le hemos asignado a nuestras calles menos de dos nombres femeninos por año. ¡Menos de una mujer por cada año desde la fundación de la ciudad en 1532!
 
-18[no son neutrales]
-Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas (principalmente hombres), pero la ciudad más nueva parece optar por nombres más neutrales (fechas, lugares, números, plantas, profesiones...)  
+18
+Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas (principalmente hombres), pero la ciudad más nueva parece optar por nombres de otro tipo (fechas, lugares, números, plantas, profesiones...)  
 
 ![](../../images/metzger_et_al.png)
 ![](../../images/female_rel.png)
 
 17  
-En el Perú y el mundo existe una larga lista de mujeres excepcionales, con trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad.
+En el Perú y el mundo existe una larga lista de mujeres excepcionales, con trayectorias destacadas que urge recordar y visibilizar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y así resaltar sus aportes a la sociedad.
 
 18  
-Explora las calles de tu barrio asignadas con nombre de mujer en  nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/ ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
+Explora las calles de tu barrio con nombre de mujer en nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/ ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
 19  
-Créditos: @odaltomate - idea y protoipo, @gonzalotalavera - desarrollo web, @ioannagallo y @gonzalotalavera - textos, análisis y verificación de datos, gráficos - @cjmsma. También participaron @luiseee89, @mgcastrolivano y Daniela Velit. Fuente de datos: @openstreetmap 🔎, y tiles 🗺️ de @carto. 
+Idea y prototipo: @odaltomate. Desarrollo web: @gonzalotalavera. Textos, análisis y verificación de datos: @ioannagallo, Daniela Velit y @gonzalotalavera. Imágenes: @cjmsma. También participaron @luiseee89 y @mgcastrolivano. Fuente de datos: @openstreetmap 🔎, y tiles 🗺️ de @carto. 
 
 ----
 [Pausa para poder crear link]
