@@ -1,7 +1,7 @@
 # Tweet
 
-1
-Solo 406 mujeres tienen calles designadas con sus nombres en Lima y Callao. ¿Dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las calles que llevan sus nombres. #8M #DíaInternacionaldelaMujer
+1  
+Solo 406 mujeres tienen calles designadas con sus nombres en Lima y Callao. ¿Dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las calles que llevan sus nombres. #8M
 
 ![](../../images/twitter1.gif)   
   
@@ -42,8 +42,7 @@ Es revelador que dos de las aglomeraciones más grandes de calles nombradas como
 8  
 Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de @MuniLima y @RegionCallaoPe. Mira cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas.  
 
-![](../../images/female_rel.png)
-![](../../images/female_notrel.png)
+![](../../images/female_rel.gif)
 
 9  
 De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos.
@@ -60,7 +59,7 @@ De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, 
 En este barrio se concentran varias calles con nombres de mujeres notables que te invitamos a conocer: Margarita Práxedes (pionera del feminismo peruano) y Luisa Dammert (promotora del voto femenino a inicios del s. XX). 
 
 12
-Además de ellas se encuentran también: Martha Egúsquiza, Beatriz Cisneros, María Escobar, entre otras. Ninguna está reseñada en Wikipedia. 🙄
+Además de ellas se encuentran también: María Egúsquiza, Beatriz Cisneros, María Escobar, entre otras. Ninguna está reseñada en Wikipedia. 🙄
 
 12  
 Cerca del Óvalo Naranjal hay un pequeño grupo de calles con nombres de activistas por la educación de la mujer peruana, como Elvira García, Mercedes Indacochea, Teresa Gonzáles de Fanning y Esther Salgado.
@@ -79,10 +78,9 @@ También llama la atención que en la supuesta "Lima Moderna" haya pocas calles 
 ¿Cuántas mujeres nos invita a recordar Lima? En 200 años de independencia le hemos asignado a nuestras calles menos de dos nombres femeninos por año. ¡Menos de una mujer por cada año desde la fundación de la ciudad en 1532!
 
 18
-Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas (principalmente hombres), pero la ciudad más nueva parece optar por nombres de otro tipo (fechas, lugares, números, plantas, profesiones...)  
+Comparando con la expansión de la ciudad (Metzger et al. 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas (principalmente hombres), pero la ciudad más nueva parece optar por nombres de otro tipo: fechas, lugares, números, plantas, profesiones...  
 
 ![](../../images/metzger_et_al.png)
-![](../../images/female_rel.png)
 
 17  
 En el Perú y el mundo existe una larga lista de mujeres excepcionales, con trayectorias destacadas que urge recordar y visibilizar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y así resaltar sus aportes a la sociedad.
