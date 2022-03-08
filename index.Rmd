@@ -165,5 +165,5 @@ Pierre-Nicholas Schwab, en [The feminisation of street names: useful debate or a
 ### Créditos  
 ::: {.cierre}  
 Este es un trabajo del equipo de [desarro.io](desaro.io). La idea 
-y su prototipo en Python son de [Carla Solis](https://github.com/ccsuehara). El desarrollo web es de [Gonzalo Talavera Forlin](https://gtalavera.github.io/). El texto, análisis y factchecking son de Ioanna Gallo y Gonzalo. La gráfica es de Carlos Julio San Martín. También participaron Daniela Velit, Luis Eduardo San Martín y Marcy Castro.
+y el prototipo en Python son de [Carla Solis](https://github.com/ccsuehara). El desarrollo web es de [Gonzalo Talavera Forlin](https://gtalavera.github.io/). Los textos, análisis y verificación de datos son de Ioanna Gallo, Daniela Velit y Gonzalo. Las imágenes son de [Carlos Julio San Martín](https://twitter.com/cjmsma). También participaron Luis Eduardo San Martín y Marcy Castro.
 :::  
