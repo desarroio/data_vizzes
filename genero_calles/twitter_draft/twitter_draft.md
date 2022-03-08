@@ -37,18 +37,12 @@ La segunda aglomeración más grande está en la urb. Los Rosales (@munisurco1).
 ![](../../images/los_rosales.png)
 
 7  
-Es revelador que dos de las aglomeraciones más grandes de calles nombradas como mujeres en la ciudad rescaten principalmente dos dimensiones: la religiosa/la santidad ⛪ y la doméstica/el rol de esposa 🏠. 
+Es revelador que dos de las aglomeraciones más grandes de calles nombradas como mujeres en la ciudad rescaten principalmente dos dimensiones: la religiosa/la santidad ⛪ y la doméstica/el rol de esposa. 🏠 
 
 8  
-Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de @MuniLima y @RegionCallaoPe. Mira cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas.  
+Hay una fuerte presencia de santas entre las calles con nombres femeninos. El 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que solo el 5% de los hombres son santos. Mira cómo cambia el mapa al desactivar los nombres de mujeres religiosas. 👀  
 
 ![](../../images/female_rel.gif)
-
-9  
-De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos.
-
-10  
-@M_Barrenechea de @RPPNoticias mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras religiosas, seguidas de lejos por: patriotas, escritoras, educadoras, artistas, figuras del imperio incaico... https://rpp.pe/p/1027018
 
 10  
 ¿Qué otros aportes de mujeres son reconocidos en las calles? Fijémonos en Pando 7ma Etapa (@Muni_San_Miguel cerca de av. Universitaria, y La Marina).  
@@ -113,6 +107,9 @@ En el libro "Mujeres con Calle", alumnes del colegio José Antonio Encinas recop
 
 
 # Las yapas
+
+10  
+@M_Barrenechea de @RPPNoticias mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras religiosas, seguidas de lejos por: patriotas, escritoras, educadoras, artistas, figuras del imperio incaico... https://rpp.pe/p/1027018
 
 18  
 'Los nombres de las calles despliegan una “política de la memoria” orientada a que la ciudadanía guarde recuerdo y agradezca a sus compatriotas más ilustres...' Dice Gonzalo Portocarrero https://elcomercio.pe/opinion/columnistas/nombres-calles-gonzalo-portocarrero-noticia-lima-calles-avenidas-479334-noticia/
