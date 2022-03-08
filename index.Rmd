@@ -69,7 +69,7 @@ lo <- 0.4 # set line opacity
 #groups <- c("figuras religiosas mujeres" <- "<font face='Gulim'>figuras religiosas mujeres</font>",
 #            "hombres" <- "<font face='Gulim'>hombres</font")
 m <- leaflet(width = "100%", options = leafletOptions(minZoom = 10)) %>% 
-  setView(-77.022933, -12.068522, zoom = 11) %>%
+  setView(-77.022933, -12.068522, zoom = 12) %>%
   setMaxBounds(lng1 = -77.301865, lat1 = -12.525597, lng2 = -76.6, lat2 = -11.56)%>%
   addProviderTiles(providers$CartoDB.Positron) %>% 
   addPolylines(data = not, weight = lw, color = "#D0D0D0", opacity =lo, group = "otras calles") %>%
@@ -171,7 +171,7 @@ Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la c
 
 <center>
 
-![](images/metzger_et_al.png){height=300px}
+![](images/metzger_et_al.png)
 
 </center>
 
