@@ -123,18 +123,29 @@ Otro caso destacable es el de Villa el Salvador, que tiene 3 largas avenidas en 
 
 ![](images/ves.png){height=300px}
 
-También llama la atención que en la “Lima Moderna” existan pocas calles designadas con nombres de mujeres: solamente 1 en Jesús María; 3 en Miraflores ([Maria Parado de Bellido](https://es.wikipedia.org/wiki/Mar%C3%ADa_Parado_de_Bellido), Sor Mate, Sor Tita, Santa Carmen, Santa María), Lince, Magdalena y Barranco; y 8 en San Isidro (que se reducen a casi la mitad si no contamos santas). Sin embargo, llama la atención que casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito. 
+También llama la atención que en la “Lima Moderna” existan pocas calles designadas con nombres de mujeres: solamente 1 en Jesús María; 3 en Miraflores, Lince, Magdalena y Barranco; y 8 en San Isidro (que se reducen a casi la mitad si no contamos santas). Sin embargo, llama la atención que casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito. 
 
 Al nombrar una calle creamos una narrativa de cómo es un lugar: le damos carácter y recordamos la historia. En sus 490 años de fundación española, ¿a cuántas mujeres nos invita a recordar Lima? ¿A cuántas reconoce el país en sus 200 años de Independencia? ¡Menos de dos por año!
 
 En el Perú existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad. ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
-### Fuentes  
+* * *  
+
+### Fuentes de datos  
+
 ::: {.cierre}
 Los nombres de calles son de [OpenStreetMap](https://www.openstreetmap.org/) 🔎, el mapa se hizo con [Leaflet](https://leafletjs.com/) 🍃 y tiles 🗺️ de [Carto](https://carto.com/).  
 :::  
 
+### Nota metodológica  
+
+::: {.cierre}
+La clasificación fue realizada detectando la presencia de nombres populares de hombres y mujeres en la información pública disponible en Open Street Maps, y realizando ajustes manuales sobre esos resultados. Algunas calles pueden haber sido clasificadas como "sin nombres de personas" debido a errores u omisiones involuntarias en este método o a errores ortográficos en los datos iniciales.
+Nuestro código es de libre acceso bajo una licencia MIT en [este repositorio](https://github.com/desarroio/genero-calles).  
+:::  
+
 ### Bibliografía y otros recursos  
+
 ::: {.cierre}  
 El proyecto [Las calles de las mujeres](https://geochicasosm.github.io/lascallesdelasmujeres/), de Geochicas, identifica las calles con nombres de mujeres en distintas ciudades latinoamericanas y enlaza a las biografías disponibles en Wikipedia.
 
@@ -142,7 +153,7 @@ El proyecto [Las calles de las mujeres](https://geochicasosm.github.io/lascalles
 
 En el libro [Mujeres con Calle](https://issuu.com/elingeniosocorreo/docs/mujeres_con_calle), alumnes del colegio José Antonio Encinas recopilan biografías sobre Mariana Echevarría, Justa García Robledo, Ernestina Zamorano y Bartola Sánchez Dávila. 
 
-'Los nombres de las calles despliegan una “política de la memoria” orientada a que la ciudadanía guarde recuerdo y agradezca a sus compatriotas más ilustres...', dice [Gonzalo Portocarrero](https://elcomercio.pe/opinion/columnistas/nombres-calles-gonzalo-portocarrero-noticia-lima-calles-avenidas-479334-noticia/), y señala que los nombres de calles pueden mostrar también la falta de reconocimiento de algunos sectores de la sociedad en detrimento de otros. Gonzalo muestra una "relativa ausencia de personajes andinos" y señala también la persistencia de una calle como Los Conquistadores, en San Isidro, que "supone una identificación con una tropa de invasores y saqueadores que pretendieron convertirse en los dueños del Tahuantinsuyo".
+[Gonzalo Portocarrero](https://elcomercio.pe/opinion/columnistas/nombres-calles-gonzalo-portocarrero-noticia-lima-calles-avenidas-479334-noticia/) dice que 'Los nombres de las calles despliegan una “política de la memoria” orientada a que la ciudadanía guarde recuerdo y agradezca a sus compatriotas más ilustres...', y señala que los nombres de calles pueden mostrar también la falta de reconocimiento de algunos sectores de la sociedad en detrimento de otros. Gonzalo muestra una "relativa ausencia de personajes andinos" y señala también la persistencia de una calle como Los Conquistadores, en San Isidro, que "supone una identificación con una tropa de invasores y saqueadores que pretendieron convertirse en los dueños del Tahuantinsuyo".
 
 Deirdre Mask, en su libro [The Adress Book](https://www.deirdremask.com/) muestra casos alrededor del mundo sobre como los nombres de calles premiten observar también sesgos de clase o raza, estigmatización, identidad y poder. 
 
@@ -153,5 +164,6 @@ Pierre-Nicholas Schwab, en [The feminisation of street names: useful debate or a
 
 ### Créditos  
 ::: {.cierre}  
-Este es un trabajo del equipo de [desarro.io](desaro.io). La idea y propototipo en python es de [Carla Solis](https://github.com/ccsuehara), el desarrollo web es de [Gonzalo Talavera Forlin](https://gtalavera.github.io/). La historia, textos y factchecking son de Ioanna Gallo y Gonzalo Talavera Forlin y Carlos Julio San Martín. El análisis de datos es de Carla Solís y Luis Eduardo San Martín.  
+Este es un trabajo del equipo de [desarro.io](desaro.io). La idea 
+y su prototipo en Python son de [Carla Solis](https://github.com/ccsuehara). El desarrollo web es de [Gonzalo Talavera Forlin](https://gtalavera.github.io/). El texto, análisis y factchecking son de Ioanna Gallo y Gonzalo. La gráfica es de Carlos Julio San Martín. También participaron Daniela Velit, Luis Eduardo San Martín y Marcy Castro.
 :::  

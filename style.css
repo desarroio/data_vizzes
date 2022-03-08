@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 
 body{
   font-family:"Arvo", Roboto,Arial;
-  font-size: 11.5pt;
+  font-size: 12pt;
   margin-bottom: 30px;
   background-color: #F9F7F3;
 }
@@ -38,7 +38,7 @@ h1{
 h2{
   font-family:"Sanchez", Roboto,Arial;
   font-weight: bold;
-  font-size: 20pt;
+  font-size: 16pt;
   color: rgb(86, 160, 211);
 }
 
@@ -46,7 +46,7 @@ h3{
   font-family:"Sanchez", Roboto,Arial;
   font-size: 12pt;
   font-weight: bold;
-  color:rgb(247, 148, 30);
+  color:rgb(86, 160, 211);
 }
 
 h4{
@@ -79,6 +79,9 @@ h4{
   
 .cierre {
   text-align: left;
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
+a {
+  color: #5297AC;
+}
