@@ -61,7 +61,8 @@ Solo 406 mujeres tienen calles con sus nombres en Lima y Callao. ¿Quiénes son 
 8 de marzo, 2022
 :::   
   
-  
+<br/><br/>  
+
 ```{r map, echo = FALSE}
 lw <- 3 # set line weight in pixels
 lo <- 0.4 # set line opacity
@@ -101,14 +102,14 @@ A pesar de eso, se pueden encontrar algunas aglomeraciones de calles que recibie
 
 <center>
 
-![](images/ag_pando3.png){width=400px}
+![](images/ag_pando3.png){width=400px}&nbsp;&nbsp;
 ![](images/ag_losrosales.png){width=400px}  
 
 </center>
 
 <center>
 
-![](images/ag_sandiego.png){width=400px}
+![](images/ag_sandiego.png){width=400px}&nbsp;&nbsp;
 ![](images/ag_losrosales.png){width=400px}   
 
 </center>
