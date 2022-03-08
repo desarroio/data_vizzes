@@ -1,7 +1,7 @@
 # Tweet
 
 1
-Son pocas las calles de Lima y Callao a las que se les asignaron nombres de mujeres. ¿Dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las calles que llevan sus nombres.
+Son pocas las calles de Lima y Callao a las que se les asignaron nombres de mujeres. ¿Dónde están esas calles? ¿quiénes son esas mujeres? ¿qué roles representan? Acompáñanos en este recorrido por la ciudad y las calles que llevan sus nombres. #8M #DíaInternacionaldelaMujer
 
 ![](../../images/twitter1.gif)   
   
