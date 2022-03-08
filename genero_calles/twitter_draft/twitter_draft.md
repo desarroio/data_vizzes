@@ -86,7 +86,7 @@ Explora las calles de tu barrio con nombre de mujer en nuestro mapa interactivo 
 [Pausa para poder crear link]
 
 20  
-¡Gracias por llegar hasta aquí! Si te gustó el recorrido puedes darle RT al primer tuit del hilo [LINK]
+¡Gracias por llegar hasta aquí! Si te gustó el recorrido puedes darle RT al primer tuit del hilo [https://twitter.com/desarro_io/status/1501264092203388937]
 
 19  
 Idea y prototipo: @odaltomate. Desarrollo web: @gonzalotalavera. Textos, análisis y verificación de datos: @ioannagallo, Daniela Velit y @gonzalotalavera. Imágenes: @cjmsma. También participaron @luiseee89 y @mgcastrolivano. Fuente de datos: @openstreetmap 🔎 y tiles 🗺️ de @carto. 
