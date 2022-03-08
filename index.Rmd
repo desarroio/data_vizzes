@@ -130,7 +130,7 @@ La segunda aglomeración más grande está en la urb. Los Rosales, en Santiago d
 
 </center>
 
-Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres en la ciudad rescatan principalmente dos dimensiones: la religiosa/la santidad y la doméstica/el rol de esposa. Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de Lima y Callao. Fíjate cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas. De hecho,  el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
+Es revelador que las dos aglomeraciones más grandes de calles con nombres de mujeres en la ciudad rescatan principalmente dos dimensiones: la religiosa/la santidad y la doméstica/el rol de esposa. Existe una fuerte presencia de calles con nombres femeninos de religiosas entre las calles de Lima y Callao. Fíjate cómo cambia nuestro mapa interactivo cuando desactivamos los nombres de mujeres religiosas. De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
 
 <center>
 
@@ -166,9 +166,17 @@ Otro caso destacable es el de Villa el Salvador, que tiene 3 largas avenidas en 
 
 También llama la atención que en la “Lima Moderna” existan pocas calles designadas con nombres de mujeres: solamente 1 en Jesús María; 3 en Miraflores, Lince, Magdalena y Barranco; y 8 en San Isidro (que se reducen a casi la mitad si no contamos santas). Sin embargo, llama la atención que casi ninguna de estas mujeres fue vecina o está relacionada con la historia del distrito. 
 
-Al nombrar una calle creamos una narrativa de cómo es un lugar: le damos carácter y recordamos la historia. En sus 490 años de fundación española, ¿a cuántas mujeres nos invita a recordar Lima? ¿A cuántas reconoce el país en sus 200 años de Independencia? ¡Menos de dos por año!
+Al nombrar una calle creamos una narrativa de cómo es un lugar: le damos carácter y recordamos la historia. ¿Cuántas mujeres nos invita a recordar Lima? En 200 años de independencia le hemos asignado a nuestras calles menos de dos nombres femeninos por año. ¡Menos de una mujer por cada año desde la fundación de la ciudad en 1532!
 
-En el Perú existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad. ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
+Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas (principalmente hombres), pero la ciudad más nueva parece optar por nombres de otro tipo (fechas, lugares, números, plantas, profesiones...)
+
+<center>
+
+![](images/metzger_et_al.png){height=300px}
+
+</center>
+
+En el Perú existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad. ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían [en nuestro hilo de Twitter]()!
 
 * * *  
 
