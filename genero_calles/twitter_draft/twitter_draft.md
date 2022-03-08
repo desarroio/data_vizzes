@@ -55,7 +55,7 @@ Existe una fuerte presencia de calles con nombres femeninos de religiosas entre 
 De hecho, el 39% de mujeres mencionadas en calles de Lima corresponde a santas, mientras que en el caso de los hombres, solamente el 5% son santos, lo que nos muestra que la valoración de las ocupaciones masculinas y femeninas es diferente.
 
 10  
-@M_Barrenechea de @rpp_pe mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras religiosas, seguidas de lejos por: patriotas, escritoras, educadoras, artistas, figuras del imperio incaico... https://rpp.pe/p/1027018
+@M_Barrenechea de @RPPNoticias mostró que la mayoría de calles de Lima nombradas como mujeres corresponde a figuras religiosas, seguidas de lejos por: patriotas, escritoras, educadoras, artistas, figuras del imperio incaico... https://rpp.pe/p/1027018
 
 10  
 Además de religiosas, ¿qué otros aportes de las mujeres son reconocidas en las calles? Fijémonos en Pando 7ma Etapa (@Muni_San_Miguel cerca de av. Universitaria, y La Marina).  
@@ -85,7 +85,7 @@ También llama la atención que en la supuesta "Lima Moderna" haya pocas calles 
 Al nombrar una calle le damos carácter al lugar y recordamos la historia. ¿A cuántas mujeres nos invita a recordar Lima? En 200 años de independencia hemos asignado menos de dos nombres femeninos por año. ¡Menos de una mujer por cada año desde su fundación en 1532!
 
 18
-Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas, principalmente hombres, pero la ciudad más nueva parece optar por nombres más neutrales (fechas, lugares, números, plantas, profesiones...)  
+Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la ciudad urbanizada hasta los 50's tiene muchos nombres de personas (principalmente hombres), pero la ciudad más nueva parece optar por nombres más neutrales (fechas, lugares, números, plantas, profesiones...)  
 
 ![](../../images/metzger_et_al.png)
 ![](../../images/female_rel.png)
@@ -94,24 +94,28 @@ Comparando con la expansión de la ciudad (Metzger y otros, 2015) vemos que la c
 En el Perú y el mundo existe una larga lista de mujeres excepcionales y de trayectorias destacadas que urge visibilizar y recordar. Nos toca exigir a las autoridades que sean reconocidas en los espacios públicos y resaltar sus aportes a la sociedad.
 
 18  
-Explora las calles asignadas con nombre de mujer en tu barrio. Fíjate cuáles son en nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/ ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
+Explora las calles de tu barrio asignadas con nombre de mujer en  nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/ ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
 19  
 Este mapa fue una idea de @odaltomate 👏 y ejecutada junto al equipo de @desarro_io 🤝. Los nombres de calles son de @openstreetmap 🔎, el mapa se hizo con @leafletJS 🍃 y tiles 🗺️ de @carto. 
 
+----
+[Pausa para poder crear link]
 
 20  
-Si te interesó el tema date una vuelta por "Las calles de las mujeres" de @geochicas, que identifican las calles en distintas ciudades latinoamericanas 👏👏👏 y enlaza a las biografías disponibles en Wikipedia 👍
+¡Gracias por llegar hasta aquí! Si te gustó el recorrido, por favor dale RT al primer tuit del hilo [LINK] y si quieres saber más, te dejamos algunas referencias por acá:
+
+En el proyecto "Las calles de las mujeres", las @geochicas identifican las calles con nombres femeninos en distintas ciudades latinoamericanas 👏👏👏 y enlazan a las biografías disponibles en Wikipedia 👍
 
 21
-y revisa también el libro "Mujeres con Calle", en el que alumnes del colegio José Antonio Encinas recopilan biografías sobre Mariana Echevarría, Justa García Robledo, Ernestina Zamorano y Bartola Sánchez Dávila. https://issuu.com/elingeniosocorreo/docs/mujeres_con_calle
+En el libro "Mujeres con Calle", alumnes del colegio José Antonio Encinas recopilan biografías sobre Mariana Echevarría, Justa García Robledo, Ernestina Zamorano y Bartola Sánchez Dávila. https://issuu.com/elingeniosocorreo/docs/mujeres_con_calle
 
 22
 El mapa de la expansión de Lima es de Metzger, P., Gluski, P., Robert, J., & Sierra, A. (2015). Atlas problemático de una metrópoli vulnerable. Desigualdades urbanas en Lima y Callao. Lima: @IFEAPeru. https://www.ifea.org.pe/libreria/travaux/331/pdf/atlas-problematico-es.pdf
 
 
 
-# La yapa
+# Las yapas
 
 18  
 'Los nombres de las calles despliegan una “política de la memoria” orientada a que la ciudadanía guarde recuerdo y agradezca a sus compatriotas más ilustres...' Dice Gonzalo Portocarrero https://elcomercio.pe/opinion/columnistas/nombres-calles-gonzalo-portocarrero-noticia-lima-calles-avenidas-479334-noticia/
