@@ -90,14 +90,20 @@ En el Perú y el mundo existe una larga lista de mujeres excepcionales, con tray
 18  
 Explora las calles de tu barrio con nombre de mujer en nuestro mapa interactivo aquí 👉 https://desarroio.github.io/genero-calles/ ¿Qué nombres de mujeres peruanas quisieras ver en una calle? ¡Cuéntanos quiénes serían!
 
-19  
-Idea y prototipo: @odaltomate. Desarrollo web: @gonzalotalavera. Textos, análisis y verificación de datos: @ioannagallo, Daniela Velit y @gonzalotalavera. Imágenes: @cjmsma. También participaron @luiseee89 y @mgcastrolivano. Fuente de datos: @openstreetmap 🔎, y tiles 🗺️ de @carto. 
 
 ----
 [Pausa para poder crear link]
 
 20  
-¡Gracias por llegar hasta aquí! Si te gustó el recorrido, por favor dale RT al primer tuit del hilo [LINK] y si quieres saber más, te dejamos algunas referencias por acá:
+¡Gracias por llegar hasta aquí! Si te gustó el recorrido puedes darle RT al primer tuit del hilo [LINK]
+
+19  
+Idea y prototipo: @odaltomate. Desarrollo web: @gonzalotalavera. Textos, análisis y verificación de datos: @ioannagallo, Daniela Velit y @gonzalotalavera. Imágenes: @cjmsma. También participaron @luiseee89 y @mgcastrolivano. Fuente de datos: @openstreetmap 🔎 y tiles 🗺️ de @carto. 
+
+El mapa de la expansión de Lima es de Metzger, P., Gluski, P., Robert, J., & Sierra, A. (2015). Atlas problemático de una metrópoli vulnerable. Desigualdades urbanas en Lima y Callao. Lima: @IFEAPeru. https://www.ifea.org.pe/libreria/travaux/331/pdf/atlas-problematico-es.pdf
+
+
+y si quieres saber más, te dejamos algunas referencias por acá:
 
 En el proyecto "Las calles de las mujeres", las @geochicas identifican las calles con nombres femeninos en distintas ciudades latinoamericanas 👏👏👏 y enlazan a las biografías disponibles en Wikipedia 👍
 
@@ -105,7 +111,6 @@ En el proyecto "Las calles de las mujeres", las @geochicas identifican las calle
 En el libro "Mujeres con Calle", alumnes del colegio José Antonio Encinas recopilan biografías sobre Mariana Echevarría, Justa García Robledo, Ernestina Zamorano y Bartola Sánchez Dávila. https://issuu.com/elingeniosocorreo/docs/mujeres_con_calle
 
 22
-El mapa de la expansión de Lima es de Metzger, P., Gluski, P., Robert, J., & Sierra, A. (2015). Atlas problemático de una metrópoli vulnerable. Desigualdades urbanas en Lima y Callao. Lima: @IFEAPeru. https://www.ifea.org.pe/libreria/travaux/331/pdf/atlas-problematico-es.pdf
 
 
 
